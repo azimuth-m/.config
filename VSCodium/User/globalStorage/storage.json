@@ -58,7 +58,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -695,7 +696,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -704,7 +706,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1614,10 +1617,10 @@
             "backupPath": "/home/azimuth/.config/VSCodium/Backups/1690732835718",
             "uiState": {
                 "mode": 1,
-                "x": 3,
-                "y": 26,
-                "width": 1594,
-                "height": 871
+                "x": 0,
+                "y": 23,
+                "width": 798,
+                "height": 877
             }
         },
         "openedWindows": []
