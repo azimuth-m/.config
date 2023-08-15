@@ -1,0 +1,11 @@
+set		statusbar-h-padding 0
+set		statusbar-v-padding 0
+set		page-padding 1
+set		recolor
+set		selection-clipboard		clipboard
+set		recolor-lightcolor		"#002020"
+set		recolor-darkcolor		"#91a1a1"
+set		recolor-keephue			true
+set		render-loading-fg		"#dc322f"
+set		statusbar-bg			"#001515"
+set		default-bg				"#002020"

@@ -1,0 +1,1827 @@
+I[19:00:52.832] clangd version 15.0.7
+I[19:00:52.889] Features: linux
+I[19:00:52.889] PID: 10540
+I[19:00:52.889] Working directory: /home/azimuth
+I[19:00:52.889] argv[0]: /usr/bin/clangd
+I[19:00:52.970] Starting LSP over stdin/stdout
+I[19:00:53.087] <-- initialize(0)
+I[19:00:53.219] --> reply:initialize(0) 131 ms
+I[19:00:53.256] <-- initialized
+I[19:00:53.303] <-- textDocument/didOpen
+I[19:00:53.426] <-- textDocument/documentSymbol(1)
+I[19:00:53.426] <-- textDocument/codeAction(2)
+I[19:00:53.426] <-- textDocument/documentLink(3)
+I[19:00:53.426] <-- textDocument/inlayHint(4)
+I[19:00:53.439] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:00:53.439] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 1 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:00:53.439] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:00:53.916] <-- textDocument/semanticTokens/full(5)
+I[19:00:53.928] --> textDocument/clangd.fileStatus
+E[19:00:54.049] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:00:55.081] --> workspace/semanticTokens/refresh(0)
+I[19:00:55.081] --> textDocument/clangd.fileStatus
+I[19:00:55.082] --> textDocument/clangd.fileStatus
+E[19:00:55.082] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:00:55.088] <-- reply(0)
+I[19:00:55.717] --> textDocument/publishDiagnostics
+I[19:00:55.734] --> reply:textDocument/documentSymbol(1) 2308 ms
+I[19:00:55.736] --> reply:textDocument/codeAction(2) 2309 ms
+I[19:00:55.748] --> reply:textDocument/documentLink(3) 2322 ms
+I[19:00:55.749] --> reply:textDocument/inlayHint(4) 2322 ms
+I[19:00:55.749] --> reply:textDocument/semanticTokens/full(5) 1832 ms
+I[19:00:55.749] --> textDocument/clangd.fileStatus
+I[19:00:56.234] <-- textDocument/semanticTokens/full/delta(6)
+I[19:00:56.234] --> reply:textDocument/semanticTokens/full/delta(6) 0 ms
+I[19:00:56.234] --> textDocument/clangd.fileStatus
+I[19:01:08.269] <-- textDocument/codeAction(7)
+I[19:01:08.269] --> reply:textDocument/codeAction(7) 0 ms
+I[19:01:08.269] --> textDocument/clangd.fileStatus
+I[19:01:09.744] <-- textDocument/didChange
+I[19:01:09.744] --> textDocument/clangd.fileStatus
+I[19:01:09.785] <-- textDocument/completion(8)
+E[19:01:09.798] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:09.800] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:09.823] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:09.824] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:01:09.824] --> reply:textDocument/completion(8) 39 ms
+I[19:01:10.001] <-- textDocument/codeAction(9)
+I[19:01:10.001] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:10.001] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 2 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:10.002] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:10.003] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:10.003] --> textDocument/clangd.fileStatus
+E[19:01:10.003] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:10.004] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:10.073] --> reply:textDocument/codeAction(9) 72 ms
+I[19:01:10.073] Skipping rebuild of the AST for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h, inputs are the same.
+I[19:01:10.075] --> textDocument/publishDiagnostics
+I[19:01:10.075] --> textDocument/clangd.fileStatus
+I[19:01:10.211] <-- textDocument/semanticTokens/full/delta(10)
+I[19:01:10.211] --> reply:textDocument/semanticTokens/full/delta(10) 0 ms
+I[19:01:10.211] --> textDocument/clangd.fileStatus
+I[19:01:10.276] <-- textDocument/documentSymbol(11)
+I[19:01:10.277] --> reply:textDocument/documentSymbol(11) 0 ms
+I[19:01:10.277] --> textDocument/clangd.fileStatus
+I[19:01:10.345] <-- textDocument/codeAction(12)
+I[19:01:10.346] --> reply:textDocument/codeAction(12) 0 ms
+I[19:01:10.346] --> textDocument/clangd.fileStatus
+I[19:01:11.001] <-- textDocument/inlayHint(13)
+I[19:01:11.002] --> reply:textDocument/inlayHint(13) 0 ms
+I[19:01:11.002] --> textDocument/clangd.fileStatus
+I[19:01:11.146] <-- textDocument/didChange
+I[19:01:11.146] --> textDocument/clangd.fileStatus
+I[19:01:11.402] <-- textDocument/codeAction(14)
+I[19:01:11.402] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:11.403] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 3 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:11.403] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:11.406] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:11.406] --> textDocument/clangd.fileStatus
+E[19:01:11.406] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:11.408] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:11.418] --> reply:textDocument/codeAction(14) 15 ms
+I[19:01:11.418] Skipping rebuild of the AST for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h, inputs are the same.
+I[19:01:11.419] --> textDocument/publishDiagnostics
+I[19:01:11.419] --> textDocument/clangd.fileStatus
+I[19:01:11.593] <-- textDocument/semanticTokens/full/delta(15)
+I[19:01:11.594] --> reply:textDocument/semanticTokens/full/delta(15) 0 ms
+I[19:01:11.594] --> textDocument/clangd.fileStatus
+I[19:01:11.678] <-- textDocument/documentSymbol(16)
+I[19:01:11.678] --> reply:textDocument/documentSymbol(16) 0 ms
+I[19:01:11.678] --> textDocument/clangd.fileStatus
+I[19:01:11.701] <-- textDocument/codeAction(17)
+I[19:01:11.702] --> reply:textDocument/codeAction(17) 0 ms
+I[19:01:11.702] --> textDocument/clangd.fileStatus
+I[19:01:12.372] <-- textDocument/documentHighlight(18)
+I[19:01:12.373] --> reply:textDocument/documentHighlight(18) 0 ms
+I[19:01:12.373] --> textDocument/clangd.fileStatus
+I[19:01:12.402] <-- textDocument/inlayHint(19)
+I[19:01:12.402] --> reply:textDocument/inlayHint(19) 0 ms
+I[19:01:12.402] --> textDocument/clangd.fileStatus
+I[19:01:12.622] <-- textDocument/codeAction(20)
+I[19:01:12.623] --> reply:textDocument/codeAction(20) 0 ms
+I[19:01:12.623] --> textDocument/clangd.fileStatus
+I[19:01:12.649] <-- textDocument/documentLink(21)
+I[19:01:12.649] --> reply:textDocument/documentLink(21) 0 ms
+I[19:01:12.650] --> textDocument/clangd.fileStatus
+I[19:01:13.136] <-- textDocument/documentHighlight(22)
+I[19:01:13.136] --> reply:textDocument/documentHighlight(22) 0 ms
+I[19:01:13.136] --> textDocument/clangd.fileStatus
+I[19:01:13.387] <-- textDocument/codeAction(23)
+I[19:01:13.388] --> reply:textDocument/codeAction(23) 0 ms
+I[19:01:13.388] --> textDocument/clangd.fileStatus
+I[19:01:13.857] <-- textDocument/documentHighlight(24)
+I[19:01:13.857] --> reply:textDocument/documentHighlight(24) 0 ms
+I[19:01:13.857] --> textDocument/clangd.fileStatus
+I[19:01:14.428] <-- textDocument/didChange
+I[19:01:14.428] --> textDocument/clangd.fileStatus
+I[19:01:14.878] <-- textDocument/semanticTokens/full/delta(25)
+I[19:01:14.878] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:14.878] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 4 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:14.879] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:14.882] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:14.882] --> textDocument/clangd.fileStatus
+E[19:01:14.882] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:14.882] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:14.883] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:14.897] --> reply:textDocument/semanticTokens/full/delta(25) 19 ms
+I[19:01:14.897] --> textDocument/clangd.fileStatus
+I[19:01:14.914] --> textDocument/clangd.fileStatus
+I[19:01:14.915] --> textDocument/clangd.fileStatus
+E[19:01:14.915] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:14.919] --> workspace/semanticTokens/refresh(1)
+I[19:01:14.923] <-- reply(1)
+I[19:01:14.928] --> textDocument/publishDiagnostics
+I[19:01:14.928] --> textDocument/clangd.fileStatus
+I[19:01:14.934] <-- textDocument/didChange
+I[19:01:14.934] --> textDocument/clangd.fileStatus
+I[19:01:14.975] <-- textDocument/semanticTokens/full/delta(26)
+I[19:01:14.975] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:14.975] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 5 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:14.976] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:14.977] --> textDocument/clangd.fileStatus
+E[19:01:14.977] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:14.977] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:14.979] --> textDocument/clangd.fileStatus
+E[19:01:14.979] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:14.982] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:14.990] --> workspace/semanticTokens/refresh(2)
+I[19:01:14.991] <-- reply(2)
+I[19:01:14.993] --> reply:textDocument/semanticTokens/full/delta(26) 17 ms
+E[19:01:14.993] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:15.001] --> textDocument/publishDiagnostics
+I[19:01:15.001] --> textDocument/clangd.fileStatus
+I[19:01:15.462] <-- textDocument/semanticTokens/full/delta(27)
+I[19:01:15.463] --> reply:textDocument/semanticTokens/full/delta(27) 0 ms
+I[19:01:15.463] --> textDocument/clangd.fileStatus
+I[19:01:15.489] <-- textDocument/documentSymbol(28)
+I[19:01:15.489] --> reply:textDocument/documentSymbol(28) 0 ms
+I[19:01:15.489] --> textDocument/clangd.fileStatus
+I[19:01:15.934] <-- textDocument/didChange
+I[19:01:15.934] --> textDocument/clangd.fileStatus
+I[19:01:15.984] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:15.984] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 6 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:15.985] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:15.988] --> textDocument/clangd.fileStatus
+I[19:01:15.988] --> textDocument/clangd.fileStatus
+E[19:01:15.988] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:15.989] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.008] --> workspace/semanticTokens/refresh(3)
+I[19:01:16.008] --> textDocument/clangd.fileStatus
+E[19:01:16.009] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.014] <-- reply(3)
+I[19:01:16.020] --> textDocument/publishDiagnostics
+I[19:01:16.020] --> textDocument/clangd.fileStatus
+I[19:01:16.020] <-- textDocument/semanticTokens/full/delta(29)
+I[19:01:16.020] --> reply:textDocument/semanticTokens/full/delta(29) 0 ms
+I[19:01:16.020] --> textDocument/clangd.fileStatus
+I[19:01:16.190] <-- textDocument/codeAction(30)
+I[19:01:16.191] --> reply:textDocument/codeAction(30) 0 ms
+I[19:01:16.191] --> textDocument/clangd.fileStatus
+I[19:01:16.463] <-- textDocument/documentSymbol(31)
+I[19:01:16.463] --> reply:textDocument/documentSymbol(31) 0 ms
+I[19:01:16.463] --> textDocument/clangd.fileStatus
+I[19:01:16.550] <-- textDocument/didChange
+I[19:01:16.550] --> textDocument/clangd.fileStatus
+I[19:01:16.585] <-- textDocument/completion(32)
+E[19:01:16.589] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:16.590] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.600] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:16.601] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 7 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:16.601] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.603] --> textDocument/clangd.fileStatus
+I[19:01:16.604] --> textDocument/clangd.fileStatus
+E[19:01:16.604] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.604] --> textDocument/clangd.fileStatus
+E[19:01:16.604] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.642] --> textDocument/publishDiagnostics
+I[19:01:16.642] --> textDocument/clangd.fileStatus
+I[19:01:16.659] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:16.660] Code complete: 9 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 9 returned.
+I[19:01:16.660] --> reply:textDocument/completion(32) 75 ms
+I[19:01:16.771] <-- textDocument/didChange
+I[19:01:16.771] --> textDocument/clangd.fileStatus
+I[19:01:16.774] <-- textDocument/completion(33)
+E[19:01:16.779] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:16.781] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.783] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:16.783] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[19:01:16.784] --> reply:textDocument/completion(33) 10 ms
+I[19:01:16.821] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:16.821] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 8 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:16.821] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.823] --> textDocument/clangd.fileStatus
+E[19:01:16.823] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:16.824] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.834] --> textDocument/publishDiagnostics
+I[19:01:16.840] --> textDocument/clangd.fileStatus
+I[19:01:16.857] <-- textDocument/didChange
+I[19:01:16.857] --> textDocument/clangd.fileStatus
+I[19:01:16.862] <-- textDocument/completion(34)
+E[19:01:16.876] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:16.881] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.884] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:16.884] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[19:01:16.885] --> reply:textDocument/completion(34) 22 ms
+I[19:01:16.907] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:16.907] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 9 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:16.907] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.909] --> textDocument/clangd.fileStatus
+E[19:01:16.909] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:16.910] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.922] --> textDocument/publishDiagnostics
+I[19:01:16.922] --> textDocument/clangd.fileStatus
+I[19:01:16.952] <-- textDocument/didChange
+I[19:01:16.952] --> textDocument/clangd.fileStatus
+I[19:01:16.955] <-- textDocument/completion(35)
+E[19:01:16.961] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:16.963] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.966] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:16.966] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[19:01:16.967] --> reply:textDocument/completion(35) 11 ms
+I[19:01:16.997] <-- textDocument/semanticTokens/full/delta(36)
+I[19:01:16.997] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:16.997] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 10 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:16.997] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:16.999] --> textDocument/clangd.fileStatus
+E[19:01:16.999] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:16.999] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.009] --> textDocument/publishDiagnostics
+I[19:01:17.012] --> reply:textDocument/semanticTokens/full/delta(36) 14 ms
+I[19:01:17.012] --> textDocument/clangd.fileStatus
+I[19:01:17.135] <-- textDocument/didChange
+I[19:01:17.135] --> textDocument/clangd.fileStatus
+I[19:01:17.139] <-- textDocument/completion(37)
+E[19:01:17.148] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:17.150] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.152] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:17.153] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[19:01:17.153] --> reply:textDocument/completion(37) 13 ms
+I[19:01:17.185] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:17.186] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 11 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:17.186] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.187] --> textDocument/clangd.fileStatus
+I[19:01:17.187] --> textDocument/clangd.fileStatus
+E[19:01:17.187] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.187] --> textDocument/clangd.fileStatus
+E[19:01:17.188] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.197] --> textDocument/publishDiagnostics
+I[19:01:17.200] --> textDocument/clangd.fileStatus
+I[19:01:17.211] <-- textDocument/didChange
+I[19:01:17.211] --> textDocument/clangd.fileStatus
+I[19:01:17.214] <-- textDocument/completion(38)
+E[19:01:17.220] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:17.222] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.225] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:17.225] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[19:01:17.226] --> reply:textDocument/completion(38) 11 ms
+I[19:01:17.262] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:17.262] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 12 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:17.262] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.265] --> textDocument/clangd.fileStatus
+I[19:01:17.265] --> textDocument/clangd.fileStatus
+E[19:01:17.265] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.265] --> textDocument/clangd.fileStatus
+E[19:01:17.266] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.280] --> textDocument/publishDiagnostics
+I[19:01:17.282] --> textDocument/clangd.fileStatus
+I[19:01:17.388] <-- textDocument/didChange
+I[19:01:17.388] --> textDocument/clangd.fileStatus
+I[19:01:17.392] <-- textDocument/completion(39)
+E[19:01:17.397] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:17.404] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.407] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:17.407] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[19:01:17.407] --> reply:textDocument/completion(39) 15 ms
+I[19:01:17.438] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:17.439] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 13 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:17.439] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.441] --> textDocument/clangd.fileStatus
+I[19:01:17.441] --> textDocument/clangd.fileStatus
+E[19:01:17.441] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:17.441] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.460] --> workspace/semanticTokens/refresh(4)
+I[19:01:17.460] --> textDocument/clangd.fileStatus
+E[19:01:17.461] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.466] <-- reply(4)
+I[19:01:17.472] <-- textDocument/semanticTokens/full/delta(40)
+I[19:01:17.482] --> textDocument/publishDiagnostics
+I[19:01:17.484] --> reply:textDocument/semanticTokens/full/delta(40) 11 ms
+I[19:01:17.484] --> textDocument/clangd.fileStatus
+I[19:01:17.596] <-- textDocument/didChange
+I[19:01:17.596] --> textDocument/clangd.fileStatus
+I[19:01:17.647] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:17.647] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 14 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:17.647] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.649] --> textDocument/clangd.fileStatus
+E[19:01:17.650] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:17.650] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.651] --> textDocument/clangd.fileStatus
+I[19:01:17.665] --> workspace/semanticTokens/refresh(5)
+I[19:01:17.665] --> textDocument/clangd.fileStatus
+I[19:01:17.666] --> textDocument/clangd.fileStatus
+E[19:01:17.666] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:17.675] <-- reply(5)
+I[19:01:17.679] <-- textDocument/semanticTokens/full/delta(41)
+I[19:01:17.682] --> textDocument/publishDiagnostics
+I[19:01:17.682] --> reply:textDocument/semanticTokens/full/delta(41) 2 ms
+I[19:01:17.682] --> textDocument/clangd.fileStatus
+I[19:01:18.131] <-- textDocument/didChange
+I[19:01:18.131] --> textDocument/clangd.fileStatus
+I[19:01:18.135] <-- textDocument/completion(42)
+E[19:01:18.139] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.141] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.167] Code complete: sema context IncludedFile, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:18.168] Code complete: 1437 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 100 returned (incomplete).
+I[19:01:18.172] --> reply:textDocument/completion(42) 37 ms
+I[19:01:18.181] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:18.182] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 15 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:18.182] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.183] --> textDocument/clangd.fileStatus
+E[19:01:18.184] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.184] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.187] --> textDocument/clangd.fileStatus
+I[19:01:18.195] --> textDocument/clangd.fileStatus
+I[19:01:18.195] --> textDocument/clangd.fileStatus
+E[19:01:18.195] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.202] --> workspace/semanticTokens/refresh(6)
+I[19:01:18.203] <-- reply(6)
+I[19:01:18.205] --> textDocument/publishDiagnostics
+I[19:01:18.208] --> textDocument/clangd.fileStatus
+I[19:01:18.254] <-- textDocument/semanticTokens/full/delta(43)
+I[19:01:18.254] --> reply:textDocument/semanticTokens/full/delta(43) 0 ms
+I[19:01:18.254] --> textDocument/clangd.fileStatus
+I[19:01:18.262] <-- textDocument/signatureHelp(44)
+E[19:01:18.272] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.278] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.279] <-- textDocument/didChange
+I[19:01:18.280] --> textDocument/clangd.fileStatus
+I[19:01:18.286] --> reply:textDocument/signatureHelp(44) 23 ms
+I[19:01:18.290] <-- textDocument/completion(45)
+E[19:01:18.295] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.297] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.306] Code complete: sema context IncludedFile, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:18.307] Code complete: 168 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 100 returned (incomplete).
+I[19:01:18.311] --> reply:textDocument/completion(45) 20 ms
+I[19:01:18.330] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:18.331] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 16 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:18.331] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.332] --> textDocument/clangd.fileStatus
+E[19:01:18.333] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.333] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.335] --> textDocument/clangd.fileStatus
+I[19:01:18.352] --> textDocument/clangd.fileStatus
+I[19:01:18.352] --> textDocument/clangd.fileStatus
+E[19:01:18.352] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.359] --> workspace/semanticTokens/refresh(7)
+I[19:01:18.361] <-- reply(7)
+I[19:01:18.362] --> textDocument/publishDiagnostics
+I[19:01:18.365] --> textDocument/clangd.fileStatus
+I[19:01:18.402] <-- textDocument/semanticTokens/full/delta(46)
+I[19:01:18.402] --> reply:textDocument/semanticTokens/full/delta(46) 0 ms
+I[19:01:18.402] --> textDocument/clangd.fileStatus
+I[19:01:18.418] <-- textDocument/signatureHelp(47)
+E[19:01:18.423] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.425] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.429] --> reply:textDocument/signatureHelp(47) 10 ms
+I[19:01:18.480] <-- textDocument/didChange
+I[19:01:18.480] --> textDocument/clangd.fileStatus
+I[19:01:18.483] <-- textDocument/completion(48)
+E[19:01:18.488] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.490] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.503] Code complete: sema context IncludedFile, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:18.503] Code complete: 38 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 38 returned.
+I[19:01:18.507] --> reply:textDocument/completion(48) 23 ms
+I[19:01:18.531] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:18.531] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 17 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:18.531] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.532] --> textDocument/clangd.fileStatus
+E[19:01:18.532] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.533] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.535] --> textDocument/clangd.fileStatus
+I[19:01:18.541] <-- textDocument/didChange
+I[19:01:18.541] --> textDocument/clangd.fileStatus
+I[19:01:18.549] <-- textDocument/completion(49)
+I[19:01:18.550] --> textDocument/clangd.fileStatus
+I[19:01:18.550] --> textDocument/clangd.fileStatus
+E[19:01:18.550] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.557] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.562] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.569] --> workspace/semanticTokens/refresh(8)
+I[19:01:18.570] Code complete: sema context IncludedFile, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:18.570] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:01:18.570] --> reply:textDocument/completion(49) 21 ms
+I[19:01:18.575] <-- reply(8)
+I[19:01:18.576] --> textDocument/publishDiagnostics
+I[19:01:18.576] --> textDocument/clangd.fileStatus
+I[19:01:18.580] <-- textDocument/semanticTokens/full/delta(50)
+I[19:01:18.580] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:18.581] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 18 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:18.581] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.583] --> textDocument/clangd.fileStatus
+E[19:01:18.583] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.584] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.589] --> textDocument/clangd.fileStatus
+E[19:01:18.589] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:18.594] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.606] --> reply:textDocument/semanticTokens/full/delta(50) 26 ms
+I[19:01:18.609] --> workspace/semanticTokens/refresh(9)
+I[19:01:18.610] <-- reply(9)
+E[19:01:18.613] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:18.623] --> textDocument/publishDiagnostics
+I[19:01:18.625] --> textDocument/clangd.fileStatus
+I[19:01:18.886] <-- textDocument/codeAction(51)
+I[19:01:18.887] --> reply:textDocument/codeAction(51) 0 ms
+I[19:01:18.887] --> textDocument/clangd.fileStatus
+I[19:01:19.066] <-- textDocument/documentSymbol(52)
+I[19:01:19.066] --> reply:textDocument/documentSymbol(52) 0 ms
+I[19:01:19.067] --> textDocument/clangd.fileStatus
+I[19:01:19.078] <-- textDocument/semanticTokens/full/delta(53)
+I[19:01:19.078] --> reply:textDocument/semanticTokens/full/delta(53) 0 ms
+I[19:01:19.078] --> textDocument/clangd.fileStatus
+I[19:01:19.190] <-- textDocument/didChange
+I[19:01:19.190] --> textDocument/clangd.fileStatus
+I[19:01:19.240] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:19.241] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 19 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:19.241] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:19.243] --> textDocument/clangd.fileStatus
+I[19:01:19.243] --> textDocument/clangd.fileStatus
+E[19:01:19.243] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:19.243] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:19.255] --> workspace/semanticTokens/refresh(10)
+I[19:01:19.256] --> textDocument/clangd.fileStatus
+I[19:01:19.256] --> textDocument/clangd.fileStatus
+E[19:01:19.256] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:19.260] <-- reply(10)
+I[19:01:19.263] <-- textDocument/semanticTokens/full/delta(54)
+I[19:01:19.263] --> textDocument/publishDiagnostics
+I[19:01:19.264] --> reply:textDocument/semanticTokens/full/delta(54) 0 ms
+I[19:01:19.264] --> textDocument/clangd.fileStatus
+I[19:01:19.354] <-- textDocument/didChange
+I[19:01:19.354] --> textDocument/clangd.fileStatus
+I[19:01:19.404] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:19.405] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 20 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:19.405] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:19.408] --> textDocument/clangd.fileStatus
+I[19:01:19.408] --> textDocument/clangd.fileStatus
+E[19:01:19.408] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:19.408] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:19.424] --> workspace/semanticTokens/refresh(11)
+I[19:01:19.424] --> textDocument/clangd.fileStatus
+I[19:01:19.425] --> textDocument/clangd.fileStatus
+E[19:01:19.425] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:19.425] <-- reply(11)
+I[19:01:19.429] <-- textDocument/semanticTokens/full/delta(55)
+I[19:01:19.436] --> textDocument/publishDiagnostics
+I[19:01:19.439] --> reply:textDocument/semanticTokens/full/delta(55) 9 ms
+I[19:01:19.440] --> textDocument/clangd.fileStatus
+I[19:01:19.529] <-- textDocument/didChange
+I[19:01:19.530] --> textDocument/clangd.fileStatus
+I[19:01:19.580] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:19.580] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 21 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:19.580] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:19.584] --> textDocument/clangd.fileStatus
+E[19:01:19.585] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:19.585] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:19.585] --> textDocument/clangd.fileStatus
+I[19:01:19.601] --> textDocument/clangd.fileStatus
+I[19:01:19.601] --> textDocument/clangd.fileStatus
+E[19:01:19.601] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:19.602] --> workspace/semanticTokens/refresh(12)
+I[19:01:19.605] <-- reply(12)
+I[19:01:19.613] --> textDocument/publishDiagnostics
+I[19:01:19.615] --> textDocument/clangd.fileStatus
+I[19:01:19.619] <-- textDocument/semanticTokens/full/delta(56)
+I[19:01:19.620] --> reply:textDocument/semanticTokens/full/delta(56) 0 ms
+I[19:01:19.620] --> textDocument/clangd.fileStatus
+I[19:01:19.873] <-- textDocument/codeAction(57)
+I[19:01:19.873] --> reply:textDocument/codeAction(57) 0 ms
+I[19:01:19.873] --> textDocument/clangd.fileStatus
+I[19:01:19.935] <-- textDocument/didChange
+I[19:01:19.935] --> textDocument/clangd.fileStatus
+I[19:01:19.985] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:19.986] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 22 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:19.986] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:19.988] --> textDocument/clangd.fileStatus
+E[19:01:19.989] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:19.989] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:19.993] --> textDocument/clangd.fileStatus
+I[19:01:20.008] --> textDocument/clangd.fileStatus
+I[19:01:20.008] --> textDocument/clangd.fileStatus
+E[19:01:20.008] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:20.012] --> workspace/semanticTokens/refresh(13)
+I[19:01:20.015] <-- reply(13)
+I[19:01:20.017] --> textDocument/publishDiagnostics
+I[19:01:20.017] --> textDocument/clangd.fileStatus
+I[19:01:20.020] <-- textDocument/semanticTokens/full/delta(58)
+I[19:01:20.021] --> reply:textDocument/semanticTokens/full/delta(58) 0 ms
+I[19:01:20.021] --> textDocument/clangd.fileStatus
+I[19:01:20.071] <-- textDocument/didChange
+I[19:01:20.071] --> textDocument/clangd.fileStatus
+I[19:01:20.121] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:20.122] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 23 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:20.122] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:20.124] --> textDocument/clangd.fileStatus
+I[19:01:20.124] --> textDocument/clangd.fileStatus
+E[19:01:20.124] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:20.125] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:20.137] --> workspace/semanticTokens/refresh(14)
+I[19:01:20.137] --> textDocument/clangd.fileStatus
+E[19:01:20.138] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:20.139] <-- reply(14)
+I[19:01:20.145] <-- textDocument/semanticTokens/full/delta(59)
+I[19:01:20.145] --> textDocument/publishDiagnostics
+I[19:01:20.145] --> reply:textDocument/semanticTokens/full/delta(59) 0 ms
+I[19:01:20.145] --> textDocument/clangd.fileStatus
+I[19:01:20.274] <-- textDocument/didChange
+I[19:01:20.274] --> textDocument/clangd.fileStatus
+I[19:01:20.324] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:20.325] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 24 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:20.325] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:20.326] --> textDocument/clangd.fileStatus
+E[19:01:20.327] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:20.327] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:20.329] --> textDocument/clangd.fileStatus
+I[19:01:20.334] <-- textDocument/didChange
+I[19:01:20.334] --> textDocument/clangd.fileStatus
+I[19:01:20.341] --> textDocument/clangd.fileStatus
+I[19:01:20.341] --> textDocument/clangd.fileStatus
+E[19:01:20.342] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:20.348] --> textDocument/clangd.fileStatus
+I[19:01:20.348] --> textDocument/publishDiagnostics
+I[19:01:20.348] --> textDocument/clangd.fileStatus
+I[19:01:20.348] --> workspace/semanticTokens/refresh(15)
+I[19:01:20.349] --> textDocument/clangd.fileStatus
+I[19:01:20.353] <-- reply(15)
+I[19:01:20.382] <-- textDocument/semanticTokens/full/delta(60)
+I[19:01:20.382] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:20.383] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 25 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:20.383] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:20.384] --> textDocument/clangd.fileStatus
+E[19:01:20.384] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:20.385] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:20.385] --> textDocument/clangd.fileStatus
+E[19:01:20.385] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:20.387] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:20.395] --> workspace/semanticTokens/refresh(16)
+I[19:01:20.402] <-- reply(16)
+I[19:01:20.404] --> reply:textDocument/semanticTokens/full/delta(60) 21 ms
+E[19:01:20.405] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:20.413] --> textDocument/publishDiagnostics
+I[19:01:20.413] --> textDocument/clangd.fileStatus
+I[19:01:20.670] <-- textDocument/codeAction(61)
+I[19:01:20.670] --> reply:textDocument/codeAction(61) 0 ms
+I[19:01:20.671] --> textDocument/clangd.fileStatus
+I[19:01:20.862] <-- textDocument/semanticTokens/full/delta(62)
+I[19:01:20.862] --> reply:textDocument/semanticTokens/full/delta(62) 0 ms
+I[19:01:20.862] --> textDocument/clangd.fileStatus
+I[19:01:20.865] <-- textDocument/documentSymbol(63)
+I[19:01:20.865] --> reply:textDocument/documentSymbol(63) 0 ms
+I[19:01:20.866] --> textDocument/clangd.fileStatus
+I[19:01:21.105] <-- textDocument/didChange
+I[19:01:21.105] --> textDocument/clangd.fileStatus
+I[19:01:21.111] <-- textDocument/completion(64)
+E[19:01:21.116] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:21.118] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:21.128] Code complete: sema context IncludedFile, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:21.128] Code complete: 2 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 2 returned.
+I[19:01:21.128] --> reply:textDocument/completion(64) 17 ms
+I[19:01:21.155] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:21.155] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 26 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:21.155] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:21.157] --> textDocument/clangd.fileStatus
+E[19:01:21.157] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:21.158] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:21.158] --> textDocument/clangd.fileStatus
+I[19:01:21.174] --> textDocument/clangd.fileStatus
+I[19:01:21.174] --> textDocument/clangd.fileStatus
+E[19:01:21.174] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:21.178] --> workspace/semanticTokens/refresh(17)
+I[19:01:21.180] <-- reply(17)
+I[19:01:21.182] --> textDocument/publishDiagnostics
+I[19:01:21.183] --> textDocument/clangd.fileStatus
+I[19:01:21.192] <-- textDocument/semanticTokens/full/delta(65)
+I[19:01:21.192] --> reply:textDocument/semanticTokens/full/delta(65) 0 ms
+I[19:01:21.192] --> textDocument/clangd.fileStatus
+I[19:01:21.217] <-- textDocument/didChange
+I[19:01:21.217] --> textDocument/clangd.fileStatus
+I[19:01:21.226] <-- textDocument/completion(66)
+E[19:01:21.242] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:21.244] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:21.252] Code complete: sema context IncludedFile, query scopes [] (AnyScope=true), expected type <none>
+I[19:01:21.252] Code complete: 2 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 2 returned.
+I[19:01:21.254] --> reply:textDocument/completion(66) 27 ms
+I[19:01:21.267] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:21.267] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 27 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:21.268] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:21.269] --> textDocument/clangd.fileStatus
+E[19:01:21.269] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:21.269] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:21.273] --> textDocument/clangd.fileStatus
+I[19:01:21.286] --> textDocument/clangd.fileStatus
+I[19:01:21.286] --> textDocument/clangd.fileStatus
+E[19:01:21.286] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:21.288] --> workspace/semanticTokens/refresh(18)
+I[19:01:21.297] <-- reply(18)
+I[19:01:21.299] <-- textDocument/semanticTokens/full/delta(67)
+I[19:01:21.300] --> textDocument/publishDiagnostics
+I[19:01:21.300] --> reply:textDocument/semanticTokens/full/delta(67) 1 ms
+I[19:01:21.300] --> textDocument/clangd.fileStatus
+I[19:01:21.562] <-- textDocument/codeAction(68)
+I[19:01:21.562] --> reply:textDocument/codeAction(68) 0 ms
+I[19:01:21.562] --> textDocument/clangd.fileStatus
+I[19:01:21.749] <-- textDocument/documentSymbol(69)
+I[19:01:21.749] --> reply:textDocument/documentSymbol(69) 0 ms
+I[19:01:21.749] --> textDocument/clangd.fileStatus
+I[19:01:22.476] <-- textDocument/inlayHint(70)
+I[19:01:22.476] --> reply:textDocument/inlayHint(70) 0 ms
+I[19:01:22.476] --> textDocument/clangd.fileStatus
+I[19:01:22.729] <-- textDocument/documentLink(71)
+I[19:01:22.729] --> reply:textDocument/documentLink(71) 0 ms
+I[19:01:22.729] --> textDocument/clangd.fileStatus
+I[19:01:23.500] <-- textDocument/didChange
+I[19:01:23.500] --> textDocument/clangd.fileStatus
+I[19:01:23.513] <-- textDocument/completion(72)
+I[19:01:23.513] --> reply:textDocument/completion(72) 0 ms
+I[19:01:23.551] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:01:23.551] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 28 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:01:23.552] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:23.555] --> textDocument/clangd.fileStatus
+E[19:01:23.556] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:23.556] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:23.564] --> textDocument/clangd.fileStatus
+I[19:01:23.631] <-- textDocument/signatureHelp(73)
+E[19:01:23.635] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:23.636] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:23.638] --> reply:textDocument/signatureHelp(73) 7 ms
+I[19:01:23.759] <-- textDocument/codeAction(74)
+I[19:01:23.759] --> textDocument/clangd.fileStatus
+E[19:01:23.759] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:01:23.760] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:23.859] --> reply:textDocument/codeAction(74) 99 ms
+I[19:01:23.861] --> textDocument/clangd.fileStatus
+I[19:01:23.950] <-- textDocument/semanticTokens/full/delta(75)
+I[19:01:23.950] --> textDocument/clangd.fileStatus
+I[19:01:23.951] --> reply:textDocument/semanticTokens/full/delta(75) 0 ms
+I[19:01:23.951] --> textDocument/clangd.fileStatus
+I[19:01:23.952] --> textDocument/clangd.fileStatus
+I[19:01:23.953] --> textDocument/clangd.fileStatus
+E[19:01:23.953] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:01:23.960] --> workspace/semanticTokens/refresh(19)
+I[19:01:23.963] --> textDocument/publishDiagnostics
+I[19:01:23.963] --> textDocument/clangd.fileStatus
+I[19:01:23.966] <-- reply(19)
+I[19:01:23.970] <-- textDocument/semanticTokens/full/delta(76)
+I[19:01:23.970] --> reply:textDocument/semanticTokens/full/delta(76) 0 ms
+I[19:01:23.970] --> textDocument/clangd.fileStatus
+I[19:01:24.035] <-- textDocument/documentSymbol(77)
+I[19:01:24.035] --> reply:textDocument/documentSymbol(77) 0 ms
+I[19:01:24.035] --> textDocument/clangd.fileStatus
+I[19:01:24.228] <-- textDocument/codeAction(78)
+I[19:01:24.228] --> reply:textDocument/codeAction(78) 0 ms
+I[19:01:24.228] --> textDocument/clangd.fileStatus
+I[19:01:24.377] <-- textDocument/documentHighlight(79)
+I[19:01:24.377] --> reply:textDocument/documentHighlight(79) 0 ms
+I[19:01:24.377] --> textDocument/clangd.fileStatus
+I[19:01:24.759] <-- textDocument/documentHighlight(80)
+I[19:01:24.763] --> reply:textDocument/documentHighlight(80) 3 ms
+I[19:01:24.763] --> textDocument/clangd.fileStatus
+I[19:01:24.773] <-- textDocument/inlayHint(81)
+I[19:01:24.774] --> reply:textDocument/inlayHint(81) 0 ms
+I[19:01:24.774] --> textDocument/clangd.fileStatus
+I[19:01:25.005] <-- textDocument/documentLink(82)
+I[19:01:25.006] --> reply:textDocument/documentLink(82) 0 ms
+I[19:01:25.006] --> textDocument/clangd.fileStatus
+I[19:01:25.303] <-- textDocument/codeAction(83)
+I[19:01:25.303] --> reply:textDocument/codeAction(83) 0 ms
+I[19:01:25.304] --> textDocument/clangd.fileStatus
+I[19:01:26.335] <-- textDocument/definition(84)
+I[19:01:26.336] --> reply:textDocument/definition(84) 0 ms
+I[19:01:26.336] --> textDocument/clangd.fileStatus
+I[19:01:26.388] <-- textDocument/didOpen
+I[19:01:26.391] <-- textDocument/didClose
+I[19:01:26.391] --> textDocument/publishDiagnostics
+I[19:01:26.393] Failed to find compilation database for /usr/include/time.h
+I[19:01:26.393] ASTWorker building file /usr/include/time.h version 1 with command clangd fallback
+[/usr/include]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/time.h
+I[19:01:26.598] <-- textDocument/definition(85)
+I[19:01:26.599] --> reply:textDocument/definition(85) 0 ms
+I[19:01:26.599] --> textDocument/clangd.fileStatus
+I[19:01:26.645] <-- textDocument/didOpen
+I[19:01:26.648] <-- textDocument/didClose
+I[19:01:26.648] --> textDocument/publishDiagnostics
+I[19:01:26.649] Failed to find compilation database for /usr/include/time.h
+I[19:01:26.649] ASTWorker building file /usr/include/time.h version 1 with command clangd fallback
+[/usr/include]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/time.h
+I[19:01:26.750] <-- textDocument/hover(86)
+I[19:01:26.764] --> reply:textDocument/hover(86) 14 ms
+I[19:01:26.764] --> textDocument/clangd.fileStatus
+I[19:01:27.732] <-- textDocument/definition(87)
+I[19:01:27.732] --> reply:textDocument/definition(87) 0 ms
+I[19:01:27.732] --> textDocument/clangd.fileStatus
+I[19:01:27.829] <-- textDocument/didOpen
+I[19:01:27.834] Failed to find compilation database for /usr/include/time.h
+I[19:01:27.834] ASTWorker building file /usr/include/time.h version 1 with command clangd fallback
+[/usr/include]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/time.h
+I[19:01:27.836] --> textDocument/clangd.fileStatus
+I[19:01:27.860] <-- textDocument/codeAction(88)
+I[19:01:27.860] <-- textDocument/documentSymbol(89)
+I[19:01:27.869] --> workspace/semanticTokens/refresh(20)
+I[19:01:27.869] --> textDocument/clangd.fileStatus
+I[19:01:27.870] --> textDocument/clangd.fileStatus
+I[19:01:27.874] <-- reply(20)
+I[19:01:27.954] <-- textDocument/semanticTokens/full(90)
+I[19:01:27.957] --> textDocument/publishDiagnostics
+I[19:01:27.966] --> reply:textDocument/codeAction(88) 105 ms
+I[19:01:27.968] --> reply:textDocument/documentSymbol(89) 107 ms
+I[19:01:27.969] --> reply:textDocument/semanticTokens/full(90) 15 ms
+I[19:01:27.970] --> textDocument/clangd.fileStatus
+I[19:01:27.995] <-- textDocument/documentLink(91)
+I[19:01:27.996] --> reply:textDocument/documentLink(91) 0 ms
+I[19:01:27.996] --> textDocument/clangd.fileStatus
+I[19:01:28.000] <-- textDocument/inlayHint(92)
+I[19:01:28.000] --> reply:textDocument/inlayHint(92) 0 ms
+I[19:01:28.000] --> textDocument/clangd.fileStatus
+I[19:01:28.495] <-- textDocument/semanticTokens/full/delta(93)
+I[19:01:28.496] --> reply:textDocument/semanticTokens/full/delta(93) 1 ms
+I[19:01:28.497] --> textDocument/clangd.fileStatus
+I[19:01:29.041] <-- textDocument/hover(94)
+I[19:01:29.068] --> reply:textDocument/hover(94) 27 ms
+I[19:01:29.076] --> textDocument/clangd.fileStatus
+I[19:01:31.804] <-- textDocument/inlayHint(95)
+I[19:01:31.804] --> reply:textDocument/inlayHint(95) 0 ms
+I[19:01:31.804] --> textDocument/clangd.fileStatus
+I[19:01:32.173] <-- textDocument/inlayHint(96)
+I[19:01:32.173] --> reply:textDocument/inlayHint(96) 0 ms
+I[19:01:32.173] --> textDocument/clangd.fileStatus
+I[19:01:33.030] <-- textDocument/didChange
+I[19:01:33.031] --> textDocument/clangd.fileStatus
+I[19:01:33.052] <-- textDocument/completion(97)
+I[19:01:33.052] --> reply:textDocument/completion(97) 0 ms
+I[19:01:33.116] Failed to find compilation database for /usr/include/time.h
+I[19:01:33.117] ASTWorker building file /usr/include/time.h version 2 with command clangd fallback
+[/usr/include]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/time.h
+I[19:01:33.119] --> textDocument/clangd.fileStatus
+I[19:01:33.119] --> textDocument/clangd.fileStatus
+I[19:01:33.128] <-- textDocument/inlayHint(98)
+I[19:01:33.128] --> textDocument/clangd.fileStatus
+I[19:01:33.142] --> workspace/semanticTokens/refresh(21)
+I[19:01:33.144] <-- reply(21)
+I[19:01:33.144] --> reply:textDocument/inlayHint(98) 16 ms
+I[19:01:33.186] <-- textDocument/semanticTokens/full/delta(99)
+I[19:01:33.286] --> textDocument/publishDiagnostics
+I[19:01:33.289] --> reply:textDocument/semanticTokens/full/delta(99) 103 ms
+I[19:01:33.290] --> textDocument/clangd.fileStatus
+I[19:01:33.556] <-- textDocument/codeAction(100)
+I[19:01:33.556] --> reply:textDocument/codeAction(100) 0 ms
+I[19:01:33.556] --> textDocument/clangd.fileStatus
+I[19:01:33.572] <-- textDocument/documentSymbol(101)
+I[19:01:33.577] --> reply:textDocument/documentSymbol(101) 5 ms
+I[19:01:33.579] --> textDocument/clangd.fileStatus
+I[19:01:34.556] <-- textDocument/documentLink(102)
+I[19:01:34.557] --> reply:textDocument/documentLink(102) 0 ms
+I[19:01:34.557] --> textDocument/clangd.fileStatus
+I[19:01:35.703] <-- textDocument/inlayHint(103)
+I[19:01:35.703] --> reply:textDocument/inlayHint(103) 0 ms
+I[19:01:35.703] --> textDocument/clangd.fileStatus
+I[19:01:37.525] <-- textDocument/codeAction(104)
+I[19:01:37.525] --> reply:textDocument/codeAction(104) 0 ms
+I[19:01:37.526] --> textDocument/clangd.fileStatus
+I[19:01:37.885] <-- textDocument/codeAction(105)
+I[19:01:37.885] --> reply:textDocument/codeAction(105) 0 ms
+I[19:01:37.885] --> textDocument/clangd.fileStatus
+I[19:01:43.151] <-- textDocument/hover(106)
+I[19:01:43.180] --> reply:textDocument/hover(106) 29 ms
+I[19:01:43.181] --> textDocument/clangd.fileStatus
+I[19:01:43.537] <-- textDocument/hover(107)
+I[19:01:43.566] --> reply:textDocument/hover(107) 28 ms
+I[19:01:43.566] --> textDocument/clangd.fileStatus
+I[19:01:49.683] <-- textDocument/hover(108)
+I[19:01:49.713] --> reply:textDocument/hover(108) 29 ms
+I[19:01:49.713] --> textDocument/clangd.fileStatus
+I[19:01:50.944] <-- textDocument/hover(109)
+I[19:01:50.976] --> reply:textDocument/hover(109) 31 ms
+I[19:01:50.976] --> textDocument/clangd.fileStatus
+I[19:01:51.867] <-- textDocument/hover(110)
+I[19:01:51.902] --> reply:textDocument/hover(110) 34 ms
+I[19:01:51.902] --> textDocument/clangd.fileStatus
+I[19:01:51.916] <-- textDocument/definition(111)
+I[19:01:51.917] --> reply:textDocument/definition(111) 1 ms
+I[19:01:51.917] --> textDocument/clangd.fileStatus
+I[19:01:51.958] <-- textDocument/didOpen
+I[19:01:51.960] <-- textDocument/didClose
+I[19:01:51.960] --> textDocument/publishDiagnostics
+I[19:01:51.961] Failed to find compilation database for /usr/include/bits/types/struct_tm.h
+I[19:01:51.961] ASTWorker building file /usr/include/bits/types/struct_tm.h version 1 with command clangd fallback
+[/usr/include/bits/types]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/bits/types/struct_tm.h
+I[19:01:52.549] <-- textDocument/documentHighlight(112)
+I[19:01:52.549] --> reply:textDocument/documentHighlight(112) 0 ms
+I[19:01:52.549] --> textDocument/clangd.fileStatus
+I[19:01:52.565] <-- textDocument/definition(113)
+I[19:01:52.565] --> reply:textDocument/definition(113) 0 ms
+I[19:01:52.565] --> textDocument/clangd.fileStatus
+I[19:01:52.623] <-- textDocument/didOpen
+I[19:01:52.626] Failed to find compilation database for /usr/include/bits/types/struct_tm.h
+I[19:01:52.627] ASTWorker building file /usr/include/bits/types/struct_tm.h version 1 with command clangd fallback
+[/usr/include/bits/types]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/bits/types/struct_tm.h
+I[19:01:52.629] --> textDocument/clangd.fileStatus
+I[19:01:52.660] <-- textDocument/codeAction(114)
+I[19:01:52.660] <-- textDocument/documentSymbol(115)
+I[19:01:52.668] --> workspace/semanticTokens/refresh(22)
+I[19:01:52.668] --> textDocument/clangd.fileStatus
+I[19:01:52.673] --> textDocument/clangd.fileStatus
+I[19:01:52.672] <-- textDocument/semanticTokens/full(116)
+I[19:01:52.684] --> textDocument/publishDiagnostics
+I[19:01:52.684] --> reply:textDocument/codeAction(114) 24 ms
+I[19:01:52.685] <-- reply(22)
+I[19:01:52.687] --> reply:textDocument/documentSymbol(115) 26 ms
+I[19:01:52.689] --> reply:textDocument/semanticTokens/full(116) 16 ms
+I[19:01:52.690] --> textDocument/clangd.fileStatus
+I[19:01:52.741] <-- textDocument/documentLink(117)
+I[19:01:52.741] --> reply:textDocument/documentLink(117) 0 ms
+I[19:01:52.741] --> textDocument/clangd.fileStatus
+I[19:01:52.747] <-- textDocument/inlayHint(118)
+I[19:01:52.747] --> reply:textDocument/inlayHint(118) 0 ms
+I[19:01:52.747] --> textDocument/clangd.fileStatus
+I[19:01:53.232] <-- textDocument/semanticTokens/full/delta(119)
+I[19:01:53.232] --> reply:textDocument/semanticTokens/full/delta(119) 0 ms
+I[19:01:53.233] --> textDocument/clangd.fileStatus
+I[19:01:53.499] <-- textDocument/hover(120)
+I[19:01:53.596] --> reply:textDocument/hover(120) 96 ms
+I[19:01:53.596] --> textDocument/clangd.fileStatus
+I[19:02:01.286] <-- textDocument/codeAction(121)
+I[19:02:01.286] --> reply:textDocument/codeAction(121) 0 ms
+I[19:02:01.287] --> textDocument/clangd.fileStatus
+I[19:02:01.397] <-- textDocument/documentLink(122)
+I[19:02:01.398] --> reply:textDocument/documentLink(122) 0 ms
+I[19:02:01.398] --> textDocument/clangd.fileStatus
+I[19:02:01.409] <-- textDocument/inlayHint(123)
+I[19:02:01.409] --> reply:textDocument/inlayHint(123) 0 ms
+I[19:02:01.409] --> textDocument/clangd.fileStatus
+I[19:02:01.553] <-- textDocument/codeAction(124)
+I[19:02:01.553] --> reply:textDocument/codeAction(124) 0 ms
+I[19:02:01.553] --> textDocument/clangd.fileStatus
+I[19:02:01.705] <-- textDocument/semanticTokens/full/delta(125)
+I[19:02:01.706] --> reply:textDocument/semanticTokens/full/delta(125) 1 ms
+I[19:02:01.706] --> textDocument/clangd.fileStatus
+I[19:02:03.113] <-- textDocument/hover(126)
+I[19:02:03.145] --> reply:textDocument/hover(126) 31 ms
+I[19:02:03.145] --> textDocument/clangd.fileStatus
+I[19:02:03.372] <-- textDocument/hover(127)
+I[19:02:03.401] --> reply:textDocument/hover(127) 29 ms
+I[19:02:03.401] --> textDocument/clangd.fileStatus
+I[19:02:03.729] <-- textDocument/definition(128)
+I[19:02:03.729] --> reply:textDocument/definition(128) 0 ms
+I[19:02:03.729] --> textDocument/clangd.fileStatus
+I[19:02:03.757] <-- textDocument/didOpen
+I[19:02:03.760] Failed to find compilation database for /usr/include/bits/types/time_t.h
+I[19:02:03.760] ASTWorker building file /usr/include/bits/types/time_t.h version 1 with command clangd fallback
+[/usr/include/bits/types]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/bits/types/time_t.h
+I[19:02:03.761] <-- textDocument/didClose
+I[19:02:03.761] --> textDocument/publishDiagnostics
+I[19:02:04.138] <-- textDocument/documentHighlight(129)
+I[19:02:04.138] --> reply:textDocument/documentHighlight(129) 0 ms
+I[19:02:04.139] --> textDocument/clangd.fileStatus
+I[19:02:04.258] <-- textDocument/definition(130)
+I[19:02:04.258] --> reply:textDocument/definition(130) 0 ms
+I[19:02:04.258] --> textDocument/clangd.fileStatus
+I[19:02:04.309] <-- textDocument/didClose
+I[19:02:04.309] --> textDocument/publishDiagnostics
+I[19:02:04.328] <-- textDocument/didOpen
+I[19:02:04.336] Failed to find compilation database for /usr/include/bits/types/time_t.h
+I[19:02:04.337] ASTWorker building file /usr/include/bits/types/time_t.h version 1 with command clangd fallback
+[/usr/include/bits/types]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/bits/types/time_t.h
+I[19:02:04.340] --> textDocument/clangd.fileStatus
+I[19:02:04.363] --> workspace/semanticTokens/refresh(23)
+I[19:02:04.364] --> textDocument/clangd.fileStatus
+I[19:02:04.376] <-- reply(23)
+I[19:02:04.376] <-- textDocument/codeAction(131)
+I[19:02:04.378] --> textDocument/publishDiagnostics
+I[19:02:04.378] --> reply:textDocument/codeAction(131) 2 ms
+I[19:02:04.379] --> textDocument/clangd.fileStatus
+I[19:02:04.380] <-- textDocument/documentSymbol(132)
+I[19:02:04.380] --> reply:textDocument/documentSymbol(132) 0 ms
+I[19:02:04.380] --> textDocument/clangd.fileStatus
+I[19:02:04.391] <-- textDocument/semanticTokens/full(133)
+I[19:02:04.391] --> reply:textDocument/semanticTokens/full(133) 0 ms
+I[19:02:04.391] --> textDocument/clangd.fileStatus
+I[19:02:04.428] <-- textDocument/documentLink(134)
+I[19:02:04.428] --> reply:textDocument/documentLink(134) 0 ms
+I[19:02:04.429] --> textDocument/clangd.fileStatus
+I[19:02:04.429] <-- textDocument/inlayHint(135)
+I[19:02:04.429] --> reply:textDocument/inlayHint(135) 0 ms
+I[19:02:04.429] --> textDocument/clangd.fileStatus
+I[19:02:04.903] <-- textDocument/semanticTokens/full/delta(136)
+I[19:02:04.903] --> reply:textDocument/semanticTokens/full/delta(136) 0 ms
+I[19:02:04.903] --> textDocument/clangd.fileStatus
+I[19:02:08.050] <-- textDocument/hover(137)
+I[19:02:08.052] --> reply:textDocument/hover(137) 1 ms
+I[19:02:08.052] --> textDocument/clangd.fileStatus
+I[19:02:18.654] <-- textDocument/didClose
+I[19:02:18.654] --> textDocument/publishDiagnostics
+I[19:02:18.680] <-- textDocument/codeAction(138)
+I[19:02:18.680] --> reply:textDocument/codeAction(138) 0 ms
+I[19:02:18.680] --> textDocument/clangd.fileStatus
+I[19:02:18.794] <-- textDocument/documentLink(139)
+I[19:02:18.794] --> reply:textDocument/documentLink(139) 0 ms
+I[19:02:18.795] --> textDocument/clangd.fileStatus
+I[19:02:18.801] <-- textDocument/inlayHint(140)
+I[19:02:18.801] --> reply:textDocument/inlayHint(140) 0 ms
+I[19:02:18.801] --> textDocument/clangd.fileStatus
+I[19:02:18.947] <-- textDocument/codeAction(141)
+I[19:02:18.947] --> reply:textDocument/codeAction(141) 0 ms
+I[19:02:18.947] --> textDocument/clangd.fileStatus
+I[19:02:19.108] <-- textDocument/semanticTokens/full/delta(142)
+I[19:02:19.110] --> reply:textDocument/semanticTokens/full/delta(142) 1 ms
+I[19:02:19.110] --> textDocument/clangd.fileStatus
+I[19:02:19.631] <-- textDocument/hover(143)
+I[19:02:19.660] --> reply:textDocument/hover(143) 28 ms
+I[19:02:19.660] --> textDocument/clangd.fileStatus
+I[19:02:20.499] <-- textDocument/hover(144)
+I[19:02:20.532] --> reply:textDocument/hover(144) 33 ms
+I[19:02:20.532] --> textDocument/clangd.fileStatus
+I[19:02:22.655] <-- textDocument/definition(145)
+I[19:02:22.655] --> reply:textDocument/definition(145) 0 ms
+I[19:02:22.655] --> textDocument/clangd.fileStatus
+I[19:02:22.686] <-- textDocument/didOpen
+I[19:02:22.687] Failed to find compilation database for /usr/include/bits/types/clock_t.h
+I[19:02:22.689] <-- textDocument/didClose
+I[19:02:22.692] --> textDocument/publishDiagnostics
+I[19:02:22.693] ASTWorker building file /usr/include/bits/types/clock_t.h version 1 with command clangd fallback
+[/usr/include/bits/types]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/bits/types/clock_t.h
+I[19:02:23.047] <-- textDocument/documentHighlight(146)
+I[19:02:23.047] --> reply:textDocument/documentHighlight(146) 0 ms
+I[19:02:23.047] --> textDocument/clangd.fileStatus
+I[19:02:23.146] <-- textDocument/definition(147)
+I[19:02:23.146] --> reply:textDocument/definition(147) 0 ms
+I[19:02:23.146] --> textDocument/clangd.fileStatus
+I[19:02:23.204] <-- textDocument/didOpen
+I[19:02:23.205] Failed to find compilation database for /usr/include/bits/types/clock_t.h
+I[19:02:23.205] ASTWorker building file /usr/include/bits/types/clock_t.h version 1 with command clangd fallback
+[/usr/include/bits/types]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/bits/types/clock_t.h
+I[19:02:23.208] --> textDocument/clangd.fileStatus
+I[19:02:23.232] --> workspace/semanticTokens/refresh(24)
+I[19:02:23.232] --> textDocument/clangd.fileStatus
+I[19:02:23.232] --> textDocument/clangd.fileStatus
+I[19:02:23.238] --> textDocument/publishDiagnostics
+I[19:02:23.238] --> textDocument/clangd.fileStatus
+I[19:02:23.242] <-- textDocument/codeAction(148)
+I[19:02:23.246] --> reply:textDocument/codeAction(148) 3 ms
+I[19:02:23.246] --> textDocument/clangd.fileStatus
+I[19:02:23.246] <-- textDocument/documentSymbol(149)
+I[19:02:23.247] <-- reply(24)
+I[19:02:23.248] --> reply:textDocument/documentSymbol(149) 1 ms
+I[19:02:23.248] --> textDocument/clangd.fileStatus
+I[19:02:23.252] <-- textDocument/semanticTokens/full(150)
+I[19:02:23.252] --> reply:textDocument/semanticTokens/full(150) 0 ms
+I[19:02:23.252] --> textDocument/clangd.fileStatus
+I[19:02:23.277] <-- textDocument/documentLink(151)
+I[19:02:23.277] --> reply:textDocument/documentLink(151) 0 ms
+I[19:02:23.277] --> textDocument/clangd.fileStatus
+I[19:02:23.283] <-- textDocument/inlayHint(152)
+I[19:02:23.283] --> reply:textDocument/inlayHint(152) 0 ms
+I[19:02:23.283] --> textDocument/clangd.fileStatus
+I[19:02:23.774] <-- textDocument/semanticTokens/full/delta(153)
+I[19:02:23.774] --> reply:textDocument/semanticTokens/full/delta(153) 0 ms
+I[19:02:23.775] --> textDocument/clangd.fileStatus
+I[19:02:26.291] <-- textDocument/hover(154)
+I[19:02:26.292] --> reply:textDocument/hover(154) 1 ms
+I[19:02:26.292] --> textDocument/clangd.fileStatus
+I[19:02:27.314] <-- textDocument/definition(155)
+I[19:02:27.314] --> reply:textDocument/definition(155) 0 ms
+I[19:02:27.314] --> textDocument/clangd.fileStatus
+I[19:02:27.359] <-- textDocument/didOpen
+I[19:02:27.361] <-- textDocument/didClose
+I[19:02:27.361] --> textDocument/publishDiagnostics
+I[19:02:27.361] Failed to find compilation database for /usr/include/bits/types.h
+I[19:02:27.361] ASTWorker building file /usr/include/bits/types.h version 1 with command clangd fallback
+[/usr/include/bits]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/bits/types.h
+I[19:02:27.653] <-- textDocument/documentHighlight(156)
+I[19:02:27.653] --> reply:textDocument/documentHighlight(156) 0 ms
+I[19:02:27.653] --> textDocument/clangd.fileStatus
+I[19:02:27.749] <-- textDocument/definition(157)
+I[19:02:27.749] --> reply:textDocument/definition(157) 0 ms
+I[19:02:27.749] --> textDocument/clangd.fileStatus
+I[19:02:27.809] <-- textDocument/didOpen
+I[19:02:27.810] Failed to find compilation database for /usr/include/bits/types.h
+I[19:02:27.810] ASTWorker building file /usr/include/bits/types.h version 1 with command clangd fallback
+[/usr/include/bits]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/bits/types.h
+I[19:02:27.812] --> textDocument/clangd.fileStatus
+I[19:02:27.838] --> textDocument/clangd.fileStatus
+I[19:02:27.838] --> textDocument/clangd.fileStatus
+I[19:02:27.839] <-- textDocument/codeAction(158)
+I[19:02:27.844] --> workspace/semanticTokens/refresh(25)
+I[19:02:27.846] <-- textDocument/documentSymbol(159)
+I[19:02:27.848] <-- reply(25)
+I[19:02:27.854] --> textDocument/publishDiagnostics
+I[19:02:27.854] --> reply:textDocument/codeAction(158) 15 ms
+I[19:02:27.860] --> reply:textDocument/documentSymbol(159) 13 ms
+I[19:02:27.861] --> textDocument/clangd.fileStatus
+I[19:02:27.922] <-- textDocument/semanticTokens/full(160)
+I[19:02:27.922] --> reply:textDocument/semanticTokens/full(160) 0 ms
+I[19:02:27.923] --> textDocument/clangd.fileStatus
+I[19:02:27.926] <-- textDocument/documentLink(161)
+I[19:02:27.927] --> reply:textDocument/documentLink(161) 0 ms
+I[19:02:27.927] --> textDocument/clangd.fileStatus
+I[19:02:27.934] <-- textDocument/inlayHint(162)
+I[19:02:27.934] --> reply:textDocument/inlayHint(162) 0 ms
+I[19:02:27.934] --> textDocument/clangd.fileStatus
+I[19:02:28.431] <-- textDocument/semanticTokens/full/delta(163)
+I[19:02:28.431] --> reply:textDocument/semanticTokens/full/delta(163) 0 ms
+I[19:02:28.431] --> textDocument/clangd.fileStatus
+I[19:02:29.647] <-- textDocument/didClose
+I[19:02:29.647] --> textDocument/publishDiagnostics
+I[19:02:31.620] <-- textDocument/inlayHint(164)
+I[19:02:31.620] --> reply:textDocument/inlayHint(164) 0 ms
+I[19:02:31.620] --> textDocument/clangd.fileStatus
+I[19:02:32.076] <-- textDocument/codeAction(165)
+I[19:02:32.076] --> reply:textDocument/codeAction(165) 0 ms
+I[19:02:32.076] --> textDocument/clangd.fileStatus
+I[19:02:32.416] <-- textDocument/inlayHint(166)
+I[19:02:32.416] --> reply:textDocument/inlayHint(166) 0 ms
+I[19:02:32.416] --> textDocument/clangd.fileStatus
+I[19:02:32.598] <-- textDocument/codeAction(167)
+I[19:02:32.599] --> reply:textDocument/codeAction(167) 0 ms
+I[19:02:32.599] --> textDocument/clangd.fileStatus
+I[19:02:33.338] <-- textDocument/codeAction(168)
+I[19:02:33.338] --> reply:textDocument/codeAction(168) 0 ms
+I[19:02:33.339] --> textDocument/clangd.fileStatus
+I[19:02:36.458] <-- textDocument/hover(169)
+I[19:02:36.462] --> reply:textDocument/hover(169) 4 ms
+I[19:02:36.462] --> textDocument/clangd.fileStatus
+I[19:02:37.654] <-- textDocument/hover(170)
+I[19:02:37.661] --> reply:textDocument/hover(170) 7 ms
+I[19:02:37.661] --> textDocument/clangd.fileStatus
+I[19:02:37.666] <-- $/cancelRequest
+I[19:02:37.815] <-- textDocument/hover(171)
+I[19:02:37.821] --> reply:textDocument/hover(171) 6 ms
+I[19:02:37.821] --> textDocument/clangd.fileStatus
+I[19:02:47.198] <-- textDocument/hover(172)
+I[19:02:47.205] --> reply:textDocument/hover(172) 6 ms
+I[19:02:47.205] --> textDocument/clangd.fileStatus
+I[19:02:48.530] <-- textDocument/hover(173)
+I[19:02:48.536] --> reply:textDocument/hover(173) 6 ms
+I[19:02:48.537] --> textDocument/clangd.fileStatus
+I[19:02:49.354] <-- textDocument/hover(174)
+I[19:02:49.360] --> reply:textDocument/hover(174) 6 ms
+I[19:02:49.360] --> textDocument/clangd.fileStatus
+I[19:02:51.079] <-- textDocument/codeAction(175)
+I[19:02:51.079] --> reply:textDocument/codeAction(175) 0 ms
+I[19:02:51.079] --> textDocument/clangd.fileStatus
+I[19:02:51.155] <-- textDocument/documentLink(176)
+I[19:02:51.156] --> reply:textDocument/documentLink(176) 0 ms
+I[19:02:51.156] --> textDocument/clangd.fileStatus
+I[19:02:51.165] <-- textDocument/inlayHint(177)
+I[19:02:51.165] --> reply:textDocument/inlayHint(177) 0 ms
+I[19:02:51.165] --> textDocument/clangd.fileStatus
+I[19:02:51.336] <-- textDocument/codeAction(178)
+I[19:02:51.337] --> reply:textDocument/codeAction(178) 0 ms
+I[19:02:51.337] --> textDocument/clangd.fileStatus
+I[19:02:51.504] <-- textDocument/semanticTokens/full/delta(179)
+I[19:02:51.506] --> reply:textDocument/semanticTokens/full/delta(179) 2 ms
+I[19:02:51.507] --> textDocument/clangd.fileStatus
+I[19:02:53.496] <-- textDocument/inlayHint(180)
+I[19:02:53.497] --> reply:textDocument/inlayHint(180) 0 ms
+I[19:02:53.497] --> textDocument/clangd.fileStatus
+I[19:02:53.598] <-- textDocument/inlayHint(181)
+I[19:02:53.598] --> reply:textDocument/inlayHint(181) 0 ms
+I[19:02:53.598] --> textDocument/clangd.fileStatus
+I[19:02:54.443] <-- textDocument/hover(182)
+I[19:02:54.473] --> reply:textDocument/hover(182) 30 ms
+I[19:02:54.474] --> textDocument/clangd.fileStatus
+I[19:02:56.084] <-- textDocument/definition(183)
+I[19:02:56.084] --> reply:textDocument/definition(183) 0 ms
+I[19:02:56.084] --> textDocument/clangd.fileStatus
+I[19:02:56.119] <-- textDocument/didOpen
+I[19:02:56.121] Failed to find compilation database for /usr/include/bits/types/struct_tm.h
+I[19:02:56.121] ASTWorker building file /usr/include/bits/types/struct_tm.h version 1 with command clangd fallback
+[/usr/include/bits/types]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/bits/types/struct_tm.h
+I[19:02:56.123] --> textDocument/clangd.fileStatus
+I[19:02:56.125] <-- textDocument/didClose
+I[19:02:56.125] --> textDocument/publishDiagnostics
+I[19:02:56.153] --> workspace/semanticTokens/refresh(26)
+I[19:02:56.155] <-- reply(26)
+I[19:02:56.157] <-- textDocument/semanticTokens/full/delta(184)
+I[19:02:56.159] --> reply:textDocument/semanticTokens/full/delta(184) 1 ms
+I[19:02:56.159] --> textDocument/clangd.fileStatus
+I[19:02:56.540] <-- textDocument/documentHighlight(185)
+I[19:02:56.540] --> reply:textDocument/documentHighlight(185) 0 ms
+I[19:02:56.540] --> textDocument/clangd.fileStatus
+I[19:02:56.640] <-- textDocument/definition(186)
+I[19:02:56.640] --> reply:textDocument/definition(186) 0 ms
+I[19:02:56.641] --> textDocument/clangd.fileStatus
+I[19:02:56.678] <-- textDocument/didClose
+I[19:02:56.678] --> textDocument/publishDiagnostics
+I[19:02:56.715] <-- textDocument/didOpen
+I[19:02:56.720] Failed to find compilation database for /usr/include/bits/types/struct_tm.h
+I[19:02:56.721] ASTWorker building file /usr/include/bits/types/struct_tm.h version 1 with command clangd fallback
+[/usr/include/bits/types]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/bits/types/struct_tm.h
+I[19:02:56.725] --> textDocument/clangd.fileStatus
+I[19:02:56.761] <-- textDocument/codeAction(187)
+I[19:02:56.767] <-- textDocument/documentSymbol(188)
+I[19:02:56.769] --> textDocument/clangd.fileStatus
+I[19:02:56.769] --> textDocument/clangd.fileStatus
+I[19:02:56.778] --> textDocument/clangd.fileStatus
+I[19:02:56.778] --> workspace/semanticTokens/refresh(27)
+I[19:02:56.780] <-- reply(27)
+I[19:02:56.781] --> textDocument/publishDiagnostics
+I[19:02:56.783] --> reply:textDocument/codeAction(187) 21 ms
+I[19:02:56.784] --> reply:textDocument/documentSymbol(188) 17 ms
+I[19:02:56.785] --> textDocument/clangd.fileStatus
+I[19:02:56.857] <-- textDocument/semanticTokens/full(189)
+I[19:02:56.858] --> reply:textDocument/semanticTokens/full(189) 0 ms
+I[19:02:56.858] --> textDocument/clangd.fileStatus
+I[19:02:56.858] <-- textDocument/documentLink(190)
+I[19:02:56.858] --> reply:textDocument/documentLink(190) 0 ms
+I[19:02:56.858] --> textDocument/clangd.fileStatus
+I[19:02:56.859] <-- textDocument/inlayHint(191)
+I[19:02:56.859] --> reply:textDocument/inlayHint(191) 0 ms
+I[19:02:56.859] --> textDocument/clangd.fileStatus
+I[19:02:57.326] <-- textDocument/semanticTokens/full/delta(192)
+I[19:02:57.327] --> reply:textDocument/semanticTokens/full/delta(192) 0 ms
+I[19:02:57.327] --> textDocument/clangd.fileStatus
+I[19:03:09.741] <-- textDocument/hover(193)
+I[19:03:09.742] --> reply:textDocument/hover(193) 0 ms
+I[19:03:09.742] --> textDocument/clangd.fileStatus
+I[19:03:17.037] <-- textDocument/codeAction(194)
+E[19:03:17.037] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:17.038] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:17.050] --> reply:textDocument/codeAction(194) 12 ms
+I[19:03:17.051] --> textDocument/clangd.fileStatus
+I[19:03:17.114] <-- textDocument/documentLink(195)
+I[19:03:17.114] --> reply:textDocument/documentLink(195) 0 ms
+I[19:03:17.114] --> textDocument/clangd.fileStatus
+I[19:03:17.121] <-- textDocument/inlayHint(196)
+I[19:03:17.121] --> reply:textDocument/inlayHint(196) 0 ms
+I[19:03:17.121] --> textDocument/clangd.fileStatus
+I[19:03:17.265] <-- textDocument/codeAction(197)
+I[19:03:17.265] --> reply:textDocument/codeAction(197) 0 ms
+I[19:03:17.265] --> textDocument/clangd.fileStatus
+I[19:03:17.451] <-- textDocument/semanticTokens/full/delta(198)
+I[19:03:17.451] --> reply:textDocument/semanticTokens/full/delta(198) 0 ms
+I[19:03:17.452] --> textDocument/clangd.fileStatus
+I[19:03:17.954] <-- textDocument/hover(199)
+I[19:03:17.955] --> reply:textDocument/hover(199) 0 ms
+I[19:03:17.955] --> textDocument/clangd.fileStatus
+I[19:03:19.874] <-- textDocument/hover(200)
+I[19:03:19.875] --> reply:textDocument/hover(200) 1 ms
+I[19:03:19.875] --> textDocument/clangd.fileStatus
+I[19:03:20.143] <-- textDocument/hover(201)
+I[19:03:20.145] --> reply:textDocument/hover(201) 1 ms
+I[19:03:20.145] --> textDocument/clangd.fileStatus
+I[19:03:21.816] <-- textDocument/didChange
+I[19:03:21.816] --> textDocument/clangd.fileStatus
+I[19:03:21.850] <-- textDocument/completion(202)
+E[19:03:21.859] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:21.860] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:21.864] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:21.864] Code complete: 6 results from Sema, 34 from Index, 0 matched, 0 from identifiers, 40 returned.
+I[19:03:21.866] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:21.867] --> reply:textDocument/completion(202) 16 ms
+I[19:03:21.867] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 29 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:21.867] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:21.870] --> textDocument/clangd.fileStatus
+I[19:03:21.870] --> textDocument/clangd.fileStatus
+E[19:03:21.870] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:21.871] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:21.905] --> textDocument/clangd.fileStatus
+I[19:03:21.905] --> textDocument/clangd.fileStatus
+E[19:03:21.905] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:21.912] --> workspace/semanticTokens/refresh(28)
+I[19:03:21.913] <-- reply(28)
+I[19:03:21.916] --> textDocument/publishDiagnostics
+I[19:03:21.917] --> textDocument/clangd.fileStatus
+I[19:03:21.951] <-- textDocument/semanticTokens/full/delta(203)
+I[19:03:21.951] --> reply:textDocument/semanticTokens/full/delta(203) 0 ms
+I[19:03:21.951] --> textDocument/clangd.fileStatus
+I[19:03:22.097] <-- textDocument/didChange
+I[19:03:22.097] --> textDocument/clangd.fileStatus
+I[19:03:22.100] <-- textDocument/completion(204)
+E[19:03:22.108] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:22.110] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:22.118] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:22.118] Code complete: 3 results from Sema, 29 from Index, 0 matched, 0 from identifiers, 32 returned.
+I[19:03:22.122] --> reply:textDocument/completion(204) 21 ms
+I[19:03:22.147] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:22.147] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 30 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:22.147] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:22.149] --> textDocument/clangd.fileStatus
+E[19:03:22.149] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:22.149] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:22.165] --> textDocument/publishDiagnostics
+I[19:03:22.168] --> textDocument/clangd.fileStatus
+I[19:03:22.434] <-- textDocument/codeAction(205)
+I[19:03:22.434] --> reply:textDocument/codeAction(205) 0 ms
+I[19:03:22.434] --> textDocument/clangd.fileStatus
+I[19:03:22.546] <-- textDocument/semanticTokens/full/delta(206)
+I[19:03:22.546] --> reply:textDocument/semanticTokens/full/delta(206) 0 ms
+I[19:03:22.546] --> textDocument/clangd.fileStatus
+I[19:03:22.626] <-- textDocument/documentSymbol(207)
+I[19:03:22.626] --> reply:textDocument/documentSymbol(207) 0 ms
+I[19:03:22.626] --> textDocument/clangd.fileStatus
+I[19:03:22.816] <-- textDocument/didChange
+I[19:03:22.816] --> textDocument/clangd.fileStatus
+I[19:03:22.824] <-- textDocument/completion(208)
+E[19:03:22.829] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:22.830] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:22.836] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:22.837] Code complete: 6 results from Sema, 34 from Index, 0 matched, 0 from identifiers, 40 returned.
+I[19:03:22.841] --> reply:textDocument/completion(208) 17 ms
+I[19:03:22.866] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:22.867] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 31 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:22.867] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:22.868] --> textDocument/clangd.fileStatus
+E[19:03:22.868] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:22.869] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:22.880] --> textDocument/publishDiagnostics
+I[19:03:22.891] --> textDocument/clangd.fileStatus
+I[19:03:22.976] <-- textDocument/didChange
+I[19:03:22.976] --> textDocument/clangd.fileStatus
+I[19:03:23.026] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:23.027] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 32 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:23.027] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:23.028] --> textDocument/clangd.fileStatus
+I[19:03:23.028] --> textDocument/clangd.fileStatus
+E[19:03:23.028] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:23.029] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:23.065] --> workspace/semanticTokens/refresh(29)
+I[19:03:23.065] --> textDocument/clangd.fileStatus
+I[19:03:23.066] --> textDocument/clangd.fileStatus
+E[19:03:23.066] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:23.075] <-- reply(29)
+I[19:03:23.080] <-- textDocument/semanticTokens/full/delta(209)
+I[19:03:23.082] --> textDocument/publishDiagnostics
+I[19:03:23.082] --> reply:textDocument/semanticTokens/full/delta(209) 2 ms
+I[19:03:23.082] --> textDocument/clangd.fileStatus
+I[19:03:23.510] <-- textDocument/documentSymbol(210)
+I[19:03:23.510] --> reply:textDocument/documentSymbol(210) 0 ms
+I[19:03:23.510] --> textDocument/clangd.fileStatus
+I[19:03:23.743] <-- textDocument/didChange
+I[19:03:23.743] --> textDocument/clangd.fileStatus
+I[19:03:23.766] <-- textDocument/completion(211)
+E[19:03:23.769] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:23.772] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:23.778] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:23.778] Code complete: 6 results from Sema, 34 from Index, 0 matched, 0 from identifiers, 40 returned.
+I[19:03:23.780] --> reply:textDocument/completion(211) 14 ms
+I[19:03:23.793] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:23.793] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 33 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:23.793] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:23.795] --> textDocument/clangd.fileStatus
+I[19:03:23.795] --> textDocument/clangd.fileStatus
+E[19:03:23.795] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:23.795] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:23.825] --> textDocument/clangd.fileStatus
+I[19:03:23.825] --> textDocument/clangd.fileStatus
+E[19:03:23.825] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:23.833] --> workspace/semanticTokens/refresh(30)
+I[19:03:23.835] <-- reply(30)
+I[19:03:23.836] --> textDocument/publishDiagnostics
+I[19:03:23.838] --> textDocument/clangd.fileStatus
+I[19:03:23.849] <-- textDocument/didChange
+I[19:03:23.850] --> textDocument/clangd.fileStatus
+I[19:03:23.851] <-- textDocument/completion(212)
+E[19:03:23.858] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:23.865] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:23.868] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:23.868] Code complete: 1 results from Sema, 3 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[19:03:23.869] --> reply:textDocument/completion(212) 18 ms
+I[19:03:23.886] <-- textDocument/semanticTokens/full/delta(213)
+I[19:03:23.887] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:23.887] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 34 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:23.887] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:23.890] --> textDocument/clangd.fileStatus
+E[19:03:23.890] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:23.890] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:23.893] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:23.906] --> reply:textDocument/semanticTokens/full/delta(213) 19 ms
+I[19:03:23.908] Skipping rebuild of the AST for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h, inputs are the same.
+I[19:03:23.908] --> textDocument/publishDiagnostics
+I[19:03:23.910] --> textDocument/clangd.fileStatus
+I[19:03:23.969] <-- textDocument/didChange
+I[19:03:23.969] --> textDocument/clangd.fileStatus
+I[19:03:23.972] <-- textDocument/completion(214)
+E[19:03:23.977] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:23.979] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:23.982] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:23.983] Code complete: 0 results from Sema, 1 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[19:03:23.983] --> reply:textDocument/completion(214) 11 ms
+I[19:03:24.019] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:24.020] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 35 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:24.020] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.022] --> textDocument/clangd.fileStatus
+E[19:03:24.022] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:24.023] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.031] --> textDocument/publishDiagnostics
+I[19:03:24.035] --> textDocument/clangd.fileStatus
+I[19:03:24.289] <-- textDocument/codeAction(215)
+I[19:03:24.289] --> reply:textDocument/codeAction(215) 0 ms
+I[19:03:24.289] --> textDocument/clangd.fileStatus
+I[19:03:24.317] <-- textDocument/didChange
+I[19:03:24.317] --> textDocument/clangd.fileStatus
+I[19:03:24.322] <-- textDocument/completion(216)
+E[19:03:24.328] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:24.329] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.332] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:24.333] Code complete: 0 results from Sema, 1 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[19:03:24.333] --> reply:textDocument/completion(216) 11 ms
+I[19:03:24.368] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:24.368] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 36 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:24.368] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.372] --> textDocument/clangd.fileStatus
+I[19:03:24.372] --> textDocument/clangd.fileStatus
+E[19:03:24.372] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.372] --> textDocument/clangd.fileStatus
+E[19:03:24.372] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.385] --> textDocument/publishDiagnostics
+I[19:03:24.387] --> textDocument/clangd.fileStatus
+I[19:03:24.419] <-- textDocument/semanticTokens/full/delta(217)
+I[19:03:24.419] --> reply:textDocument/semanticTokens/full/delta(217) 0 ms
+I[19:03:24.420] --> textDocument/clangd.fileStatus
+I[19:03:24.652] <-- textDocument/codeAction(218)
+I[19:03:24.652] --> reply:textDocument/codeAction(218) 0 ms
+I[19:03:24.652] --> textDocument/clangd.fileStatus
+I[19:03:24.735] <-- textDocument/didChange
+I[19:03:24.735] --> textDocument/clangd.fileStatus
+I[19:03:24.739] <-- textDocument/completion(219)
+E[19:03:24.753] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:24.756] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.760] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:24.760] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:03:24.761] --> reply:textDocument/completion(219) 21 ms
+I[19:03:24.785] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:24.786] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 37 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:24.786] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.787] --> textDocument/clangd.fileStatus
+I[19:03:24.787] --> textDocument/clangd.fileStatus
+E[19:03:24.787] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.788] --> textDocument/clangd.fileStatus
+E[19:03:24.788] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.801] --> textDocument/publishDiagnostics
+I[19:03:24.803] --> textDocument/clangd.fileStatus
+I[19:03:24.833] <-- textDocument/didChange
+I[19:03:24.833] --> textDocument/clangd.fileStatus
+I[19:03:24.854] <-- textDocument/completion(220)
+E[19:03:24.859] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:24.861] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.864] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:24.864] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[19:03:24.865] --> reply:textDocument/completion(220) 10 ms
+I[19:03:24.883] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:24.883] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 38 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:24.884] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.885] --> textDocument/clangd.fileStatus
+I[19:03:24.885] --> textDocument/clangd.fileStatus
+E[19:03:24.885] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.885] --> textDocument/clangd.fileStatus
+E[19:03:24.886] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:24.895] --> textDocument/publishDiagnostics
+I[19:03:24.897] --> textDocument/clangd.fileStatus
+I[19:03:25.152] <-- textDocument/codeAction(221)
+I[19:03:25.152] --> reply:textDocument/codeAction(221) 0 ms
+I[19:03:25.153] --> textDocument/clangd.fileStatus
+I[19:03:25.186] <-- textDocument/semanticTokens/full/delta(222)
+I[19:03:25.186] --> reply:textDocument/semanticTokens/full/delta(222) 0 ms
+I[19:03:25.186] --> textDocument/clangd.fileStatus
+I[19:03:25.362] <-- textDocument/documentSymbol(223)
+I[19:03:25.363] --> reply:textDocument/documentSymbol(223) 0 ms
+I[19:03:25.363] --> textDocument/clangd.fileStatus
+I[19:03:25.999] <-- textDocument/didChange
+I[19:03:26.000] --> textDocument/clangd.fileStatus
+I[19:03:26.050] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:26.050] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 39 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:26.050] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.052] --> textDocument/clangd.fileStatus
+I[19:03:26.052] --> textDocument/clangd.fileStatus
+E[19:03:26.052] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.052] --> textDocument/clangd.fileStatus
+E[19:03:26.052] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.065] --> textDocument/publishDiagnostics
+I[19:03:26.069] --> textDocument/clangd.fileStatus
+I[19:03:26.130] <-- textDocument/signatureHelp(224)
+E[19:03:26.137] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:26.148] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.150] --> reply:textDocument/signatureHelp(224) 19 ms
+I[19:03:26.350] <-- textDocument/codeAction(225)
+I[19:03:26.351] --> reply:textDocument/codeAction(225) 0 ms
+I[19:03:26.351] --> textDocument/clangd.fileStatus
+I[19:03:26.449] <-- textDocument/semanticTokens/full/delta(226)
+I[19:03:26.450] --> reply:textDocument/semanticTokens/full/delta(226) 0 ms
+I[19:03:26.450] --> textDocument/clangd.fileStatus
+I[19:03:26.529] <-- textDocument/documentSymbol(227)
+I[19:03:26.530] --> reply:textDocument/documentSymbol(227) 0 ms
+I[19:03:26.530] --> textDocument/clangd.fileStatus
+I[19:03:26.659] <-- textDocument/didChange
+I[19:03:26.659] --> textDocument/clangd.fileStatus
+I[19:03:26.680] <-- textDocument/completion(228)
+E[19:03:26.685] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:26.687] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.694] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:26.695] Code complete: 6 results from Sema, 34 from Index, 0 matched, 0 from identifiers, 40 returned.
+I[19:03:26.696] --> reply:textDocument/completion(228) 16 ms
+I[19:03:26.710] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:26.710] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 40 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:26.710] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.712] --> textDocument/clangd.fileStatus
+I[19:03:26.712] --> textDocument/clangd.fileStatus
+E[19:03:26.712] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.712] --> textDocument/clangd.fileStatus
+E[19:03:26.712] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.722] --> textDocument/publishDiagnostics
+I[19:03:26.724] --> textDocument/clangd.fileStatus
+I[19:03:26.840] <-- textDocument/didChange
+I[19:03:26.840] --> textDocument/clangd.fileStatus
+I[19:03:26.850] <-- textDocument/completion(229)
+E[19:03:26.854] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:26.857] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.863] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:26.863] Code complete: 3 results from Sema, 29 from Index, 0 matched, 0 from identifiers, 32 returned.
+I[19:03:26.865] --> reply:textDocument/completion(229) 15 ms
+I[19:03:26.890] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:26.890] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 41 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:26.890] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.893] --> textDocument/clangd.fileStatus
+I[19:03:26.893] --> textDocument/clangd.fileStatus
+E[19:03:26.893] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.893] --> textDocument/clangd.fileStatus
+E[19:03:26.893] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:26.904] --> textDocument/publishDiagnostics
+I[19:03:26.904] --> textDocument/clangd.fileStatus
+I[19:03:27.013] <-- textDocument/didChange
+I[19:03:27.013] --> textDocument/clangd.fileStatus
+I[19:03:27.018] <-- textDocument/completion(230)
+E[19:03:27.023] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:27.025] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.027] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:27.028] Code complete: 1 results from Sema, 4 from Index, 0 matched, 0 from identifiers, 5 returned.
+I[19:03:27.028] --> reply:textDocument/completion(230) 9 ms
+I[19:03:27.063] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:27.064] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 42 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:27.064] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.065] --> textDocument/clangd.fileStatus
+I[19:03:27.065] --> textDocument/clangd.fileStatus
+E[19:03:27.065] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.066] --> textDocument/clangd.fileStatus
+E[19:03:27.066] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.073] --> textDocument/publishDiagnostics
+I[19:03:27.073] --> textDocument/clangd.fileStatus
+I[19:03:27.111] <-- textDocument/didChange
+I[19:03:27.111] --> textDocument/clangd.fileStatus
+I[19:03:27.115] <-- textDocument/completion(231)
+E[19:03:27.119] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:27.121] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.124] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:27.125] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[19:03:27.125] --> reply:textDocument/completion(231) 9 ms
+I[19:03:27.134] <-- textDocument/semanticTokens/full/delta(232)
+I[19:03:27.134] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:27.135] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 43 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:27.135] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.136] --> textDocument/clangd.fileStatus
+E[19:03:27.137] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:27.136] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:27.139] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.148] --> reply:textDocument/semanticTokens/full/delta(232) 13 ms
+I[19:03:27.149] Skipping rebuild of the AST for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h, inputs are the same.
+I[19:03:27.150] --> textDocument/publishDiagnostics
+I[19:03:27.152] --> textDocument/clangd.fileStatus
+I[19:03:27.226] <-- textDocument/didChange
+I[19:03:27.226] --> textDocument/clangd.fileStatus
+I[19:03:27.232] <-- textDocument/completion(233)
+E[19:03:27.237] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:27.238] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.241] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:27.242] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[19:03:27.242] --> reply:textDocument/completion(233) 9 ms
+I[19:03:27.276] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:27.276] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 44 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:27.276] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.278] --> textDocument/clangd.fileStatus
+I[19:03:27.278] --> textDocument/clangd.fileStatus
+E[19:03:27.278] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.278] --> textDocument/clangd.fileStatus
+E[19:03:27.279] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.290] --> textDocument/publishDiagnostics
+I[19:03:27.291] --> textDocument/clangd.fileStatus
+I[19:03:27.476] <-- textDocument/didChange
+I[19:03:27.477] --> textDocument/clangd.fileStatus
+I[19:03:27.485] <-- textDocument/completion(234)
+E[19:03:27.489] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:27.491] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.494] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:27.495] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[19:03:27.495] --> reply:textDocument/completion(234) 10 ms
+I[19:03:27.527] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:27.527] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 45 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:27.527] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.530] --> textDocument/clangd.fileStatus
+I[19:03:27.530] --> textDocument/clangd.fileStatus
+E[19:03:27.530] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.530] --> textDocument/clangd.fileStatus
+E[19:03:27.531] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.547] --> textDocument/publishDiagnostics
+I[19:03:27.547] --> textDocument/clangd.fileStatus
+I[19:03:27.547] <-- textDocument/didChange
+I[19:03:27.547] --> textDocument/clangd.fileStatus
+I[19:03:27.598] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:27.598] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 46 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:27.598] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.600] --> textDocument/clangd.fileStatus
+I[19:03:27.600] --> textDocument/clangd.fileStatus
+E[19:03:27.600] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.600] --> textDocument/clangd.fileStatus
+E[19:03:27.600] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:27.615] --> textDocument/publishDiagnostics
+I[19:03:27.617] --> textDocument/clangd.fileStatus
+I[19:03:27.675] <-- textDocument/semanticTokens/full/delta(235)
+I[19:03:27.676] --> reply:textDocument/semanticTokens/full/delta(235) 0 ms
+I[19:03:27.676] --> textDocument/clangd.fileStatus
+I[19:03:27.875] <-- textDocument/codeAction(236)
+I[19:03:27.875] --> reply:textDocument/codeAction(236) 0 ms
+I[19:03:27.875] --> textDocument/clangd.fileStatus
+I[19:03:28.072] <-- textDocument/didChange
+I[19:03:28.072] --> textDocument/clangd.fileStatus
+I[19:03:28.105] <-- textDocument/completion(237)
+E[19:03:28.112] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:28.114] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:28.120] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:28.120] Code complete: 10 results from Sema, 86 from Index, 0 matched, 0 from identifiers, 96 returned.
+I[19:03:28.122] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:28.122] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 47 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:28.123] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:28.124] --> textDocument/clangd.fileStatus
+I[19:03:28.124] --> textDocument/clangd.fileStatus
+E[19:03:28.124] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:28.124] --> textDocument/clangd.fileStatus
+E[19:03:28.124] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:28.134] --> reply:textDocument/completion(237) 28 ms
+I[19:03:28.137] --> textDocument/publishDiagnostics
+I[19:03:28.138] --> textDocument/clangd.fileStatus
+I[19:03:28.333] <-- textDocument/didChange
+I[19:03:28.333] --> textDocument/clangd.fileStatus
+I[19:03:28.345] <-- textDocument/completion(238)
+E[19:03:28.350] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:28.352] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:28.355] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:28.363] Code complete: 1 results from Sema, 1 from Index, 1 matched, 0 from identifiers, 1 returned.
+I[19:03:28.364] --> reply:textDocument/completion(238) 19 ms
+I[19:03:28.383] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:28.384] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 48 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:28.384] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:28.386] --> textDocument/clangd.fileStatus
+E[19:03:28.386] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:28.387] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:28.399] --> textDocument/publishDiagnostics
+I[19:03:28.404] --> textDocument/clangd.fileStatus
+I[19:03:28.522] <-- textDocument/semanticTokens/full/delta(239)
+I[19:03:28.522] --> reply:textDocument/semanticTokens/full/delta(239) 0 ms
+I[19:03:28.522] --> textDocument/clangd.fileStatus
+I[19:03:28.658] <-- textDocument/codeAction(240)
+I[19:03:28.658] --> reply:textDocument/codeAction(240) 0 ms
+I[19:03:28.658] --> textDocument/clangd.fileStatus
+I[19:03:28.867] <-- textDocument/documentSymbol(241)
+I[19:03:28.868] --> reply:textDocument/documentSymbol(241) 0 ms
+I[19:03:28.868] --> textDocument/clangd.fileStatus
+I[19:03:29.592] <-- textDocument/inlayHint(242)
+I[19:03:29.592] --> reply:textDocument/inlayHint(242) 0 ms
+I[19:03:29.592] --> textDocument/clangd.fileStatus
+I[19:03:29.735] <-- textDocument/codeAction(243)
+I[19:03:29.736] --> reply:textDocument/codeAction(243) 0 ms
+I[19:03:29.736] --> textDocument/clangd.fileStatus
+I[19:03:29.840] <-- textDocument/documentLink(244)
+I[19:03:29.840] --> reply:textDocument/documentLink(244) 0 ms
+I[19:03:29.840] --> textDocument/clangd.fileStatus
+I[19:03:30.216] <-- textDocument/didChange
+I[19:03:30.216] --> textDocument/clangd.fileStatus
+I[19:03:30.266] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:30.266] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 49 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:30.267] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:30.271] --> textDocument/clangd.fileStatus
+I[19:03:30.271] --> textDocument/clangd.fileStatus
+E[19:03:30.271] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:30.272] --> textDocument/clangd.fileStatus
+E[19:03:30.274] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:30.294] --> textDocument/publishDiagnostics
+I[19:03:30.294] --> textDocument/clangd.fileStatus
+I[19:03:30.560] <-- textDocument/codeAction(245)
+I[19:03:30.560] --> reply:textDocument/codeAction(245) 0 ms
+I[19:03:30.560] --> textDocument/clangd.fileStatus
+I[19:03:30.667] <-- textDocument/semanticTokens/full/delta(246)
+I[19:03:30.667] --> reply:textDocument/semanticTokens/full/delta(246) 0 ms
+I[19:03:30.667] --> textDocument/clangd.fileStatus
+I[19:03:30.742] <-- textDocument/documentSymbol(247)
+I[19:03:30.742] --> reply:textDocument/documentSymbol(247) 0 ms
+I[19:03:30.742] --> textDocument/clangd.fileStatus
+I[19:03:30.873] <-- textDocument/didChange
+I[19:03:30.874] --> textDocument/clangd.fileStatus
+I[19:03:30.924] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:30.925] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 50 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:30.925] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:30.928] --> textDocument/clangd.fileStatus
+I[19:03:30.928] --> textDocument/clangd.fileStatus
+E[19:03:30.929] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:30.929] --> textDocument/clangd.fileStatus
+E[19:03:30.931] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:30.941] --> textDocument/publishDiagnostics
+I[19:03:30.942] --> textDocument/clangd.fileStatus
+I[19:03:31.322] <-- textDocument/semanticTokens/full/delta(248)
+I[19:03:31.323] --> reply:textDocument/semanticTokens/full/delta(248) 0 ms
+I[19:03:31.323] --> textDocument/clangd.fileStatus
+I[19:03:31.405] <-- textDocument/documentSymbol(249)
+I[19:03:31.405] --> reply:textDocument/documentSymbol(249) 0 ms
+I[19:03:31.406] --> textDocument/clangd.fileStatus
+I[19:03:32.130] <-- textDocument/inlayHint(250)
+I[19:03:32.130] --> reply:textDocument/inlayHint(250) 0 ms
+I[19:03:32.130] --> textDocument/clangd.fileStatus
+I[19:03:32.380] <-- textDocument/documentLink(251)
+I[19:03:32.380] --> reply:textDocument/documentLink(251) 0 ms
+I[19:03:32.380] --> textDocument/clangd.fileStatus
+I[19:03:33.476] <-- textDocument/documentHighlight(252)
+I[19:03:33.476] --> reply:textDocument/documentHighlight(252) 0 ms
+I[19:03:33.476] --> textDocument/clangd.fileStatus
+I[19:03:33.727] <-- textDocument/codeAction(253)
+I[19:03:33.727] --> reply:textDocument/codeAction(253) 0 ms
+I[19:03:33.727] --> textDocument/clangd.fileStatus
+I[19:03:37.226] <-- textDocument/didChange
+I[19:03:37.226] --> textDocument/clangd.fileStatus
+I[19:03:37.243] <-- textDocument/completion(254)
+E[19:03:37.249] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:37.251] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:37.254] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[19:03:37.256] Code complete: 2 results from Sema, 2 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[19:03:37.257] --> reply:textDocument/completion(254) 13 ms
+I[19:03:37.276] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:37.277] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 51 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:37.277] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:37.279] --> textDocument/clangd.fileStatus
+E[19:03:37.279] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+E[19:03:37.281] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:37.314] --> textDocument/publishDiagnostics
+I[19:03:37.315] --> textDocument/clangd.fileStatus
+I[19:03:37.572] <-- textDocument/codeAction(255)
+I[19:03:37.573] --> reply:textDocument/codeAction(255) 0 ms
+I[19:03:37.573] --> textDocument/clangd.fileStatus
+I[19:03:37.677] <-- textDocument/semanticTokens/full/delta(256)
+I[19:03:37.678] --> reply:textDocument/semanticTokens/full/delta(256) 0 ms
+I[19:03:37.678] --> textDocument/clangd.fileStatus
+I[19:03:37.752] <-- textDocument/documentSymbol(257)
+I[19:03:37.752] --> reply:textDocument/documentSymbol(257) 0 ms
+I[19:03:37.752] --> textDocument/clangd.fileStatus
+I[19:03:37.800] <-- textDocument/didChange
+I[19:03:37.801] --> textDocument/clangd.fileStatus
+I[19:03:37.851] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[19:03:37.851] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 52 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[19:03:37.851] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:37.853] --> textDocument/clangd.fileStatus
+I[19:03:37.854] --> textDocument/clangd.fileStatus
+E[19:03:37.854] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:37.854] --> textDocument/clangd.fileStatus
+E[19:03:37.854] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[19:03:37.864] --> textDocument/publishDiagnostics
+I[19:03:37.864] --> textDocument/clangd.fileStatus
+I[19:03:38.120] <-- textDocument/codeAction(258)
+I[19:03:38.120] --> reply:textDocument/codeAction(258) 0 ms
+I[19:03:38.121] --> textDocument/clangd.fileStatus
+I[19:03:38.251] <-- textDocument/semanticTokens/full/delta(259)
+I[19:03:38.252] --> reply:textDocument/semanticTokens/full/delta(259) 0 ms
+I[19:03:38.252] --> textDocument/clangd.fileStatus
+I[19:03:38.332] <-- textDocument/documentSymbol(260)
+I[19:03:38.332] --> reply:textDocument/documentSymbol(260) 0 ms
+I[19:03:38.333] --> textDocument/clangd.fileStatus
+I[19:03:39.060] <-- textDocument/inlayHint(261)
+I[19:03:39.060] --> reply:textDocument/inlayHint(261) 0 ms
+I[19:03:39.060] --> textDocument/clangd.fileStatus
+I[19:03:39.305] <-- textDocument/documentLink(262)
+I[19:03:39.305] --> reply:textDocument/documentLink(262) 0 ms
+I[19:03:39.305] --> textDocument/clangd.fileStatus
+I[19:03:40.474] <-- textDocument/codeAction(263)
+I[19:03:40.474] --> reply:textDocument/codeAction(263) 0 ms
+I[19:03:40.474] --> textDocument/clangd.fileStatus
+I[19:03:40.550] <-- textDocument/documentLink(264)
+I[19:03:40.550] <-- textDocument/inlayHint(265)
+I[19:03:40.550] --> reply:textDocument/documentLink(264) 0 ms
+I[19:03:40.550] --> reply:textDocument/inlayHint(265) 0 ms
+I[19:03:40.551] --> textDocument/clangd.fileStatus
+I[19:03:40.908] <-- textDocument/semanticTokens/full/delta(266)
+I[19:03:40.908] --> reply:textDocument/semanticTokens/full/delta(266) 0 ms
+I[19:03:40.909] --> textDocument/clangd.fileStatus
+I[19:03:50.611] <-- textDocument/hover(267)
+I[19:03:50.612] --> reply:textDocument/hover(267) 1 ms
+I[19:03:50.612] --> textDocument/clangd.fileStatus

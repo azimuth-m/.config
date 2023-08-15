@@ -1,0 +1,34 @@
+2023-07-17 14:16:05.775 [info] Started initializing default profile extensions in extensions installation folder. file:///home/azimuth/.vscode-oss/extensions
+2023-07-17 14:16:06.618 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/azimuth/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/azimuth/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-07-17 14:16:06.623 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/azimuth/.vscode-oss/extensions
+2023-07-17 14:16:43.630 [info] Getting Manifest... franneck94.c-cpp-runner
+2023-07-17 14:16:44.079 [info] Installing extension: franneck94.c-cpp-runner
+2023-07-17 14:16:44.696 [info] Getting Manifest... vadimcn.vscode-lldb
+2023-07-17 14:16:45.397 [info] Installing extension: vadimcn.vscode-lldb franneck94.c-cpp-runner
+2023-07-17 14:16:46.361 [info] Extension signature verification is not done: vadimcn.vscode-lldb
+2023-07-17 14:16:46.462 [info] Extracted extension to /home/azimuth/.vscode-oss/extensions/.020425ae-19d6-496b-8368-6ed8a84d994a: vadimcn.vscode-lldb
+2023-07-17 14:16:46.509 [info] Renamed to /home/azimuth/.vscode-oss/extensions/vadimcn.vscode-lldb-1.9.2-universal
+2023-07-17 14:16:46.514 [info] Extracting extension completed. vadimcn.vscode-lldb
+2023-07-17 14:16:48.531 [info] Extension signature verification is not done: franneck94.c-cpp-runner
+2023-07-17 14:16:48.893 [info] Extracted extension to /home/azimuth/.vscode-oss/extensions/.a330163d-f0fe-41f3-bc7d-37db5f5b48c5: franneck94.c-cpp-runner
+2023-07-17 14:16:48.982 [info] Renamed to /home/azimuth/.vscode-oss/extensions/franneck94.c-cpp-runner-5.2.1-universal
+2023-07-17 14:16:48.990 [info] Extracting extension completed. franneck94.c-cpp-runner
+2023-07-17 14:16:49.049 [info] Extension installed successfully: vadimcn.vscode-lldb
+2023-07-17 14:16:49.050 [info] Extension installed successfully: franneck94.c-cpp-runner
+2023-07-17 14:16:55.956 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+2023-07-17 14:16:56.168 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd
+2023-07-17 14:16:59.387 [info] Extension signature verification is not done: llvm-vs-code-extensions.vscode-clangd
+2023-07-17 14:16:59.526 [info] Extracted extension to /home/azimuth/.vscode-oss/extensions/.c9c74304-4921-40a3-abde-b25853c9e03c: llvm-vs-code-extensions.vscode-clangd
+2023-07-17 14:16:59.573 [info] Renamed to /home/azimuth/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.24-universal
+2023-07-17 14:16:59.580 [info] Extracting extension completed. llvm-vs-code-extensions.vscode-clangd
+2023-07-17 14:16:59.645 [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd
+2023-07-18 10:17:42.621 [info] Getting Manifest... tabnine.tabnine-vscode
+2023-07-18 10:17:42.802 [info] Installing extension: tabnine.tabnine-vscode
+2023-07-18 10:17:46.116 [info] Extension signature verification is not done: tabnine.tabnine-vscode
+2023-07-18 10:17:46.464 [info] Extracted extension to /home/azimuth/.vscode-oss/extensions/.c926713c-109f-434f-b796-15bd5cc1dac3: tabnine.tabnine-vscode
+2023-07-18 10:17:46.530 [info] Renamed to /home/azimuth/.vscode-oss/extensions/tabnine.tabnine-vscode-3.6.72-universal
+2023-07-18 10:17:46.537 [info] Extracting extension completed. tabnine.tabnine-vscode
+2023-07-18 10:17:46.604 [info] Extension installed successfully: tabnine.tabnine-vscode
+2023-07-18 10:56:20.832 [info] Uninstalling extension from the profile: tabnine.tabnine-vscode@3.6.72 vscode-userdata:/home/azimuth/.vscode-oss/extensions/extensions.json
+2023-07-18 10:56:20.941 [info] Marked extension as uninstalled tabnine.tabnine-vscode-3.6.72-universal
+2023-07-18 10:56:21.098 [info] Successfully uninstalled extension from the profile tabnine.tabnine-vscode@3.6.72 vscode-userdata:/home/azimuth/.vscode-oss/extensions/extensions.json

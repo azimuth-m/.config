@@ -1,0 +1,47 @@
+{
+   "checksum": "0dc917f1fc9b1ad1cc6fbef9606c79c4",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13335621005223754",
+            "date_last_used": "13335621018576719",
+            "guid": "44dd8a3f-db1f-4e22-bc0c-0c5d5d6c097a",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "New Tab",
+            "type": "url",
+            "url": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmMzNTIyYTYtY2Q3My00MzI2LWE0ZmUtOWIxYmFjZjZkOWUw%40thread.v2/0?context=%7b%22Tid%22%3a%22555bd40e-b0d2-403c-ac3d-975d6f6b9d85%22%2c%22Oid%22%3a%222720b20f-657b-4ec3-9f34-df8fbab5f4d9%22%7d"
+         } ],
+         "date_added": "13335620967651120",
+         "date_last_used": "0",
+         "date_modified": "13335621005223754",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13335620967651124",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13335620967651126",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

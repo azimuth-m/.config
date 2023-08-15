@@ -1,0 +1,60 @@
+I[10:56:37.949] clangd version 15.0.7
+I[10:56:37.949] Features: linux
+I[10:56:37.949] PID: 63359
+I[10:56:37.957] Working directory: /home/azimuth/docs/mmSolutions/2day
+I[10:56:37.957] argv[0]: /usr/bin/clangd
+I[10:56:37.968] Starting LSP over stdin/stdout
+I[10:56:37.969] <-- initialize(0)
+I[10:56:37.970] --> reply:initialize(0) 1 ms
+I[10:56:37.975] <-- initialized
+I[10:56:37.995] <-- textDocument/didOpen
+I[10:56:38.003] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[10:56:38.003] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 1 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[10:56:38.010] --> textDocument/clangd.fileStatus
+I[10:56:38.027] --> textDocument/clangd.fileStatus
+I[10:56:38.028] --> textDocument/clangd.fileStatus
+I[10:56:38.035] --> workspace/semanticTokens/refresh(0)
+I[10:56:38.038] --> textDocument/publishDiagnostics
+I[10:56:38.038] --> textDocument/clangd.fileStatus
+I[10:56:38.039] <-- reply(0)
+I[10:56:38.134] <-- textDocument/documentLink(1)
+I[10:56:38.134] --> reply:textDocument/documentLink(1) 0 ms
+I[10:56:38.134] --> textDocument/clangd.fileStatus
+I[10:56:38.138] <-- textDocument/inlayHint(2)
+I[10:56:38.138] --> reply:textDocument/inlayHint(2) 0 ms
+I[10:56:38.138] --> textDocument/clangd.fileStatus
+I[10:56:38.141] <-- textDocument/semanticTokens/full(3)
+I[10:56:38.141] --> reply:textDocument/semanticTokens/full(3) 0 ms
+I[10:56:38.141] --> textDocument/clangd.fileStatus
+I[10:56:38.958] <-- textDocument/documentLink(4)
+I[10:56:38.958] --> reply:textDocument/documentLink(4) 0 ms
+I[10:56:38.958] --> textDocument/clangd.fileStatus
+I[10:56:39.065] <-- $/setTrace
+I[10:56:39.065] unhandled notification $/setTrace
+I[10:56:39.342] <-- textDocument/codeAction(5)
+I[10:56:39.342] --> reply:textDocument/codeAction(5) 0 ms
+I[10:56:39.342] --> textDocument/clangd.fileStatus
+I[10:56:39.450] <-- $/setTrace
+I[10:56:39.450] unhandled notification $/setTrace
+I[10:56:39.647] <-- textDocument/codeAction(6)
+I[10:56:39.648] --> reply:textDocument/codeAction(6) 0 ms
+I[10:56:39.648] --> textDocument/clangd.fileStatus
+I[10:56:39.653] <-- $/cancelRequest
+I[10:56:39.659] <-- textDocument/codeAction(7)
+I[10:56:39.659] --> reply:textDocument/codeAction(7) 0 ms
+I[10:56:39.660] --> textDocument/clangd.fileStatus
+I[10:56:39.917] <-- $/setTrace
+I[10:56:39.917] unhandled notification $/setTrace
+I[10:56:40.182] <-- textDocument/codeAction(8)
+I[10:56:40.182] --> reply:textDocument/codeAction(8) 0 ms
+I[10:56:40.182] --> textDocument/clangd.fileStatus
+I[10:56:40.280] <-- $/setTrace
+I[10:56:40.280] unhandled notification $/setTrace
+I[10:56:40.283] <-- textDocument/documentSymbol(9)
+I[10:56:40.283] --> reply:textDocument/documentSymbol(9) 0 ms
+I[10:56:40.284] --> textDocument/clangd.fileStatus
+I[10:57:08.565] <-- textDocument/inlayHint(10)
+I[10:57:08.566] --> reply:textDocument/inlayHint(10) 0 ms
+I[10:57:08.566] --> textDocument/clangd.fileStatus

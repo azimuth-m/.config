@@ -1,0 +1,614 @@
+2023-05-17 21:55:07 Using browser-only version of superagent in non-browser environment
+2023-05-17 21:55:08 Configuration directory URI: 'file:///home/azimuth/.theia'
+2023-05-17 21:55:08 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2023-05-17 21:55:08 2023-05-17T18:55:08.366Z root INFO Backend Object.initialize: 20.5 ms [Finished 11.867 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.366Z root INFO Backend Object.configure: 18.2 ms [Finished 11.867 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.366Z root INFO Backend MessagingContribution.onStart: 4.6 ms [Finished 11.867 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.368Z root INFO Backend OSBackendApplicationContribution.configure: 1.3 ms [Finished 12.048 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.370Z root INFO Backend DefaultWorkspaceServer.onStart: 0.9 ms [Finished 12.048 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.375Z root INFO Backend PluginLocalizationBackendContribution.configure: 0.4 ms [Finished 12.049 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.377Z root WARN Backend PluginLocalizationBackendContribution.initialize took longer than the expected maximum 50 milliseconds: 181.1 ms [Finished 12.049 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.378Z root INFO Backend TaskBackendApplicationContribution.onStart: 0.7 ms [Finished 12.049 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.381Z root INFO Backend ElectronTokenBackendContribution.configure: 2.1 ms [Finished 12.052 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.383Z config INFO >>> Initializing CLI configuration...
+2023-05-17 21:55:08 2023-05-17T18:55:08.383Z root INFO Backend PluginDeployerContribution.initialize: 1.4 ms [Finished 12.053 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.384Z root INFO Backend ConfigServiceImpl.onStart: 2.5 ms [Finished 12.054 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.387Z config INFO Loading CLI configuration from /home/azimuth/.arduinoIDE/arduino-cli.yaml...
+2023-05-17 21:55:08 2023-05-17T18:55:08.390Z root INFO Backend WebviewBackendSecurityWarnings.initialize: 1.1 ms [Finished 12.059 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.390Z root INFO Backend ArduinoDaemonImpl.onStart: 3.0 ms [Finished 12.061 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.390Z root INFO Backend NodeFileUploadService.configure: 7.5 ms [Finished 12.062 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.391Z daemon INFO Starting daemon from /opt/arduino-ide/resources/app/node_modules/arduino-ide-extension/build/arduino-cli...
+2023-05-17 21:55:08 2023-05-17T18:55:08.391Z discovery-log INFO start
+2023-05-17 21:55:08 2023-05-17T18:55:08.392Z discovery-log INFO start new deferred
+2023-05-17 21:55:08 2023-05-17T18:55:08.392Z root INFO Backend HostedPluginLocalizationService.initialize: 1.8 ms [Finished 12.065 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.393Z root INFO Backend BoardDiscovery.onStart: 3.6 ms [Finished 12.068 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.393Z root INFO Backend FileDownloadEndpoint.configure: 2.6 ms [Finished 12.069 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.393Z root INFO Backend AuthenticationServiceImpl.onStart: 2.1 ms [Finished 12.074 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.394Z root INFO Backend PluginApiContribution.configure: 2.3 ms [Finished 12.074 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.426Z root INFO Backend HostedPluginReader.configure: 1.6 ms [Finished 12.077 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.426Z root INFO Backend HostedPluginReader.configure: 0.4 ms [Finished 12.078 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.426Z root INFO Backend PlotterBackendContribution.configure: 32.1 ms [Finished 12.110 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.432Z root INFO Theia app listening on http://localhost:35747.
+2023-05-17 21:55:08 2023-05-17T18:55:08.433Z root INFO Finished starting backend application: 41.2 ms [Finished 12.116 s after backend start]
+2023-05-17 21:55:08 2023-05-17T18:55:08.491Z root WARN The local plugin referenced by local-dir:/home/azimuth/.arduinoIDE/plugins does not exist.
+2023-05-17 21:55:08 2023-05-17T18:55:08.492Z root WARN The local plugin referenced by local-dir:/home/azimuth/.arduinoIDE/extensions does not exist.
+2023-05-17 21:55:08 2023-05-17T18:55:08.504Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":["https://dl.espressif.com/dl/package_esp32_index.json"]},"build_cache":{"compilations_before_purge":10,"ttl":"720h0m0s"},"daemon":{"port":"50051"},"directories":{"builtin":{"libraries":"/home/azimuth/.arduino15/libraries"},"data":"/home/azimuth/.arduino15","downloads":"/home/azimuth/.arduino15/staging","user":"/home/azimuth/Arduino"},"library":{"enable_unsafe_install":false},"locale":"en","logging":{"file":"","format":"text","level":"info"},"metrics":{"addr":":9090","enabled":true},"output":{"no_color":false},"sketch":{"always_export_binaries":false},"updater":{"enable_notification":true}}
+2023-05-17 21:55:08 2023-05-17T18:55:08.506Z config INFO 'directories.data' and 'directories.user' are set in the CLI configuration model.
+2023-05-17 21:55:08 2023-05-17T18:55:08.506Z config INFO Loaded the CLI configuration.
+2023-05-17 21:55:08 2023-05-17T18:55:08.508Z config INFO Mapped the CLI configuration: {"dataDirUri":"file:///home/azimuth/.arduino15","sketchDirUri":"file:///home/azimuth/Arduino","additionalUrls":["https://dl.espressif.com/dl/package_esp32_index.json"],"network":"none","locale":"en"}
+2023-05-17 21:55:08 2023-05-17T18:55:08.509Z config INFO Validating the CLI configuration...
+2023-05-17 21:55:08 2023-05-17T18:55:08.509Z config INFO The CLI config is valid.
+2023-05-17 21:55:08 2023-05-17T18:55:08.510Z config INFO <<< Initialized the CLI configuration.
+2023-05-17 21:55:09 2023-05-17T18:55:09.750Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.750Z root INFO Resolved "cortex-debug" to a VS Code extension "cortex-debug@1.5.1" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.751Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.751Z root INFO Resolved "vscode-arduino-tools" to a VS Code extension "vscode-arduino-tools@0.0.2-beta.8" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.751Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.752Z root INFO Resolved "vscode-builtin-cpp" to a VS Code extension "cpp@1.52.1" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.752Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.752Z root INFO Resolved "vscode-builtin-json" to a VS Code extension "json@1.46.1" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.753Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.753Z root INFO Resolved "vscode-builtin-json-language-features" to a VS Code extension "json-language-features@1.46.1" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.753Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.753Z root INFO Resolved "vscode-language-pack-bg" to a VS Code extension "vscode-language-pack-bg@1.48.3" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.754Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.754Z root INFO Resolved "vscode-language-pack-cs" to a VS Code extension "vscode-language-pack-cs@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.754Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.755Z root INFO Resolved "vscode-language-pack-de" to a VS Code extension "vscode-language-pack-de@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.755Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.755Z root INFO Resolved "vscode-language-pack-es" to a VS Code extension "vscode-language-pack-es@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.756Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.757Z root INFO Resolved "vscode-language-pack-fr" to a VS Code extension "vscode-language-pack-fr@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.757Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.758Z root INFO Resolved "vscode-language-pack-hu" to a VS Code extension "vscode-language-pack-hu@1.48.3" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.758Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.758Z root INFO Resolved "vscode-language-pack-it" to a VS Code extension "vscode-language-pack-it@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.758Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.759Z root INFO Resolved "vscode-language-pack-ja" to a VS Code extension "vscode-language-pack-ja@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.759Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.759Z root INFO Resolved "vscode-language-pack-ko" to a VS Code extension "vscode-language-pack-ko@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.760Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.760Z root INFO Resolved "vscode-language-pack-nl" to a VS Code extension "vscode-language-pack-nl@1.48.3" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.760Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.761Z root INFO Resolved "vscode-language-pack-pl" to a VS Code extension "vscode-language-pack-pl@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.761Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.761Z root INFO Resolved "vscode-language-pack-pt-BR" to a VS Code extension "vscode-language-pack-pt-BR@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.762Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.762Z root INFO Resolved "vscode-language-pack-ru" to a VS Code extension "vscode-language-pack-ru@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.762Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.763Z root INFO Resolved "vscode-language-pack-tr" to a VS Code extension "vscode-language-pack-tr@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.763Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.763Z root INFO Resolved "vscode-language-pack-uk" to a VS Code extension "vscode-language-pack-uk@1.48.3" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.764Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 21:55:09 2023-05-17T18:55:09.764Z root INFO Resolved "vscode-language-pack-zh-hans" to a VS Code extension "vscode-language-pack-zh-hans@1.53.2" with engines:
+2023-05-17 21:55:09 2023-05-17T18:55:09.815Z root INFO Resolve plugins list: 1428.5 ms [Finished 13.498 s after backend start]
+2023-05-17 21:55:09 2023-05-17T18:55:09.881Z root INFO Deployed backend plugin "marus25.cortex-debug@1.5.1" from "/opt/arduino-ide/resources/app/plugins/cortex-debug/extension/dist/extension.js": 65.2 ms [Finished 13.564 s after backend start]
+2023-05-17 21:55:09 2023-05-17T18:55:09.927Z root INFO Deployed backend plugin "arduino.vscode-arduino-tools@0.0.2-beta.8" from "/opt/arduino-ide/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle": 46.3 ms [Finished 13.611 s after backend start]
+2023-05-17 21:55:10 2023-05-17T18:55:10.090Z root INFO Deployed backend plugin "vscode.cpp@1.52.1" from "/opt/arduino-ide/resources/app/plugins/vscode-builtin-cpp/extension": 162.9 ms [Finished 13.774 s after backend start]
+2023-05-17 21:55:10 2023-05-17T18:55:10.138Z root INFO Deployed backend plugin "vscode.json@1.46.1" from "/opt/arduino-ide/resources/app/plugins/vscode-builtin-json/extension": 47.1 ms [Finished 13.822 s after backend start]
+2023-05-17 21:55:10 2023-05-17T18:55:10.140Z root INFO Deployed backend plugin "vscode.json-language-features@1.46.1" from "/opt/arduino-ide/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain": 2.6 ms [Finished 13.824 s after backend start]
+2023-05-17 21:55:10 2023-05-17T18:55:10.432Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-bg@1.48.3" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-bg/extension": 291.7 ms [Finished 14.116 s after backend start]
+2023-05-17 21:55:11 2023-05-17T18:55:11.098Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-cs@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-cs/extension": 665.2 ms [Finished 14.782 s after backend start]
+2023-05-17 21:55:11 2023-05-17T18:55:11.905Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-de@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-de/extension": 806.9 ms [Finished 15.589 s after backend start]
+2023-05-17 21:55:13 2023-05-17T18:55:13.071Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-es@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-es/extension": 1166.0 ms [Finished 16.755 s after backend start]
+2023-05-17 21:55:13 2023-05-17T18:55:13.946Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-fr@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-fr/extension": 874.8 ms [Finished 17.630 s after backend start]
+2023-05-17 21:55:14 2023-05-17T18:55:14.149Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-hu@1.48.3" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-hu/extension": 203.2 ms [Finished 17.833 s after backend start]
+2023-05-17 21:55:14 2023-05-17T18:55:14.747Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-it@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-it/extension": 598.1 ms [Finished 18.431 s after backend start]
+2023-05-17 21:55:15 2023-05-17T18:55:15.581Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-ja@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-ja/extension": 828.6 ms [Finished 19.260 s after backend start]
+2023-05-17 21:55:15 2023-05-17T18:55:15.623Z daemon INFO [36mINFO[0m[0004] Using config file: /home/azimuth/.arduinoIDE/arduino-cli.yaml 
+[36mINFO[0m[0004] arduino-cli version 0.32.2                   
+[36mINFO[0m[0004] Executing `arduino-cli daemon`               
+Daemon is now listening on 127.0.0.1:44421
+{"IP":"127.0.0.1","Port":"44421"}
+
+
+2023-05-17 21:55:15 2023-05-17T18:55:15.625Z daemon INFO Daemon is running.
+2023-05-17 21:55:15 2023-05-17T18:55:15.856Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-ko@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-ko/extension": 279.9 ms [Finished 19.540 s after backend start]
+2023-05-17 21:55:16 2023-05-17T18:55:16.551Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-nl@1.48.3" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-nl/extension": 695.0 ms [Finished 20.235 s after backend start]
+2023-05-17 21:55:16 2023-05-17T18:55:16.552Z daemon INFO [36mINFO[0m[0004] Loading hardware from: /home/azimuth/.arduino15/packages 
+[36mINFO[0m[0004] Loading package arduino from: /home/azimuth/.arduino15/packages/arduino/hardware 
+[36mINFO[0m[0005] Checking signature                            [36merror[0m="opening signature file: open /home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json.sig: no such file or directory" [36mindex[0m=/home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json [36msignatureFile[0m=/home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json.sig
+[36mINFO[0m[0005] Adding monitor tool                           [36mprotocol[0m=serial [36mtool[0m="builtin:serial-monitor"
+[36mINFO[0m[0005] Loaded platform                               [36mplatform[0m="arduino:avr@1.8.6"
+[36mINFO[0m[0005] Checking existence of 'tools' path: /home/azimuth/.arduino15/packages/arduino/tools 
+[36mINFO[0m[0005] Loading tools from dir: /home/azimuth/.arduino15/packages/arduino/tools 
+[36mINFO[0m[0005] Loaded tool                                   [36mtool[0m="arduino:arduinoOTA@1.3.0"
+[36mINFO[0m[0005] Loaded tool                                   [36mtool[0m="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+[36mINFO[0m[0005] Loaded tool                                   [36mtool[0m="arduino:avrdude@6.3.0-arduino17"
+[36mINFO[0m[0005] Loading package builtin from: /home/azimuth/.arduino15/packages/builtin 
+[36mINFO[0m[0005] Checking existence of 'tools' path: /home/azimuth/.arduino15/packages/builtin/tools 
+[36mINFO[0m[0005] Loading tools from dir: /home/azimuth/.arduino15/packages/builtin/tools 
+[36mINFO[0m[0005] Loaded tool                                   [36mtool[0m="builtin:ctags@5.8-arduino11"
+[36mINFO[0m[0005] Loaded tool                                   [36mtool[0m="builtin:mdns-discovery@1.0.9"
+[36mINFO[0m[0005] Loaded tool                                   [36mtool[0m="builtin:serial-discovery@1.4.0"
+[36mINFO[0m[0005] Loaded tool                                   [36mtool[0m="builtin:serial-monitor@0.13.0"
+[36mINFO[0m[0005] Loading package esp32 from: /home/azimuth/.arduino15/packages/esp32/hardware 
+[36mINFO[0m[0005] Adding monitor tool                           [36mprotocol[0m=serial [36mtool[0m="builtin:serial-monitor"
+[36mINFO[0m[0005] Loaded platform                               [36mplatform[0m="esp32:esp32@1.0.6"
+[36mINFO[0m[0005] Checking existence of 'tools' path: /home/azimuth/.arduino15/packages/esp32/tools 
+[36mINFO[0m[0005] Loading tools from dir: /home/azimuth/.arduino15/packages/esp32/tools 
+[36mINFO[0m[0005] Loaded tool                                   [36mtool[0m="esp32:esptool_py@3.0.0"
+[36mINFO[0m[0005] Loaded tool                                   [36mtool[0m="esp32:mkspiffs@0.2.3"
+[36mINFO[0m[0005] Loaded tool                                   [36mtool[0m="esp32:xtensa-esp32-elf-gcc@1.22.0-97-gc752ad5-5.2.0"
+[36mINFO[0m[0005] Checking signature                            [36mindex[0m=/home/azimuth/.arduino15/package_index.json [36msignatureFile[0m=/home/azimuth/.arduino15/package_index.json.sig [36mtrusted[0m=true
+[36mINFO[0m[0005] Checking signature                            [36merror[0m="opening signature file: open /home/azimuth/.arduino15/package_esp32_index.json.sig: no such file or directory" [36mindex[0m=/home/azimuth/.arduino15/package_esp32_index.json [36msignatureFile[0m=/home/azimuth/.arduino15/package_esp32_index.json.sig
+[36mINFO[0m[0005] Adding libraries dir                          [36mdir[0m=/home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries [36mlocation[0m=platform
+[36mINFO[0m[0005] Adding libraries dir                          [36mdir[0m=/home/azimuth/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries [36mlocation[0m=platform
+[36mINFO[0m[0005] Loading libraries index file                  [36mindex[0m=/home/azimuth/.arduino15/library_index.json
+
+2023-05-17 21:55:17 2023-05-17T18:55:17.643Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-pl@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-pl/extension": 1091.5 ms [Finished 21.327 s after backend start]
+2023-05-17 21:55:17 2023-05-17T18:55:17.646Z daemon INFO [36mINFO[0m[0005] Adding libraries dir                          [36mdir[0m=/home/azimuth/.arduino15/libraries [36mlocation[0m=ide
+[36mINFO[0m[0005] Adding libraries dir                          [36mdir[0m=/home/azimuth/Arduino/libraries [36mlocation[0m=user
+
+2023-05-17 21:55:17 2023-05-17T18:55:17.865Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-pt-br@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-pt-BR/extension": 222.4 ms [Finished 21.549 s after backend start]
+2023-05-17 21:55:17 2023-05-17T18:55:17.882Z discovery-log INFO start request start watch
+2023-05-17 21:55:17 2023-05-17T18:55:17.883Z discovery-log INFO start requested start watch
+2023-05-17 21:55:17 2023-05-17T18:55:17.884Z discovery-log INFO start resolved watching
+2023-05-17 21:55:17 2023-05-17T18:55:17.891Z daemon INFO [36mINFO[0m[0006] starting discovery builtin:mdns-discovery process 
+[36mINFO[0m[0006] starting discovery builtin:serial-discovery process 
+
+2023-05-17 21:55:19 2023-05-17T18:55:19.159Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-ru@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-ru/extension": 1293.9 ms [Finished 22.843 s after backend start]
+2023-05-17 21:55:19 2023-05-17T18:55:19.161Z daemon INFO [36mINFO[0m[0006] started discovery builtin:mdns-discovery process 
+[36mINFO[0m[0006] sending command HELLO 1 "arduino-cli 0.32.2" to discovery builtin:mdns-discovery 
+[36mINFO[0m[0007] started discovery builtin:serial-discovery process 
+[36mINFO[0m[0007] sending command HELLO 1 "arduino-cli 0.32.2" to discovery builtin:serial-discovery 
+[36mINFO[0m[0007] from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1 
+[36mINFO[0m[0007] sending command START_SYNC to discovery builtin:mdns-discovery 
+[36mINFO[0m[0007] from discovery builtin:mdns-discovery received message type: start_sync, message: OK 
+[36mINFO[0m[0007] from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1 
+[36mINFO[0m[0007] sending command START_SYNC to discovery builtin:serial-discovery 
+[36mINFO[0m[0007] from discovery builtin:serial-discovery received message type: start_sync, message: OK 
+
+2023-05-17 21:55:19 2023-05-17T18:55:19.387Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-tr@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-tr/extension": 227.4 ms [Finished 23.071 s after backend start]
+2023-05-17 21:55:19 2023-05-17T18:55:19.485Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-uk@1.48.3" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-uk/extension": 98.0 ms [Finished 23.169 s after backend start]
+2023-05-17 21:55:19 2023-05-17T18:55:19.655Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-zh-hans@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-zh-hans/extension": 155.2 ms [Finished 23.324 s after backend start]
+2023-05-17 21:55:19 2023-05-17T18:55:19.658Z root INFO Deploy plugins list: 1428.5 ms [Finished 23.339 s after backend start]
+2023-05-17 21:55:22 2023-05-17T18:55:22.339Z root WARN Frontend a.configure took longer than the expected maximum 100 milliseconds: 606.6 ms [Finished 11.723 s after frontend start]
+2023-05-17 21:55:22 2023-05-17T18:55:22.367Z root WARN Frontend commands.onStart took longer than the expected maximum 100 milliseconds: 180.5 ms [Finished 11.907 s after frontend start]
+2023-05-17 21:55:22 2023-05-17T18:55:22.824Z root WARN Frontend keybindings.onStart took longer than the expected maximum 100 milliseconds: 410.3 ms [Finished 12.328 s after frontend start]
+2023-05-17 21:55:23 2023-05-17T18:55:23.647Z root WARN Frontend c.onStart took longer than the expected maximum 100 milliseconds: 569.0 ms [Finished 13.188 s after frontend start]
+2023-05-17 21:55:23 2023-05-17T18:55:23.809Z root INFO Start frontend contributions: 2438.7 ms [Finished 13.214 s after frontend start]
+2023-05-17 21:55:23 2023-05-17T18:55:23.810Z root INFO Changed application state from 'init' to 'started_contributions'.
+2023-05-17 21:55:23 2023-05-17T18:55:23.858Z root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2023-05-17 21:55:23 2023-05-17T18:55:23.861Z root INFO >>> Restoring the layout state...
+2023-05-17 21:55:23 2023-05-17T18:55:23.862Z root INFO <<< Nothing to restore.
+2023-05-17 21:55:23 2023-05-17T18:55:23.974Z root INFO Initialize the workbench layout: 92.7 ms [Finished 13.528 s after frontend start]
+2023-05-17 21:55:24 2023-05-17T18:55:24.033Z root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2023-05-17 21:55:24 2023-05-17T18:55:24.304Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42] Waiting for backend deployment: 679.6 ms [Finished 13.873 s after frontend start]
+2023-05-17 21:55:26 2023-05-17T18:55:26.554Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065) starting instance
+2023-05-17 21:55:27 2023-05-17T18:55:27.159Z root INFO Frontend application start: 5026.1 ms [Finished 30.794 s after backend start]
+2023-05-17 21:55:27 2023-05-17T18:55:27.169Z root INFO Replace loading indicator with ready workbench UI (animation): 2099.7 ms [Finished 15.651 s after frontend start]
+2023-05-17 21:55:27 2023-05-17T18:55:27.169Z root INFO Changed application state from 'initialized_layout' to 'ready'.
+2023-05-17 21:55:27 2023-05-17T18:55:27.169Z root WARN Linked preference "workbench.colorCustomizations" not found. Source: "editor.bracketPairColorization.enabled"
+2023-05-17 21:55:28 2023-05-17T18:55:28.663Z root ERROR ---- !!!SLOW!!! DURATION: search took 1437.644 ms. Args: [{"type":"Updatable"}] ----
+2023-05-17 21:55:29 2023-05-17T18:55:29.384Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42] Sync of 21 plugins: 4792.3 ms [Finished 18.666 s after frontend start]
+2023-05-17 21:55:29 2023-05-17T18:55:29.390Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][marus25.cortex-debug]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.396Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][arduino.vscode-arduino-tools]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.398Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][vscode.cpp]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.399Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][vscode.json]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.399Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][vscode.json-language-features]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.399Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-bg]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.399Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-cs]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.407Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-de]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.407Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-es]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.408Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-fr]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.408Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-hu]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.408Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-it]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.408Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-ja]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.409Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-ko]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.409Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-nl]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.409Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-pl]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.409Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-pt-br]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.409Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-ru]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.409Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-tr]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.409Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-uk]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.410Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-zh-hans]: Loaded contributions.
+2023-05-17 21:55:29 2023-05-17T18:55:29.410Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42] Load contributions of 21 plugins: 289.3 ms [Finished 18.955 s after frontend start]
+2023-05-17 21:55:30 2023-05-17T18:55:30.120Z daemon INFO [36mINFO[0m[0019] Updating libraries index                     
+[36mINFO[0m[0019] Starting download                             [36murl[0m="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+[36mINFO[0m[0019] Updating index                                [36murl[0m="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+[36mINFO[0m[0019] Starting download                             [36murl[0m="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+
+2023-05-17 21:55:30 2023-05-17T18:55:30.125Z root INFO core-client-provider [library-index]
+2023-05-17 21:55:30 2023-05-17T18:55:30.128Z root INFO core-client-provider [platform-index]
+2023-05-17 21:55:30 2023-05-17T18:55:30.258Z root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2023-05-17 21:55:30 2023-05-17T18:55:30.258Z root WARN a registered grammar configuration for 'cpp' language is overridden
+2023-05-17 21:55:30 2023-05-17T18:55:30.426Z root WARN Timeout after 5000 millis. The editor has not shown up in time. URI: file:///tmp/.arduinoIDE-unsaved2023417-11882-95xihs.na3bh/sketch_may17a/sketch_may17a.ino
+2023-05-17 21:55:30 2023-05-17T18:55:30.643Z daemon INFO [36mINFO[0m[0019] Updating index                                [36murl[0m="https://dl.espressif.com/dl/package_esp32_index.json"
+
+2023-05-17 21:55:30 2023-05-17T18:55:30.643Z daemon INFO [36mINFO[0m[0019] Starting download                             [36murl[0m="https://dl.espressif.com/dl/package_esp32_index.json"
+
+2023-05-17 21:55:30 2023-05-17T18:55:30.644Z root INFO core-client-provider [platform-index]
+2023-05-17 21:55:31 2023-05-17T18:55:31.992Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): PluginManagerExtImpl/init()
+2023-05-17 21:55:32 2023-05-17T18:55:32.005Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(cortex-debug@1.5.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.060Z root INFO [hosted-plugin: 12065] Debugger contribution has been registered: cortex-debug
+2023-05-17 21:55:32 2023-05-17T18:55:32.088Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-arduino-tools@0.0.2-beta.8 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.090Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(cpp@1.52.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.092Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(json@1.46.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.094Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(json-language-features@1.46.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.100Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-bg@1.48.3 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.102Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-cs@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.103Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-de@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.108Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-es@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.112Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-fr@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.116Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-hu@1.48.3 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.120Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-it@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.121Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-ja@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.124Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-ko@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.125Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-nl@1.48.3 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.127Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-pl@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.131Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-pt-BR@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.132Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-ru@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.133Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-tr@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.134Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-uk@1.48.3 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.141Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): initializing(vscode-language-pack-zh-hans@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 21:55:32 2023-05-17T18:55:32.176Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): PluginManagerExtImpl/loadPlugin(/opt/arduino-ide/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2023-05-17 21:55:32 2023-05-17T18:55:32.563Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): PluginManagerExtImpl/loadPlugin(/opt/arduino-ide/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2023-05-17 21:55:32 2023-05-17T18:55:32.679Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][marus25.cortex-debug]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.679Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][arduino.vscode-arduino-tools]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.680Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][vscode.cpp]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.680Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][vscode.json]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.680Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][vscode.json-language-features]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.690Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-bg]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.690Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-cs]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.690Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-de]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.690Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-es]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.690Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-fr]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.691Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-hu]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.691Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-it]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.691Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-ja]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.691Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-ko]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.691Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-nl]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.691Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-pl]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.692Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-pt-br]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.692Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-ru]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.692Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-tr]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.692Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-uk]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.692Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42][ms-ceintl.vscode-language-pack-zh-hans]: Started plugin.
+2023-05-17 21:55:32 2023-05-17T18:55:32.720Z root INFO [hosted-plugin: 12065] PLUGIN_HOST(12065): PluginManagerExtImpl/loadPlugin(/opt/arduino-ide/resources/app/plugins/cortex-debug/extension/dist/extension.js)
+2023-05-17 21:55:32 2023-05-17T18:55:32.866Z root INFO [hosted-plugin: 12065] Debug configuration provider has been registered: cortex-debug, trigger: 1
+2023-05-17 21:55:32 2023-05-17T18:55:32.881Z root INFO [hosted-plugin: 12065] GDB server console created
+2023-05-17 21:55:32 2023-05-17T18:55:32.916Z root INFO [25757ae2-82bc-429c-ba4b-44020b00cf42] Start of 21 plugins: 3481.8 ms [Finished 22.494 s after frontend start]
+2023-05-17 21:55:34 2023-05-17T18:55:34.358Z daemon INFO [36mINFO[0m[0023] Loading hardware from: /home/azimuth/.arduino15/packages 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.360Z daemon INFO [36mINFO[0m[0023] Loading package arduino from: /home/azimuth/.arduino15/packages/arduino/hardware 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.395Z daemon INFO [36mINFO[0m[0023] Checking signature                            [36merror[0m="opening signature file: open /home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json.sig: no such file or directory" [36mindex[0m=/home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json [36msignatureFile[0m=/home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json.sig
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.400Z daemon INFO [36mINFO[0m[0023] Adding monitor tool                           [36mprotocol[0m=serial [36mtool[0m="builtin:serial-monitor"
+[36mINFO[0m[0023] Loaded platform                               [36mplatform[0m="arduino:avr@1.8.6"
+[36mINFO[0m[0023] Checking existence of 'tools' path: /home/azimuth/.arduino15/packages/arduino/tools 
+[36mINFO[0m[0023] Loading tools from dir: /home/azimuth/.arduino15/packages/arduino/tools 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.401Z daemon INFO [36mINFO[0m[0023] Loaded tool                                   [36mtool[0m="arduino:arduinoOTA@1.3.0"
+[36mINFO[0m[0023] Loaded tool                                   [36mtool[0m="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+[36mINFO[0m[0023] Loaded tool                                   [36mtool[0m="arduino:avrdude@6.3.0-arduino17"
+[36mINFO[0m[0023] Loading package builtin from: /home/azimuth/.arduino15/packages/builtin 
+[36mINFO[0m[0023] Checking existence of 'tools' path: /home/azimuth/.arduino15/packages/builtin/tools 
+[36mINFO[0m[0023] Loading tools from dir: /home/azimuth/.arduino15/packages/builtin/tools 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.402Z daemon INFO [36mINFO[0m[0023] Loaded tool                                   [36mtool[0m="builtin:ctags@5.8-arduino11"
+[36mINFO[0m[0023] Loaded tool                                   [36mtool[0m="builtin:mdns-discovery@1.0.9"
+[36mINFO[0m[0023] Loaded tool                                   [36mtool[0m="builtin:serial-discovery@1.4.0"
+[36mINFO[0m[0023] Loaded tool                                   [36mtool[0m="builtin:serial-monitor@0.13.0"
+[36mINFO[0m[0023] Loading package esp32 from: /home/azimuth/.arduino15/packages/esp32/hardware 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.433Z daemon INFO [36mINFO[0m[0023] Adding monitor tool                           [36mprotocol[0m=serial [36mtool[0m="builtin:serial-monitor"
+[36mINFO[0m[0023] Loaded platform                               [36mplatform[0m="esp32:esp32@1.0.6"
+[36mINFO[0m[0023] Checking existence of 'tools' path: /home/azimuth/.arduino15/packages/esp32/tools 
+[36mINFO[0m[0023] Loading tools from dir: /home/azimuth/.arduino15/packages/esp32/tools 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.434Z daemon INFO [36mINFO[0m[0023] Loaded tool                                   [36mtool[0m="esp32:esptool_py@3.0.0"
+[36mINFO[0m[0023] Loaded tool                                   [36mtool[0m="esp32:mkspiffs@0.2.3"
+[36mINFO[0m[0023] Loaded tool                                   [36mtool[0m="esp32:xtensa-esp32-elf-gcc@1.22.0-97-gc752ad5-5.2.0"
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.462Z daemon INFO [36mINFO[0m[0023] Checking signature                            [36mindex[0m=/home/azimuth/.arduino15/package_index.json [36msignatureFile[0m=/home/azimuth/.arduino15/package_index.json.sig [36mtrusted[0m=true
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.477Z daemon INFO [36mINFO[0m[0023] Checking signature                            [36merror[0m="opening signature file: open /home/azimuth/.arduino15/package_esp32_index.json.sig: no such file or directory" [36mindex[0m=/home/azimuth/.arduino15/package_esp32_index.json [36msignatureFile[0m=/home/azimuth/.arduino15/package_esp32_index.json.sig
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.478Z daemon INFO [36mINFO[0m[0023] sending command QUIT to discovery builtin:serial-discovery 
+[36mINFO[0m[0023] from discovery builtin:serial-discovery received message type: quit, message: OK 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.478Z daemon INFO [36mINFO[0m[0023] killing discovery builtin:serial-discovery process 
+[36mINFO[0m[0023] Discovery event channel closed builtin:serial-discovery. Exiting goroutine. 
+[36mINFO[0m[0023] killed discovery builtin:serial-discovery process 
+[36mINFO[0m[0023] Closed and removed discovery builtin:serial-discovery 
+[36mINFO[0m[0023] sending command QUIT to discovery builtin:mdns-discovery 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.479Z daemon INFO [36mINFO[0m[0023] from discovery builtin:mdns-discovery received message type: quit, message: OK 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.479Z daemon INFO [36mINFO[0m[0023] killing discovery builtin:mdns-discovery process 
+[36mINFO[0m[0023] killed discovery builtin:mdns-discovery process 
+[36mINFO[0m[0023] Closed and removed discovery builtin:mdns-discovery 
+[36mINFO[0m[0023] Discovery event channel closed builtin:mdns-discovery. Exiting goroutine. 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.480Z daemon INFO [36mINFO[0m[0023] starting discovery builtin:serial-discovery process 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.480Z daemon INFO [36mINFO[0m[0023] started discovery builtin:serial-discovery process 
+[36mINFO[0m[0023] sending command HELLO 1 "arduino-cli 0.32.2" to discovery builtin:serial-discovery 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.482Z daemon INFO [36mINFO[0m[0023] from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1 
+[36mINFO[0m[0023] sending command START_SYNC to discovery builtin:serial-discovery 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.484Z daemon INFO [36mINFO[0m[0023] from discovery builtin:serial-discovery received message type: start_sync, message: OK 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.485Z daemon INFO [36mINFO[0m[0023] starting discovery builtin:mdns-discovery process 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.485Z daemon INFO [36mINFO[0m[0023] started discovery builtin:mdns-discovery process 
+[36mINFO[0m[0023] sending command HELLO 1 "arduino-cli 0.32.2" to discovery builtin:mdns-discovery 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.488Z daemon INFO [36mINFO[0m[0023] from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1 
+[36mINFO[0m[0023] sending command START_SYNC to discovery builtin:mdns-discovery 
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.490Z daemon INFO [36mINFO[0m[0023] from discovery builtin:mdns-discovery received message type: start_sync, message: OK 
+[36mINFO[0m[0023] Adding libraries dir                          [36mdir[0m=/home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries [36mlocation[0m=platform
+[36mINFO[0m[0023] Adding libraries dir                          [36mdir[0m=/home/azimuth/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries [36mlocation[0m=platform
+[36mINFO[0m[0023] Loading libraries index file                  [36mindex[0m=/home/azimuth/.arduino15/library_index.json
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.832Z daemon INFO [36mINFO[0m[0023] Adding libraries dir                          [36mdir[0m=/home/azimuth/.arduino15/libraries [36mlocation[0m=ide
+
+2023-05-17 21:55:34 2023-05-17T18:55:34.833Z daemon INFO [36mINFO[0m[0023] Adding libraries dir                          [36mdir[0m=/home/azimuth/Arduino/libraries [36mlocation[0m=user
+
+2023-05-17 22:10:12 Using browser-only version of superagent in non-browser environment
+2023-05-17 22:10:12 Configuration directory URI: 'file:///home/azimuth/.theia'
+2023-05-17 22:10:12 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2023-05-17 22:10:12 2023-05-17T19:10:12.945Z root INFO Backend Object.initialize: 12.7 ms [Finished 2.082 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.945Z root INFO Backend Object.configure: 10.1 ms [Finished 2.083 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.946Z root INFO Backend MessagingContribution.onStart: 4.9 ms [Finished 2.083 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.948Z root INFO Backend OSBackendApplicationContribution.configure: 1.1 ms [Finished 2.173 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.950Z root INFO Backend DefaultWorkspaceServer.onStart: 0.9 ms [Finished 2.173 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.953Z root INFO Backend PluginLocalizationBackendContribution.configure: 0.4 ms [Finished 2.174 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.954Z root WARN Backend PluginLocalizationBackendContribution.initialize took longer than the expected maximum 50 milliseconds: 90.9 ms [Finished 2.174 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.955Z root INFO Backend TaskBackendApplicationContribution.onStart: 0.7 ms [Finished 2.174 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.957Z root INFO Backend ElectronTokenBackendContribution.configure: 2.9 ms [Finished 2.177 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.959Z config INFO >>> Initializing CLI configuration...
+2023-05-17 22:10:12 2023-05-17T19:10:12.960Z root INFO Backend PluginDeployerContribution.initialize: 2.0 ms [Finished 2.178 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.961Z root INFO Backend ConfigServiceImpl.onStart: 2.5 ms [Finished 2.180 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.963Z config INFO Loading CLI configuration from /home/azimuth/.arduinoIDE/arduino-cli.yaml...
+2023-05-17 22:10:12 2023-05-17T19:10:12.965Z root INFO Backend WebviewBackendSecurityWarnings.initialize: 1.0 ms [Finished 2.183 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.966Z root INFO Backend ArduinoDaemonImpl.onStart: 2.6 ms [Finished 2.184 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.966Z root INFO Backend NodeFileUploadService.configure: 4.9 ms [Finished 2.185 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.966Z daemon INFO Starting daemon from /opt/arduino-ide/resources/app/node_modules/arduino-ide-extension/build/arduino-cli...
+2023-05-17 22:10:12 2023-05-17T19:10:12.967Z discovery-log INFO start
+2023-05-17 22:10:12 2023-05-17T19:10:12.967Z discovery-log INFO start new deferred
+2023-05-17 22:10:12 2023-05-17T19:10:12.968Z root INFO Backend HostedPluginLocalizationService.initialize: 1.3 ms [Finished 2.188 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.968Z root INFO Backend BoardDiscovery.onStart: 3.0 ms [Finished 2.190 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.968Z root INFO Backend FileDownloadEndpoint.configure: 2.5 ms [Finished 2.191 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.969Z root INFO Backend AuthenticationServiceImpl.onStart: 1.3 ms [Finished 2.195 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.969Z root INFO Backend PluginApiContribution.configure: 1.4 ms [Finished 2.196 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.970Z root INFO Backend HostedPluginReader.configure: 1.3 ms [Finished 2.198 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.970Z root INFO Backend HostedPluginReader.configure: 0.3 ms [Finished 2.199 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.971Z root INFO Backend PlotterBackendContribution.configure: 0.8 ms [Finished 2.200 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.980Z root INFO Theia app listening on http://localhost:37649.
+2023-05-17 22:10:12 2023-05-17T19:10:12.982Z root INFO Finished starting backend application: 13.9 ms [Finished 2.211 s after backend start]
+2023-05-17 22:10:12 2023-05-17T19:10:12.987Z root WARN The local plugin referenced by local-dir:/home/azimuth/.arduinoIDE/plugins does not exist.
+2023-05-17 22:10:12 2023-05-17T19:10:12.988Z root WARN The local plugin referenced by local-dir:/home/azimuth/.arduinoIDE/extensions does not exist.
+2023-05-17 22:10:13 2023-05-17T19:10:13.021Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.021Z root INFO Resolved "cortex-debug" to a VS Code extension "cortex-debug@1.5.1" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.022Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.022Z root INFO Resolved "vscode-arduino-tools" to a VS Code extension "vscode-arduino-tools@0.0.2-beta.8" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.022Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.023Z root INFO Resolved "vscode-builtin-cpp" to a VS Code extension "cpp@1.52.1" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.023Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.024Z root INFO Resolved "vscode-builtin-json" to a VS Code extension "json@1.46.1" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.024Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.024Z root INFO Resolved "vscode-builtin-json-language-features" to a VS Code extension "json-language-features@1.46.1" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.024Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.025Z root INFO Resolved "vscode-language-pack-bg" to a VS Code extension "vscode-language-pack-bg@1.48.3" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.025Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.025Z root INFO Resolved "vscode-language-pack-cs" to a VS Code extension "vscode-language-pack-cs@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.025Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.025Z root INFO Resolved "vscode-language-pack-de" to a VS Code extension "vscode-language-pack-de@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.025Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.025Z root INFO Resolved "vscode-language-pack-es" to a VS Code extension "vscode-language-pack-es@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.026Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.026Z root INFO Resolved "vscode-language-pack-fr" to a VS Code extension "vscode-language-pack-fr@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.026Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.027Z root INFO Resolved "vscode-language-pack-hu" to a VS Code extension "vscode-language-pack-hu@1.48.3" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.027Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.027Z root INFO Resolved "vscode-language-pack-it" to a VS Code extension "vscode-language-pack-it@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.028Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.028Z root INFO Resolved "vscode-language-pack-ja" to a VS Code extension "vscode-language-pack-ja@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.028Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.028Z root INFO Resolved "vscode-language-pack-ko" to a VS Code extension "vscode-language-pack-ko@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.028Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.029Z root INFO Resolved "vscode-language-pack-nl" to a VS Code extension "vscode-language-pack-nl@1.48.3" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.029Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.029Z root INFO Resolved "vscode-language-pack-pl" to a VS Code extension "vscode-language-pack-pl@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.029Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.029Z root INFO Resolved "vscode-language-pack-pt-BR" to a VS Code extension "vscode-language-pack-pt-BR@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.029Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.030Z root INFO Resolved "vscode-language-pack-ru" to a VS Code extension "vscode-language-pack-ru@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.030Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.030Z root INFO Resolved "vscode-language-pack-tr" to a VS Code extension "vscode-language-pack-tr@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.030Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.030Z root INFO Resolved "vscode-language-pack-uk" to a VS Code extension "vscode-language-pack-uk@1.48.3" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.030Z root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2023-05-17 22:10:13 2023-05-17T19:10:13.030Z root INFO Resolved "vscode-language-pack-zh-hans" to a VS Code extension "vscode-language-pack-zh-hans@1.53.2" with engines:
+2023-05-17 22:10:13 2023-05-17T19:10:13.040Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":["https://dl.espressif.com/dl/package_esp32_index.json"]},"build_cache":{"compilations_before_purge":10,"ttl":"720h0m0s"},"daemon":{"port":"50051"},"directories":{"builtin":{"libraries":"/home/azimuth/.arduino15/libraries"},"data":"/home/azimuth/.arduino15","downloads":"/home/azimuth/.arduino15/staging","user":"/home/azimuth/Arduino"},"library":{"enable_unsafe_install":false},"locale":"en","logging":{"file":"","format":"text","level":"info"},"metrics":{"addr":":9090","enabled":true},"output":{"no_color":false},"sketch":{"always_export_binaries":false},"updater":{"enable_notification":true}}
+2023-05-17 22:10:13 2023-05-17T19:10:13.041Z config INFO 'directories.data' and 'directories.user' are set in the CLI configuration model.
+2023-05-17 22:10:13 2023-05-17T19:10:13.041Z config INFO Loaded the CLI configuration.
+2023-05-17 22:10:13 2023-05-17T19:10:13.064Z config INFO Mapped the CLI configuration: {"dataDirUri":"file:///home/azimuth/.arduino15","sketchDirUri":"file:///home/azimuth/Arduino","additionalUrls":["https://dl.espressif.com/dl/package_esp32_index.json"],"network":"none","locale":"en"}
+2023-05-17 22:10:13 2023-05-17T19:10:13.065Z config INFO Validating the CLI configuration...
+2023-05-17 22:10:13 2023-05-17T19:10:13.075Z config INFO The CLI config is valid.
+2023-05-17 22:10:13 2023-05-17T19:10:13.075Z config INFO <<< Initialized the CLI configuration.
+2023-05-17 22:10:13 2023-05-17T19:10:13.137Z daemon INFO [36mINFO[0m[0000] Using config file: /home/azimuth/.arduinoIDE/arduino-cli.yaml 
+[36mINFO[0m[0000] arduino-cli version 0.32.2                   
+[36mINFO[0m[0000] Executing `arduino-cli daemon`               
+Daemon is now listening on 127.0.0.1:39307
+{"IP":"127.0.0.1","Port":"39307"}
+
+
+2023-05-17 22:10:13 2023-05-17T19:10:13.138Z daemon INFO Daemon is running.
+2023-05-17 22:10:13 2023-05-17T19:10:13.227Z daemon INFO [36mINFO[0m[0000] Loading hardware from: /home/azimuth/.arduino15/packages 
+[36mINFO[0m[0000] Loading package arduino from: /home/azimuth/.arduino15/packages/arduino/hardware 
+
+2023-05-17 22:10:13 2023-05-17T19:10:13.266Z daemon INFO [36mINFO[0m[0000] Checking signature                            [36merror[0m="opening signature file: open /home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json.sig: no such file or directory" [36mindex[0m=/home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json [36msignatureFile[0m=/home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json.sig
+
+2023-05-17 22:10:13 2023-05-17T19:10:13.272Z root INFO Resolve plugins list: 307.4 ms [Finished 2.499 s after backend start]
+2023-05-17 22:10:13 2023-05-17T19:10:13.274Z daemon INFO [36mINFO[0m[0000] Adding monitor tool                           [36mprotocol[0m=serial [36mtool[0m="builtin:serial-monitor"
+[36mINFO[0m[0000] Loaded platform                               [36mplatform[0m="arduino:avr@1.8.6"
+[36mINFO[0m[0000] Checking existence of 'tools' path: /home/azimuth/.arduino15/packages/arduino/tools 
+[36mINFO[0m[0000] Loading tools from dir: /home/azimuth/.arduino15/packages/arduino/tools 
+[36mINFO[0m[0000] Loaded tool                                   [36mtool[0m="arduino:arduinoOTA@1.3.0"
+[36mINFO[0m[0000] Loaded tool                                   [36mtool[0m="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+[36mINFO[0m[0000] Loaded tool                                   [36mtool[0m="arduino:avrdude@6.3.0-arduino17"
+[36mINFO[0m[0000] Loading package builtin from: /home/azimuth/.arduino15/packages/builtin 
+[36mINFO[0m[0000] Checking existence of 'tools' path: /home/azimuth/.arduino15/packages/builtin/tools 
+[36mINFO[0m[0000] Loading tools from dir: /home/azimuth/.arduino15/packages/builtin/tools 
+[36mINFO[0m[0000] Loaded tool                                   [36mtool[0m="builtin:ctags@5.8-arduino11"
+[36mINFO[0m[0000] Loaded tool                                   [36mtool[0m="builtin:mdns-discovery@1.0.9"
+[36mINFO[0m[0000] Loaded tool                                   [36mtool[0m="builtin:serial-discovery@1.4.0"
+[36mINFO[0m[0000] Loaded tool                                   [36mtool[0m="builtin:serial-monitor@0.13.0"
+[36mINFO[0m[0000] Loading package esp32 from: /home/azimuth/.arduino15/packages/esp32/hardware 
+
+2023-05-17 22:10:13 2023-05-17T19:10:13.310Z root INFO Deployed backend plugin "marus25.cortex-debug@1.5.1" from "/opt/arduino-ide/resources/app/plugins/cortex-debug/extension/dist/extension.js": 36.5 ms [Finished 2.538 s after backend start]
+2023-05-17 22:10:13 2023-05-17T19:10:13.330Z root INFO Deployed backend plugin "arduino.vscode-arduino-tools@0.0.2-beta.8" from "/opt/arduino-ide/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle": 10.7 ms [Finished 2.549 s after backend start]
+2023-05-17 22:10:13 2023-05-17T19:10:13.333Z daemon INFO [36mINFO[0m[0000] Adding monitor tool                           [36mprotocol[0m=serial [36mtool[0m="builtin:serial-monitor"
+[36mINFO[0m[0000] Loaded platform                               [36mplatform[0m="esp32:esp32@1.0.6"
+[36mINFO[0m[0000] Checking existence of 'tools' path: /home/azimuth/.arduino15/packages/esp32/tools 
+[36mINFO[0m[0000] Loading tools from dir: /home/azimuth/.arduino15/packages/esp32/tools 
+[36mINFO[0m[0000] Loaded tool                                   [36mtool[0m="esp32:esptool_py@3.0.0"
+[36mINFO[0m[0000] Loaded tool                                   [36mtool[0m="esp32:mkspiffs@0.2.3"
+[36mINFO[0m[0000] Loaded tool                                   [36mtool[0m="esp32:xtensa-esp32-elf-gcc@1.22.0-97-gc752ad5-5.2.0"
+
+2023-05-17 22:10:13 2023-05-17T19:10:13.383Z root INFO Deployed backend plugin "vscode.cpp@1.52.1" from "/opt/arduino-ide/resources/app/plugins/vscode-builtin-cpp/extension": 62.1 ms [Finished 2.611 s after backend start]
+2023-05-17 22:10:13 2023-05-17T19:10:13.394Z root INFO Deployed backend plugin "vscode.json@1.46.1" from "/opt/arduino-ide/resources/app/plugins/vscode-builtin-json/extension": 9.8 ms [Finished 2.621 s after backend start]
+2023-05-17 22:10:13 2023-05-17T19:10:13.401Z daemon INFO [36mINFO[0m[0000] Checking signature                            [36mindex[0m=/home/azimuth/.arduino15/package_index.json [36msignatureFile[0m=/home/azimuth/.arduino15/package_index.json.sig [36mtrusted[0m=true
+
+2023-05-17 22:10:13 2023-05-17T19:10:13.409Z root INFO Deployed backend plugin "vscode.json-language-features@1.46.1" from "/opt/arduino-ide/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain": 14.8 ms [Finished 2.636 s after backend start]
+2023-05-17 22:10:13 2023-05-17T19:10:13.737Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-bg@1.48.3" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-bg/extension": 328.0 ms [Finished 2.964 s after backend start]
+2023-05-17 22:10:13 2023-05-17T19:10:13.739Z daemon INFO [36mINFO[0m[0000] Checking signature                            [36merror[0m="opening signature file: open /home/azimuth/.arduino15/package_esp32_index.json.sig: no such file or directory" [36mindex[0m=/home/azimuth/.arduino15/package_esp32_index.json [36msignatureFile[0m=/home/azimuth/.arduino15/package_esp32_index.json.sig
+[36mINFO[0m[0000] Adding libraries dir                          [36mdir[0m=/home/azimuth/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries [36mlocation[0m=platform
+[36mINFO[0m[0000] Adding libraries dir                          [36mdir[0m=/home/azimuth/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries [36mlocation[0m=platform
+[36mINFO[0m[0000] Loading libraries index file                  [36mindex[0m=/home/azimuth/.arduino15/library_index.json
+
+2023-05-17 22:10:13 2023-05-17T19:10:13.954Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-cs@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-cs/extension": 220.2 ms [Finished 3.184 s after backend start]
+2023-05-17 22:10:14 2023-05-17T19:10:14.253Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-de@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-de/extension": 298.4 ms [Finished 3.483 s after backend start]
+2023-05-17 22:10:14 2023-05-17T19:10:14.544Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-es@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-es/extension": 290.7 ms [Finished 3.774 s after backend start]
+2023-05-17 22:10:14 2023-05-17T19:10:14.545Z daemon INFO [36mINFO[0m[0001] Adding libraries dir                          [36mdir[0m=/home/azimuth/.arduino15/libraries [36mlocation[0m=ide
+[36mINFO[0m[0001] Adding libraries dir                          [36mdir[0m=/home/azimuth/Arduino/libraries [36mlocation[0m=user
+
+2023-05-17 22:10:14 2023-05-17T19:10:14.551Z discovery-log INFO start request start watch
+2023-05-17 22:10:14 2023-05-17T19:10:14.551Z discovery-log INFO start requested start watch
+2023-05-17 22:10:14 2023-05-17T19:10:14.552Z discovery-log INFO start resolved watching
+2023-05-17 22:10:14 2023-05-17T19:10:14.553Z daemon INFO [36mINFO[0m[0001] starting discovery builtin:mdns-discovery process 
+[36mINFO[0m[0001] starting discovery builtin:serial-discovery process 
+
+2023-05-17 22:10:14 2023-05-17T19:10:14.671Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-fr@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-fr/extension": 127.4 ms [Finished 3.901 s after backend start]
+2023-05-17 22:10:14 2023-05-17T19:10:14.672Z daemon INFO [36mINFO[0m[0001] started discovery builtin:mdns-discovery process 
+[36mINFO[0m[0001] sending command HELLO 1 "arduino-cli 0.32.2" to discovery builtin:mdns-discovery 
+[36mINFO[0m[0001] started discovery builtin:serial-discovery process 
+[36mINFO[0m[0001] sending command HELLO 1 "arduino-cli 0.32.2" to discovery builtin:serial-discovery 
+[36mINFO[0m[0001] from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1 
+[36mINFO[0m[0001] sending command START_SYNC to discovery builtin:mdns-discovery 
+[36mINFO[0m[0001] from discovery builtin:mdns-discovery received message type: start_sync, message: OK 
+[36mINFO[0m[0001] from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1 
+[36mINFO[0m[0001] sending command START_SYNC to discovery builtin:serial-discovery 
+[36mINFO[0m[0001] from discovery builtin:serial-discovery received message type: start_sync, message: OK 
+
+2023-05-17 22:10:14 2023-05-17T19:10:14.762Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-hu@1.48.3" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-hu/extension": 90.9 ms [Finished 3.992 s after backend start]
+2023-05-17 22:10:14 2023-05-17T19:10:14.838Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-it@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-it/extension": 75.6 ms [Finished 4.068 s after backend start]
+2023-05-17 22:10:14 2023-05-17T19:10:14.937Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-ja@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-ja/extension": 98.5 ms [Finished 4.167 s after backend start]
+2023-05-17 22:10:15 2023-05-17T19:10:15.073Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-ko@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-ko/extension": 136.8 ms [Finished 4.303 s after backend start]
+2023-05-17 22:10:15 2023-05-17T19:10:15.108Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-nl@1.48.3" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-nl/extension": 34.9 ms [Finished 4.338 s after backend start]
+2023-05-17 22:10:15 2023-05-17T19:10:15.221Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-pl@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-pl/extension": 112.3 ms [Finished 4.451 s after backend start]
+2023-05-17 22:10:15 2023-05-17T19:10:15.305Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-pt-br@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-pt-BR/extension": 83.6 ms [Finished 4.535 s after backend start]
+2023-05-17 22:10:15 2023-05-17T19:10:15.420Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-ru@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-ru/extension": 114.9 ms [Finished 4.650 s after backend start]
+2023-05-17 22:10:15 2023-05-17T19:10:15.502Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-tr@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-tr/extension": 81.9 ms [Finished 4.732 s after backend start]
+2023-05-17 22:10:15 2023-05-17T19:10:15.556Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-uk@1.48.3" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-uk/extension": 54.8 ms [Finished 4.786 s after backend start]
+2023-05-17 22:10:15 2023-05-17T19:10:15.646Z root INFO Deployed backend plugin "ms-ceintl.vscode-language-pack-zh-hans@1.53.2" from "/opt/arduino-ide/resources/app/plugins/vscode-language-pack-zh-hans/extension": 78.1 ms [Finished 4.865 s after backend start]
+2023-05-17 22:10:15 2023-05-17T19:10:15.646Z root INFO Deploy plugins list: 307.4 ms [Finished 4.876 s after backend start]
+2023-05-17 22:10:18 2023-05-17T19:10:18.378Z root WARN Frontend a.configure took longer than the expected maximum 100 milliseconds: 756.0 ms [Finished 4.886 s after frontend start]
+2023-05-17 22:10:18 2023-05-17T19:10:18.407Z root WARN Frontend commands.onStart took longer than the expected maximum 100 milliseconds: 321.3 ms [Finished 5.208 s after frontend start]
+2023-05-17 22:10:18 2023-05-17T19:10:18.580Z root WARN Frontend keybindings.onStart took longer than the expected maximum 100 milliseconds: 161.9 ms [Finished 5.384 s after frontend start]
+2023-05-17 22:10:18 2023-05-17T19:10:18.977Z root WARN Frontend c.onStart took longer than the expected maximum 100 milliseconds: 251.0 ms [Finished 5.789 s after frontend start]
+2023-05-17 22:10:19 2023-05-17T19:10:19.148Z root INFO Start frontend contributions: 2005.7 ms [Finished 5.816 s after frontend start]
+2023-05-17 22:10:19 2023-05-17T19:10:19.153Z root INFO Changed application state from 'init' to 'started_contributions'.
+2023-05-17 22:10:19 2023-05-17T19:10:19.180Z root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2023-05-17 22:10:19 2023-05-17T19:10:19.180Z root INFO >>> Restoring the layout state...
+2023-05-17 22:10:19 2023-05-17T19:10:19.182Z root INFO <<< Nothing to restore.
+2023-05-17 22:10:19 2023-05-17T19:10:19.282Z root INFO Initialize the workbench layout: 76.3 ms [Finished 6.085 s after frontend start]
+2023-05-17 22:10:19 2023-05-17T19:10:19.348Z root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2023-05-17 22:10:20 2023-05-17T19:10:20.444Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f] Waiting for backend deployment: 1122.3 ms [Finished 6.918 s after frontend start]
+2023-05-17 22:10:20 2023-05-17T19:10:20.447Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639) starting instance
+2023-05-17 22:10:22 2023-05-17T19:10:22.313Z root INFO Frontend application start: 4326.2 ms [Finished 11.492 s after backend start]
+2023-05-17 22:10:22 2023-05-17T19:10:22.358Z root INFO Replace loading indicator with ready workbench UI (animation): 1464.9 ms [Finished 7.577 s after frontend start]
+2023-05-17 22:10:22 2023-05-17T19:10:22.366Z root INFO Changed application state from 'initialized_layout' to 'ready'.
+2023-05-17 22:10:22 2023-05-17T19:10:22.367Z root WARN Linked preference "workbench.colorCustomizations" not found. Source: "editor.bracketPairColorization.enabled"
+2023-05-17 22:10:24 2023-05-17T19:10:24.010Z root ERROR ---- !!!SLOW!!! DURATION: search took 1470.628 ms. Args: [{"type":"Updatable"}] ----
+2023-05-17 22:10:24 2023-05-17T19:10:24.349Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f] Sync of 21 plugins: 4193.7 ms [Finished 11.112 s after frontend start]
+2023-05-17 22:10:24 2023-05-17T19:10:24.359Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][marus25.cortex-debug]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.359Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][arduino.vscode-arduino-tools]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.359Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][vscode.cpp]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.360Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][vscode.json]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.360Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][vscode.json-language-features]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.363Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-bg]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.363Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-cs]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.364Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-de]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.364Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-es]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.365Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-fr]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.365Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-hu]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.365Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-it]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.365Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-ja]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.366Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-ko]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.366Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-nl]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.366Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-pl]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.366Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-pt-br]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.366Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-ru]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.367Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-tr]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.367Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-uk]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.367Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-zh-hans]: Loaded contributions.
+2023-05-17 22:10:24 2023-05-17T19:10:24.367Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f] Load contributions of 21 plugins: 59.7 ms [Finished 11.172 s after frontend start]
+2023-05-17 22:10:25 2023-05-17T19:10:25.348Z root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2023-05-17 22:10:25 2023-05-17T19:10:25.349Z root WARN a registered grammar configuration for 'cpp' language is overridden
+2023-05-17 22:10:25 2023-05-17T19:10:25.854Z root WARN Timeout after 5000 millis. The editor has not shown up in time. URI: file:///tmp/.arduinoIDE-unsaved2023417-21527-4o00w4.n4a5d/sketch_may17a/sketch_may17a.ino
+2023-05-17 22:10:26 2023-05-17T19:10:26.694Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): PluginManagerExtImpl/init()
+2023-05-17 22:10:26 2023-05-17T19:10:26.706Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(cortex-debug@1.5.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.721Z root INFO [hosted-plugin: 21639] Debugger contribution has been registered: cortex-debug
+2023-05-17 22:10:26 2023-05-17T19:10:26.728Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-arduino-tools@0.0.2-beta.8 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.731Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(cpp@1.52.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.733Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(json@1.46.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.740Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(json-language-features@1.46.1 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.743Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-bg@1.48.3 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.745Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-cs@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.748Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-de@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.757Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-es@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.772Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-fr@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.779Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-hu@1.48.3 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.783Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-it@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.785Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-ja@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.786Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-ko@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.788Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-nl@1.48.3 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.790Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-pl@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.791Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-pt-BR@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.793Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-ru@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.795Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-tr@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.796Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-uk@1.48.3 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.799Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): initializing(vscode-language-pack-zh-hans@1.53.2 with /opt/arduino-ide/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+2023-05-17 22:10:26 2023-05-17T19:10:26.808Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): PluginManagerExtImpl/loadPlugin(/opt/arduino-ide/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2023-05-17 22:10:26 2023-05-17T19:10:26.921Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][marus25.cortex-debug]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.923Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][arduino.vscode-arduino-tools]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.924Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][vscode.cpp]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.924Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][vscode.json]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.924Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][vscode.json-language-features]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.925Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-bg]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.925Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-cs]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.925Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-de]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.935Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-es]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.935Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-fr]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.938Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-hu]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.938Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-it]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.939Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-ja]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.939Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-ko]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.939Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-nl]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.940Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-pl]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.941Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-pt-br]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.941Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-ru]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.941Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-tr]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.941Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-uk]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.942Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f][ms-ceintl.vscode-language-pack-zh-hans]: Started plugin.
+2023-05-17 22:10:26 2023-05-17T19:10:26.988Z root INFO [hosted-plugin: 21639] PLUGIN_HOST(21639): PluginManagerExtImpl/loadPlugin(/opt/arduino-ide/resources/app/plugins/cortex-debug/extension/dist/extension.js)
+2023-05-17 22:10:27 2023-05-17T19:10:27.203Z root INFO [hosted-plugin: 21639] Debug configuration provider has been registered: cortex-debug, trigger: 1
+2023-05-17 22:10:27 2023-05-17T19:10:27.214Z root INFO [hosted-plugin: 21639] GDB server console created
+2023-05-17 22:10:27 2023-05-17T19:10:27.238Z root INFO [a00039cd-9e06-4a82-834d-c151e720fe2f] Start of 21 plugins: 2850.1 ms [Finished 14.066 s after frontend start]

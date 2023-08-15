@@ -1,0 +1,24 @@
+2023/07/13-20:17:12.346 b06 Reusing MANIFEST /home/azimuth/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/MANIFEST-000001
+2023/07/13-20:17:12.364 b06 Recovering log #12
+2023/07/13-20:17:12.390 b06 Level-0 table #14: started
+2023/07/13-20:17:12.492 b06 Level-0 table #14: 108968 bytes OK
+2023/07/13-20:17:12.492 b06 Recovering log #13
+2023/07/13-20:17:12.569 b06 Level-0 table #15: started
+2023/07/13-20:17:12.669 b06 Level-0 table #15: 721149 bytes OK
+2023/07/13-20:17:12.785 b06 Delete type=0 #13
+2023/07/13-20:17:12.785 b06 Delete type=0 #12
+2023/07/13-20:17:12.786 b20 Compacting 4@0 + 1@1 files
+2023/07/13-20:17:13.312 b20 Generated table #17@0: 162 keys, 891777 bytes
+2023/07/13-20:17:13.312 b20 Compacted 4@0 + 1@1 files => 891777 bytes
+2023/07/13-20:17:13.431 b20 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/13-20:17:13.432 b20 Delete type=2 #14
+2023/07/13-20:17:13.432 b20 Delete type=2 #9
+2023/07/13-20:17:13.432 b20 Delete type=2 #11
+2023/07/13-20:17:13.432 b20 Delete type=2 #15
+2023/07/13-20:17:13.432 b20 Delete type=2 #7
+2023/07/13-20:18:20.177 b20 Level-0 table #19: started
+2023/07/13-20:18:20.255 b20 Level-0 table #19: 108186 bytes OK
+2023/07/13-20:18:20.295 b20 Delete type=0 #16
+2023/07/13-20:18:21.704 b20 Level-0 table #21: started
+2023/07/13-20:18:21.773 b20 Level-0 table #21: 171997 bytes OK
+2023/07/13-20:18:21.811 b20 Delete type=0 #18

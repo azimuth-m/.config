@@ -1,0 +1,154 @@
+I[10:09:06.615] clangd version 15.0.7
+I[10:09:06.639] Features: linux
+I[10:09:06.639] PID: 47807
+I[10:09:06.639] Working directory: /home/azimuth
+I[10:09:06.639] argv[0]: /usr/bin/clangd
+I[10:09:06.649] Starting LSP over stdin/stdout
+I[10:09:06.693] <-- initialize(0)
+I[10:09:06.902] --> reply:initialize(0) 209 ms
+I[10:09:06.907] <-- initialized
+I[10:09:06.967] <-- textDocument/didOpen
+I[10:09:07.028] Failed to find compilation database for /usr/include/bits/types/struct_tm.h
+I[10:09:07.028] ASTWorker building file /usr/include/bits/types/struct_tm.h version 1 with command clangd fallback
+[/usr/include/bits/types]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/bits/types/struct_tm.h
+I[10:09:07.054] <-- textDocument/didOpen
+I[10:09:07.054] <-- textDocument/didOpen
+I[10:09:07.055] <-- textDocument/documentSymbol(1)
+I[10:09:07.055] <-- textDocument/codeAction(2)
+I[10:09:07.059] Failed to find compilation database for /usr/include/time.h
+I[10:09:07.060] ASTWorker building file /usr/include/time.h version 1 with command clangd fallback
+[/usr/include]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/time.h
+I[10:09:07.061] --> textDocument/clangd.fileStatus
+I[10:09:07.066] <-- textDocument/documentLink(3)
+I[10:09:07.071] <-- textDocument/inlayHint(4)
+I[10:09:07.463] <-- textDocument/semanticTokens/full(5)
+I[10:09:07.788] --> textDocument/clangd.fileStatus
+I[10:09:07.789] --> textDocument/clangd.fileStatus
+I[10:09:08.664] --> textDocument/clangd.fileStatus
+I[10:09:08.664] --> textDocument/clangd.fileStatus
+I[10:09:08.671] --> workspace/semanticTokens/refresh(0)
+I[10:09:08.673] <-- reply(0)
+I[10:09:09.278] --> workspace/semanticTokens/refresh(1)
+I[10:09:09.278] --> textDocument/clangd.fileStatus
+I[10:09:09.278] --> textDocument/clangd.fileStatus
+I[10:09:09.281] <-- reply(1)
+I[10:09:09.485] --> textDocument/publishDiagnostics
+I[10:09:09.538] --> reply:textDocument/documentSymbol(1) 2483 ms
+I[10:09:09.539] --> reply:textDocument/codeAction(2) 2484 ms
+I[10:09:09.539] --> reply:textDocument/documentLink(3) 2473 ms
+I[10:09:09.539] --> reply:textDocument/inlayHint(4) 2468 ms
+I[10:09:09.540] --> reply:textDocument/semanticTokens/full(5) 2076 ms
+I[10:09:09.540] --> textDocument/clangd.fileStatus
+I[10:09:09.540] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[10:09:09.541] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 1 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+E[10:09:09.541] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[10:09:09.543] --> textDocument/clangd.fileStatus
+E[10:09:09.543] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[10:09:09.759] --> textDocument/publishDiagnostics
+I[10:09:09.770] --> textDocument/clangd.fileStatus
+I[10:09:09.770] --> textDocument/clangd.fileStatus
+E[10:09:09.770] VFS: failed to set CWD to /home/azimuth/docs/mmSolutions/2day/link_n_compile: No such file or directory
+I[10:09:09.775] --> workspace/semanticTokens/refresh(2)
+I[10:09:09.779] --> textDocument/publishDiagnostics
+I[10:09:09.779] --> textDocument/clangd.fileStatus
+I[10:09:09.779] <-- reply(2)
+I[10:09:09.788] <-- textDocument/semanticTokens/full/delta(6)
+I[10:09:09.788] --> reply:textDocument/semanticTokens/full/delta(6) 0 ms
+I[10:09:09.788] --> textDocument/clangd.fileStatus
+I[10:09:09.789] --> textDocument/clangd.fileStatus
+I[10:09:25.975] <-- textDocument/didClose
+I[10:09:25.975] --> textDocument/publishDiagnostics
+I[10:09:26.003] <-- textDocument/codeAction(7)
+I[10:09:26.004] --> reply:textDocument/codeAction(7) 0 ms
+I[10:09:26.004] --> textDocument/clangd.fileStatus
+I[10:09:26.007] <-- textDocument/documentSymbol(8)
+I[10:09:26.007] --> reply:textDocument/documentSymbol(8) 0 ms
+I[10:09:26.007] --> textDocument/clangd.fileStatus
+I[10:09:26.415] <-- textDocument/documentLink(9)
+I[10:09:26.415] --> reply:textDocument/documentLink(9) 0 ms
+I[10:09:26.415] --> textDocument/clangd.fileStatus
+I[10:09:26.431] <-- textDocument/inlayHint(10)
+I[10:09:26.432] --> reply:textDocument/inlayHint(10) 0 ms
+I[10:09:26.432] --> textDocument/clangd.fileStatus
+I[10:09:26.446] <-- textDocument/codeAction(11)
+I[10:09:26.446] --> reply:textDocument/codeAction(11) 0 ms
+I[10:09:26.446] --> textDocument/clangd.fileStatus
+I[10:09:26.475] <-- textDocument/semanticTokens/full(12)
+I[10:09:26.475] --> reply:textDocument/semanticTokens/full(12) 0 ms
+I[10:09:26.476] --> textDocument/clangd.fileStatus
+I[10:09:27.803] <-- textDocument/codeAction(13)
+I[10:09:27.803] --> reply:textDocument/codeAction(13) 0 ms
+I[10:09:27.803] --> textDocument/clangd.fileStatus
+I[10:09:27.803] <-- textDocument/documentSymbol(14)
+I[10:09:27.806] --> reply:textDocument/documentSymbol(14) 2 ms
+I[10:09:27.806] --> textDocument/clangd.fileStatus
+I[10:09:27.940] <-- textDocument/documentLink(15)
+I[10:09:27.940] --> reply:textDocument/documentLink(15) 0 ms
+I[10:09:27.940] --> textDocument/clangd.fileStatus
+I[10:09:27.957] <-- textDocument/inlayHint(16)
+I[10:09:27.957] --> reply:textDocument/inlayHint(16) 0 ms
+I[10:09:27.957] --> textDocument/clangd.fileStatus
+I[10:09:28.064] <-- textDocument/codeAction(17)
+I[10:09:28.064] --> reply:textDocument/codeAction(17) 0 ms
+I[10:09:28.064] --> textDocument/clangd.fileStatus
+I[10:09:28.235] <-- textDocument/semanticTokens/full(18)
+I[10:09:28.237] --> reply:textDocument/semanticTokens/full(18) 1 ms
+I[10:09:28.237] --> textDocument/clangd.fileStatus
+I[10:09:30.413] <-- textDocument/didChange
+I[10:09:30.413] --> textDocument/clangd.fileStatus
+I[10:09:30.476] <-- textDocument/didClose
+I[10:09:30.477] --> textDocument/publishDiagnostics
+I[10:09:30.477] Failed to find compilation database for /usr/include/time.h
+I[10:09:30.477] ASTWorker building file /usr/include/time.h version 2 with command clangd fallback
+[/usr/include]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /usr/include/time.h
+I[10:09:30.503] <-- textDocument/codeAction(19)
+I[10:09:30.503] --> reply:textDocument/codeAction(19) 0 ms
+I[10:09:30.503] --> textDocument/clangd.fileStatus
+I[10:09:30.563] <-- textDocument/documentLink(20)
+I[10:09:30.563] --> reply:textDocument/documentLink(20) 0 ms
+I[10:09:30.563] --> textDocument/clangd.fileStatus
+I[10:09:30.566] <-- textDocument/inlayHint(21)
+I[10:09:30.566] --> reply:textDocument/inlayHint(21) 0 ms
+I[10:09:30.566] --> textDocument/clangd.fileStatus
+I[10:09:30.747] <-- textDocument/codeAction(22)
+I[10:09:30.747] --> reply:textDocument/codeAction(22) 0 ms
+I[10:09:30.748] --> textDocument/clangd.fileStatus
+I[10:09:30.930] <-- textDocument/semanticTokens/full/delta(23)
+I[10:09:30.930] --> reply:textDocument/semanticTokens/full/delta(23) 0 ms
+I[10:09:30.930] --> textDocument/clangd.fileStatus
+I[10:09:58.775] <-- $/setTrace
+I[10:09:58.776] unhandled notification $/setTrace
+I[10:09:58.857] <-- textDocument/inlayHint(24)
+I[10:09:58.857] --> reply:textDocument/inlayHint(24) 0 ms
+I[10:09:58.857] --> textDocument/clangd.fileStatus
+I[10:09:58.945] <-- textDocument/documentLink(25)
+I[10:09:58.945] --> reply:textDocument/documentLink(25) 0 ms
+I[10:09:58.945] --> textDocument/clangd.fileStatus
+I[10:09:59.159] <-- $/setTrace
+I[10:09:59.159] unhandled notification $/setTrace
+I[10:09:59.366] <-- textDocument/inlayHint(26)
+I[10:09:59.366] --> reply:textDocument/inlayHint(26) 0 ms
+I[10:09:59.366] --> textDocument/clangd.fileStatus
+I[10:09:59.559] <-- textDocument/documentLink(27)
+I[10:09:59.559] --> reply:textDocument/documentLink(27) 0 ms
+I[10:09:59.559] --> textDocument/clangd.fileStatus
+I[10:10:00.076] <-- $/setTrace
+I[10:10:00.076] unhandled notification $/setTrace
+I[10:10:00.198] <-- textDocument/inlayHint(28)
+I[10:10:00.198] --> reply:textDocument/inlayHint(28) 0 ms
+I[10:10:00.198] --> textDocument/clangd.fileStatus
+I[10:10:05.379] <-- $/setTrace
+I[10:10:05.379] unhandled notification $/setTrace
+I[10:10:05.462] <-- textDocument/inlayHint(29)
+I[10:10:05.462] --> reply:textDocument/inlayHint(29) 0 ms
+I[10:10:05.462] --> textDocument/clangd.fileStatus
+I[10:10:06.846] <-- $/setTrace
+I[10:10:06.846] unhandled notification $/setTrace
+I[10:10:07.039] <-- textDocument/inlayHint(30)
+I[10:10:07.040] --> reply:textDocument/inlayHint(30) 0 ms
+I[10:10:07.040] --> textDocument/clangd.fileStatus

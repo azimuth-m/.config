@@ -1,0 +1,11 @@
+file:///home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h {"mtime":1689666034778,"ctime":1689666034778,"size":90,"etag":"3arhr0k6o2s","orphaned":false,"typeId":""}
+#ifndef MY_MATH_H
+#define MY_MATH_H
+
+#include <time.h>
+sizeof(struct tm);
+
+double cube(double);
+double square(double);
+
+#endif

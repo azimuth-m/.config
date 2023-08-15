@@ -1,0 +1,203 @@
+2023-07-17 14:16:06.519 [info] Extension host with pid 52452 started
+2023-07-17 14:16:07.064 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-07-17 14:16:07.177 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-07-17 14:16:07.611 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-17 14:16:08.080 [info] Eager extensions activated
+2023-07-17 14:16:08.277 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-17 14:16:08.288 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-17 14:16:28.031 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-17 14:16:49.963 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2023-07-17 14:17:35.577 [info] Extension host terminating: renderer closed the MessagePort
+2023-07-17 14:17:35.605 [info] Extension host with pid 52452 exiting with code 0
+2023-07-17 14:17:40.283 [info] Extension host with pid 52647 started
+2023-07-17 14:17:40.283 [info] Skipping acquiring lock for /home/azimuth/.config/VSCodium/User/workspaceStorage/4664f07644ae4310fbd8690ed7356739.
+2023-07-17 14:17:40.458 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-07-17 14:17:40.477 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-17 14:17:40.510 [info] Eager extensions activated
+2023-07-17 14:17:40.518 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-17 14:17:40.526 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-17 14:17:48.049 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-07-17 14:17:48.166 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2023-07-18 10:17:34.234 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-18 10:17:47.210 [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode, startup: false, activationEvent: '*'
+2023-07-18 10:17:47.664 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-18 10:17:47.892 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-18 10:41:48.086 [info] Extension host terminating: renderer closed the MessagePort
+2023-07-18 10:41:48.153 [error] Canceled: Canceled
+	at new d (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:45907)
+	at t._remoteCall (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:14473)
+	at W.<computed>.$.charCodeAt.W.<computed> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:11013)
+	at e.ExtHostCommands._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:71608)
+	at e.ExtHostCommands.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70919)
+	at P.registerCommand.description (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70146)
+	at e.ExtHostCommands._executeContributedCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:72243)
+	at e.ExtHostCommands._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:71059)
+	at e.ExtHostCommands.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70919)
+	at Object.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:27020)
+	at Object.dispose (/home/azimuth/.vscode-oss/extensions/tabnine.tabnine-vscode-3.6.72-universal/out/extension.js:17:87726)
+	at o.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:5731)
+	at o.dispose (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:5866)
+	at o.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:5731)
+	at o.dispose (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:5866)
+	at /home/azimuth/.vscode-oss/extensions/tabnine.tabnine-vscode-3.6.72-universal/out/extension.js:17:30664
+	at Array.forEach (<anonymous>)
+	at h (/home/azimuth/.vscode-oss/extensions/tabnine.tabnine-vscode-3.6.72-universal/out/extension.js:17:30649)
+	at Object.dispose (/home/azimuth/.vscode-oss/extensions/tabnine.tabnine-vscode-3.6.72-universal/out/extension.js:17:30092)
+	at D (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12153)
+	at i._deactivate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:13346)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10617
+	at Array.map (<anonymous>)
+	at i._deactivateAll (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10604)
+	at i.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10987)
+	at l.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1927)
+	at _ (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:38637)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:34716)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-07-18 10:41:48.366 [info] Extension host with pid 52647 exiting with code 0
+2023-07-18 10:41:52.980 [info] Extension host with pid 61690 started
+2023-07-18 10:41:52.981 [info] Skipping acquiring lock for /home/azimuth/.config/VSCodium/User/workspaceStorage/c29fab776b9922c53998f09b2832e75a.
+2023-07-18 10:41:53.339 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-07-18 10:41:53.346 [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode, startup: true, activationEvent: '*'
+2023-07-18 10:41:53.497 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-18 10:41:53.594 [info] Eager extensions activated
+2023-07-18 10:41:53.630 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-18 10:41:53.735 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-07-18 10:41:53.824 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-18 10:41:53.977 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-18 10:41:54.002 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-18 10:41:57.745 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-07-18 10:41:57.843 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2023-07-18 10:41:59.046 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:c'
+2023-07-18 10:41:59.083 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:c'
+2023-07-18 10:42:04.728 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2023-07-18 10:42:04.728 [error] {"_isCancelled":true,"_emitter":null}
+2023-07-18 10:42:04.731 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2023-07-18 10:42:04.731 [error] {"_isCancelled":true,"_emitter":null}
+2023-07-18 10:42:04.739 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2023-07-18 10:42:04.739 [error] {"_isCancelled":true,"_emitter":null}
+2023-07-18 10:42:04.742 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2023-07-18 10:42:04.742 [error] {"_isCancelled":true,"_emitter":null}
+2023-07-18 10:42:04.752 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2023-07-18 10:42:04.752 [error] {"_isCancelled":true,"_emitter":null}
+2023-07-18 10:42:04.753 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2023-07-18 10:42:04.753 [error] {"_isCancelled":true,"_emitter":null}
+2023-07-18 10:42:04.754 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2023-07-18 10:42:04.754 [error] {"_isCancelled":true,"_emitter":null}
+2023-07-18 10:42:04.758 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2023-07-18 10:42:04.758 [error] {"_isCancelled":true,"_emitter":null}
+2023-07-18 10:42:04.759 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2023-07-18 10:42:04.759 [error] {"_isCancelled":true,"_emitter":null}
+2023-07-18 10:42:04.819 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2023-07-18 10:42:04.819 [error] {"_isCancelled":true,"_emitter":null}
+2023-07-18 10:56:31.960 [info] Extension host terminating: renderer closed the MessagePort
+2023-07-18 10:56:32.035 [error] Canceled: Canceled
+	at new d (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:45907)
+	at t._remoteCall (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:14473)
+	at W.<computed>.$.charCodeAt.W.<computed> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:11013)
+	at e.ExtHostCommands._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:71608)
+	at e.ExtHostCommands.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70919)
+	at P.registerCommand.description (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70146)
+	at e.ExtHostCommands._executeContributedCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:72243)
+	at e.ExtHostCommands._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:71059)
+	at e.ExtHostCommands.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70919)
+	at Object.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:27020)
+	at setContextValue (/home/azimuth/.vscode-oss/extensions/franneck94.c-cpp-runner-5.2.1-universal/dist/main.js:5343:28)
+	at Object.deactivate (/home/azimuth/.vscode-oss/extensions/franneck94.c-cpp-runner-5.2.1-universal/dist/main.js:3482:39)
+	at i._deactivate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:13117)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10617
+	at Array.map (<anonymous>)
+	at i._deactivateAll (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10604)
+	at i.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10987)
+	at l.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1927)
+	at _ (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:38637)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:34716)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-07-18 10:56:32.051 [error] Canceled: Canceled
+	at new d (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:45907)
+	at t._remoteCall (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:14473)
+	at W.<computed>.$.charCodeAt.W.<computed> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:11013)
+	at e.ExtHostCommands._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:71608)
+	at e.ExtHostCommands.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70919)
+	at P.registerCommand.description (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70146)
+	at e.ExtHostCommands._executeContributedCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:72243)
+	at e.ExtHostCommands._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:71059)
+	at e.ExtHostCommands.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70919)
+	at Object.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:27020)
+	at Object.dispose (/home/azimuth/.vscode-oss/extensions/tabnine.tabnine-vscode-3.6.72-universal/out/extension.js:17:87726)
+	at o.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:5731)
+	at o.dispose (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:5866)
+	at o.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:5731)
+	at o.dispose (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:5866)
+	at /home/azimuth/.vscode-oss/extensions/tabnine.tabnine-vscode-3.6.72-universal/out/extension.js:17:30664
+	at Array.forEach (<anonymous>)
+	at h (/home/azimuth/.vscode-oss/extensions/tabnine.tabnine-vscode-3.6.72-universal/out/extension.js:17:30649)
+	at Object.dispose (/home/azimuth/.vscode-oss/extensions/tabnine.tabnine-vscode-3.6.72-universal/out/extension.js:17:30092)
+	at D (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12153)
+	at i._deactivate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:13346)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10617
+	at Array.map (<anonymous>)
+	at i._deactivateAll (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10604)
+	at i.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10987)
+	at l.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1927)
+	at _ (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:38637)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:34716)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-07-18 10:56:32.086 [error] Error: Channel has been closed
+	at s (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:3419)
+	at Object.append (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:3495)
+	at Socket.<anonymous> (/home/azimuth/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.24-universal/out/bundle.js:39:57111)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-18 10:56:32.103 [error] Error: Channel has been closed
+	at s (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:3419)
+	at Object.append (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:3495)
+	at Socket.<anonymous> (/home/azimuth/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.24-universal/out/bundle.js:39:57111)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-18 10:56:32.247 [info] Extension host with pid 61690 exiting with code 0
+2023-07-18 10:56:36.438 [info] Extension host with pid 63322 started
+2023-07-18 10:56:36.438 [info] Skipping acquiring lock for /home/azimuth/.config/VSCodium/User/workspaceStorage/c29fab776b9922c53998f09b2832e75a.
+2023-07-18 10:56:36.914 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-18 10:56:36.943 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onLanguage:cpp', root cause: franneck94.c-cpp-runner
+2023-07-18 10:56:37.003 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+2023-07-18 10:56:37.998 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-07-18 10:56:38.044 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:cpp'
+2023-07-18 10:56:38.146 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-07-18 10:56:38.188 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-18 10:56:38.491 [info] Eager extensions activated
+2023-07-18 10:56:38.756 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-18 10:56:38.763 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-18 10:57:14.845 [info] Extension host terminating: renderer closed the MessagePort
+2023-07-18 10:57:14.869 [error] Canceled: Canceled
+	at new d (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:45907)
+	at t._remoteCall (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:14473)
+	at W.<computed>.$.charCodeAt.W.<computed> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:11013)
+	at e.ExtHostCommands._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:71608)
+	at e.ExtHostCommands.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70919)
+	at P.registerCommand.description (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70146)
+	at e.ExtHostCommands._executeContributedCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:72243)
+	at e.ExtHostCommands._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:71059)
+	at e.ExtHostCommands.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70919)
+	at Object.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:27020)
+	at setContextValue (/home/azimuth/.vscode-oss/extensions/franneck94.c-cpp-runner-5.2.1-universal/dist/main.js:5343:28)
+	at Object.deactivate (/home/azimuth/.vscode-oss/extensions/franneck94.c-cpp-runner-5.2.1-universal/dist/main.js:3482:39)
+	at i._deactivate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:13117)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10617
+	at Array.map (<anonymous>)
+	at i._deactivateAll (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10604)
+	at i.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10987)
+	at l.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1927)
+	at _ (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:38637)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:34716)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-07-18 10:57:14.869 [info] Extension host with pid 63322 exiting with code 0

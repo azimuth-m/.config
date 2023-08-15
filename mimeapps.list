@@ -1,0 +1,35 @@
+[Added Associations]
+text/plain=vim.desktop;
+image/jpeg=userapp-feh --scale-down --start-at %s-MH0B11.desktop;
+image/png=userapp-feh --scale-down --start-at %s-MH0B11.desktop;
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;
+x-scheme-handler/http=librewolf.desktop;
+x-scheme-handler/https=librewolf.desktop;
+x-scheme-handler/chrome=librewolf.desktop;
+text/html=librewolf.desktop;
+application/x-extension-htm=librewolf.desktop;
+application/x-extension-html=librewolf.desktop;
+application/x-extension-shtml=librewolf.desktop;
+application/xhtml+xml=librewolf.desktop;
+application/x-extension-xhtml=librewolf.desktop;
+application/x-extension-xht=librewolf.desktop;
+application/zip=userapp-unzip -q-0JH1Z1.desktop;
+
+[Default Applications]
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop
+image/jpeg=userapp-feh --scale-down --start-at %s-MH0B11.desktop;
+image/png=userapp-feh --scale-down --start-at %s-MH0B11.desktop;
+x-scheme-handler/http=librewolf.desktop
+x-scheme-handler/https=librewolf.desktop
+x-scheme-handler/chrome=librewolf.desktop
+text/html=librewolf.desktop
+application/x-extension-htm=librewolf.desktop
+application/x-extension-html=librewolf.desktop
+application/x-extension-shtml=librewolf.desktop
+application/xhtml+xml=librewolf.desktop
+application/x-extension-xhtml=librewolf.desktop
+application/x-extension-xht=librewolf.desktop
+application/zip=userapp-unzip -q-0JH1Z1.desktop
+x-scheme-handler/msteams=teams.desktop
+
+[Removed Associations]

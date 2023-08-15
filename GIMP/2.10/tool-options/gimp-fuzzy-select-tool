@@ -1,0 +1,9 @@
+# GIMP gimp-fuzzy-select-tool options
+
+(operation subtract)
+(feather yes)
+(feather-radius 8)
+(sample-merged yes)
+(threshold 1)
+
+# end of gimp-fuzzy-select-tool options

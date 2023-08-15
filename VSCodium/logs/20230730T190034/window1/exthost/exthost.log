@@ -1,0 +1,36 @@
+2023-07-30 19:00:49.304 [info] Extension host with pid 10472 started
+2023-07-30 19:00:49.500 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onLanguage:cpp', root cause: franneck94.c-cpp-runner
+2023-07-30 19:00:49.698 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+2023-07-30 19:00:50.197 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-30 19:00:50.622 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:cpp'
+2023-07-30 19:00:50.730 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-07-30 19:00:51.085 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-07-30 19:00:51.305 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-30 19:00:51.833 [info] Eager extensions activated
+2023-07-30 19:00:52.023 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-30 19:00:52.059 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-30 20:23:08.412 [info] Extension host terminating: renderer closed the MessagePort
+2023-07-30 20:23:08.474 [error] Canceled: Canceled
+	at new d (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:45907)
+	at t._remoteCall (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:14473)
+	at W.<computed>.$.charCodeAt.W.<computed> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:11013)
+	at e.ExtHostCommands._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:71608)
+	at e.ExtHostCommands.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70919)
+	at P.registerCommand.description (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70146)
+	at e.ExtHostCommands._executeContributedCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:72243)
+	at e.ExtHostCommands._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:71059)
+	at e.ExtHostCommands.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:70919)
+	at Object.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:27020)
+	at setContextValue (/home/azimuth/.vscode-oss/extensions/franneck94.c-cpp-runner-5.2.1-universal/dist/main.js:5343:28)
+	at Object.deactivate (/home/azimuth/.vscode-oss/extensions/franneck94.c-cpp-runner-5.2.1-universal/dist/main.js:3482:39)
+	at i._deactivate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:13117)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10617
+	at Array.map (<anonymous>)
+	at i._deactivateAll (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10604)
+	at i.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:113:10987)
+	at l.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1927)
+	at _ (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:38637)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:34716)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-07-30 20:23:08.474 [info] Extension host with pid 10472 exiting with code 0

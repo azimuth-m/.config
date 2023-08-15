@@ -1,0 +1,49 @@
+2023/08/02-13:16:48.704 33b8 Reusing MANIFEST /home/azimuth/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/MANIFEST-000001
+2023/08/02-13:16:48.722 33b8 Recovering log #20
+2023/08/02-13:16:48.777 33b8 Level-0 table #23: started
+2023/08/02-13:16:48.894 33b8 Level-0 table #23: 640628 bytes OK
+2023/08/02-13:16:49.020 33b8 Delete type=0 #20
+2023/08/02-13:17:04.312 348c Level-0 table #26: started
+2023/08/02-13:17:04.389 348c Level-0 table #26: 109438 bytes OK
+2023/08/02-13:17:04.446 348c Delete type=0 #24
+2023/08/02-13:17:04.446 348c Compacting 4@0 + 1@1 files
+2023/08/02-13:17:04.659 348c Generated table #27@0: 200 keys, 975049 bytes
+2023/08/02-13:17:04.659 348c Compacted 4@0 + 1@1 files => 975049 bytes
+2023/08/02-13:17:04.700 348c compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/08/02-13:17:04.701 348c Delete type=2 #23
+2023/08/02-13:17:04.701 348c Delete type=2 #26
+2023/08/02-13:17:04.701 348c Delete type=2 #19
+2023/08/02-13:17:04.701 348c Delete type=2 #21
+2023/08/02-13:17:04.701 348c Delete type=2 #17
+2023/08/02-13:17:54.511 348c Level-0 table #29: started
+2023/08/02-13:17:54.597 348c Level-0 table #29: 364195 bytes OK
+2023/08/02-13:17:54.638 348c Delete type=0 #25
+2023/08/02-13:36:22.308 348c Level-0 table #31: started
+2023/08/02-13:36:22.390 348c Level-0 table #31: 210041 bytes OK
+2023/08/02-13:36:22.429 348c Delete type=0 #28
+2023/08/02-14:41:17.251 348c Level-0 table #33: started
+2023/08/02-14:41:17.347 348c Level-0 table #33: 71652 bytes OK
+2023/08/02-14:41:17.387 348c Delete type=0 #30
+2023/08/02-15:17:34.337 348c Level-0 table #35: started
+2023/08/02-15:17:34.411 348c Level-0 table #35: 118043 bytes OK
+2023/08/02-15:17:34.457 348c Delete type=0 #32
+2023/08/02-15:17:34.457 348c Compacting 4@0 + 1@1 files
+2023/08/02-15:17:34.522 348c Generated table #36@0: 217 keys, 766279 bytes
+2023/08/02-15:17:34.522 348c Compacted 4@0 + 1@1 files => 766279 bytes
+2023/08/02-15:17:34.567 348c compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/08/02-15:17:34.567 348c Delete type=2 #33
+2023/08/02-15:17:34.567 348c Delete type=2 #31
+2023/08/02-15:17:34.567 348c Delete type=2 #29
+2023/08/02-15:17:34.567 348c Delete type=2 #35
+2023/08/02-15:17:34.567 348c Delete type=2 #27
+2023/08/02-15:59:17.019 348c Level-0 table #38: started
+2023/08/02-15:59:17.087 348c Level-0 table #38: 55566 bytes OK
+2023/08/02-15:59:17.132 348c Delete type=0 #34
+2023/08/02-17:00:04.297 348c Level-0 table #40: started
+2023/08/02-17:00:04.347 348c Level-0 table #40: 63077 bytes OK
+2023/08/02-17:00:04.386 348c Delete type=0 #37
+2023/08/02-17:17:34.271 348c Level-0 table #42: started
+2023/08/02-17:17:34.353 348c Level-0 table #42: 115106 bytes OK
+2023/08/02-17:17:34.401 348c Delete type=0 #39
+2023/08/02-17:20:32.883 348c Level-0 table #44: started
+2023/08/02-17:20:33.003 348c Level-0 table #44: 55566 bytes OK

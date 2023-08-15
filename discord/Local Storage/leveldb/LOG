@@ -1,0 +1,6 @@
+2023/08/15-18:41:47.167 d4a4 Reusing MANIFEST /home/azimuth/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/08/15-18:41:47.167 d4a4 Recovering log #618
+2023/08/15-18:41:47.168 d4a4 Reusing old log /home/azimuth/.config/discord/Local Storage/leveldb/000618.log 
+2023/08/15-19:29:54.138 d4a2 Level-0 table #621: started
+2023/08/15-19:29:54.218 d4a2 Level-0 table #621: 1858542 bytes OK
+2023/08/15-19:29:54.249 d4a2 Delete type=0 #618

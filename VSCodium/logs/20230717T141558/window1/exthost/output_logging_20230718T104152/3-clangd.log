@@ -1,0 +1,266 @@
+I[10:42:02.150] clangd version 15.0.7
+I[10:42:02.174] Features: linux
+I[10:42:02.174] PID: 61886
+I[10:42:02.174] Working directory: /home/azimuth/docs/mmSolutions/2day
+I[10:42:02.174] argv[0]: /usr/bin/clangd
+I[10:42:02.188] Starting LSP over stdin/stdout
+I[10:42:02.239] <-- initialize(0)
+I[10:42:02.361] --> reply:initialize(0) 121 ms
+I[10:42:02.395] <-- initialized
+I[10:42:02.438] <-- textDocument/didOpen
+I[10:42:02.614] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:42:02.614] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c version 1 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:42:02.644] <-- textDocument/documentSymbol(1)
+I[10:42:02.645] <-- textDocument/codeAction(2)
+I[10:42:02.645] <-- textDocument/documentLink(3)
+I[10:42:02.645] <-- textDocument/inlayHint(4)
+I[10:42:02.894] <-- textDocument/semanticTokens/full(5)
+I[10:42:02.948] <-- $/cancelRequest
+I[10:42:02.949] <-- $/cancelRequest
+I[10:42:02.955] <-- $/cancelRequest
+I[10:42:02.956] <-- $/cancelRequest
+I[10:42:02.981] --> textDocument/clangd.fileStatus
+I[10:42:03.001] <-- textDocument/didOpen
+I[10:42:03.006] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.c
+I[10:42:03.006] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.c version 1 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.c
+I[10:42:03.012] --> textDocument/clangd.fileStatus
+I[10:42:03.046] <-- textDocument/codeAction(6)
+I[10:42:03.046] <-- textDocument/documentSymbol(7)
+I[10:42:03.082] <-- textDocument/semanticTokens/full(8)
+I[10:42:03.083] <-- textDocument/documentLink(9)
+I[10:42:03.083] <-- textDocument/inlayHint(10)
+I[10:42:03.200] <-- $/cancelRequest
+I[10:42:03.202] <-- textDocument/documentSymbol(11)
+I[10:42:04.247] --> textDocument/clangd.fileStatus
+I[10:42:04.247] --> textDocument/clangd.fileStatus
+I[10:42:04.249] --> workspace/semanticTokens/refresh(0)
+I[10:42:04.255] --> workspace/semanticTokens/refresh(1)
+I[10:42:04.256] <-- reply(0)
+I[10:42:04.257] <-- reply(1)
+I[10:42:04.518] <-- $/cancelRequest
+I[10:42:04.519] <-- $/cancelRequest
+I[10:42:04.524] <-- $/cancelRequest
+I[10:42:04.524] <-- $/cancelRequest
+I[10:42:04.622] <-- textDocument/didOpen
+I[10:42:04.629] --> textDocument/clangd.fileStatus
+I[10:42:04.650] <-- textDocument/documentSymbol(12)
+I[10:42:04.660] --> textDocument/publishDiagnostics
+I[10:42:04.661] --> textDocument/publishDiagnostics
+I[10:42:04.672] <-- textDocument/semanticTokens/full(13)
+I[10:42:04.673] <-- textDocument/documentLink(14)
+I[10:42:04.673] <-- textDocument/inlayHint(15)
+I[10:42:04.675] --> reply:textDocument/documentSymbol(1) 2030 ms, error: Task was cancelled.
+I[10:42:04.675] --> reply:textDocument/codeAction(2) 2030 ms, error: Task was cancelled.
+I[10:42:04.675] --> reply:textDocument/codeAction(6) 1629 ms, error: Task was cancelled.
+I[10:42:04.675] --> reply:textDocument/documentSymbol(7) 1628 ms, error: Task was cancelled.
+I[10:42:04.675] --> reply:textDocument/semanticTokens/full(8) 1593 ms
+[Error - 10:42:04 AM] Request textDocument/documentSymbol failed.
+[object Object]
+I[10:42:04.690] --> reply:textDocument/documentLink(3) 2045 ms, error: Task was cancelled.
+I[10:42:04.690] --> reply:textDocument/inlayHint(4) 2045 ms, error: Task was cancelled.
+I[10:42:04.690] --> reply:textDocument/semanticTokens/full(5) 1795 ms
+I[10:42:04.690] --> textDocument/clangd.fileStatus
+I[10:42:04.690] --> reply:textDocument/documentLink(9) 1607 ms, error: Task was cancelled.
+I[10:42:04.690] --> reply:textDocument/inlayHint(10) 1606 ms, error: Task was cancelled.
+I[10:42:04.690] --> reply:textDocument/documentSymbol(11) 1488 ms, error: Task was cancelled.
+I[10:42:04.690] --> textDocument/clangd.fileStatus
+I[10:42:04.690] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[10:42:04.690] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 1 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[10:42:04.721] --> textDocument/clangd.fileStatus
+[Error - 10:42:04 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 10:42:04 AM] Request textDocument/codeAction failed.
+[object Object]
+I[10:42:04.739] <-- $/cancelRequest
+I[10:42:04.741] <-- textDocument/documentSymbol(16)
+[Error - 10:42:04 AM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 10:42:04 AM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 10:42:04 AM] Request textDocument/inlayHint failed.
+[object Object]
+[Error - 10:42:04 AM] Request textDocument/documentLink failed.
+[object Object]
+I[10:42:04.756] --> textDocument/clangd.fileStatus
+I[10:42:04.756] --> textDocument/clangd.fileStatus
+[Error - 10:42:04 AM] Request textDocument/inlayHint failed.
+[object Object]
+[Error - 10:42:04 AM] Request textDocument/documentSymbol failed.
+[object Object]
+I[10:42:04.764] --> workspace/semanticTokens/refresh(2)
+I[10:42:04.769] <-- reply(2)
+I[10:42:04.816] --> textDocument/publishDiagnostics
+I[10:42:04.816] --> reply:textDocument/documentSymbol(12) 166 ms, error: Task was cancelled.
+[Error - 10:42:04 AM] Request textDocument/documentSymbol failed.
+[object Object]
+I[10:42:04.817] --> reply:textDocument/semanticTokens/full(13) 144 ms
+I[10:42:04.817] --> reply:textDocument/documentLink(14) 144 ms
+I[10:42:04.817] --> reply:textDocument/inlayHint(15) 144 ms
+I[10:42:04.841] --> reply:textDocument/documentSymbol(16) 99 ms
+I[10:42:04.841] --> textDocument/clangd.fileStatus
+I[10:42:05.276] <-- textDocument/semanticTokens/full/delta(17)
+I[10:42:05.277] --> reply:textDocument/semanticTokens/full/delta(17) 0 ms
+I[10:42:05.277] --> textDocument/clangd.fileStatus
+I[10:42:05.803] <-- textDocument/codeAction(18)
+I[10:42:05.803] --> reply:textDocument/codeAction(18) 0 ms
+I[10:42:05.804] --> textDocument/clangd.fileStatus
+I[10:42:05.804] <-- textDocument/documentSymbol(19)
+I[10:42:05.804] --> reply:textDocument/documentSymbol(19) 0 ms
+I[10:42:05.804] --> textDocument/clangd.fileStatus
+I[10:42:05.854] <-- textDocument/documentLink(20)
+I[10:42:05.854] --> reply:textDocument/documentLink(20) 0 ms
+I[10:42:05.854] --> textDocument/clangd.fileStatus
+I[10:42:05.865] <-- textDocument/inlayHint(21)
+I[10:42:05.919] --> reply:textDocument/inlayHint(21) 53 ms
+I[10:42:05.919] --> textDocument/clangd.fileStatus
+I[10:42:06.199] <-- textDocument/semanticTokens/full/delta(22)
+I[10:42:06.199] --> reply:textDocument/semanticTokens/full/delta(22) 0 ms
+I[10:42:06.199] --> textDocument/clangd.fileStatus
+I[10:42:17.069] <-- textDocument/codeAction(23)
+I[10:42:17.069] --> reply:textDocument/codeAction(23) 0 ms
+I[10:42:17.069] --> textDocument/clangd.fileStatus
+I[10:42:17.069] <-- textDocument/documentSymbol(24)
+I[10:42:17.069] --> reply:textDocument/documentSymbol(24) 0 ms
+I[10:42:17.069] --> textDocument/clangd.fileStatus
+I[10:42:17.111] <-- textDocument/documentLink(25)
+I[10:42:17.111] --> reply:textDocument/documentLink(25) 0 ms
+I[10:42:17.111] --> textDocument/clangd.fileStatus
+I[10:42:17.123] <-- textDocument/inlayHint(26)
+I[10:42:17.123] --> reply:textDocument/inlayHint(26) 0 ms
+I[10:42:17.123] --> textDocument/clangd.fileStatus
+I[10:42:17.488] <-- textDocument/semanticTokens/full/delta(27)
+I[10:42:17.489] --> reply:textDocument/semanticTokens/full/delta(27) 0 ms
+I[10:42:17.489] --> textDocument/clangd.fileStatus
+I[10:42:19.482] <-- textDocument/codeAction(28)
+I[10:42:19.482] --> reply:textDocument/codeAction(28) 0 ms
+I[10:42:19.482] --> textDocument/clangd.fileStatus
+I[10:42:19.534] <-- textDocument/documentLink(29)
+I[10:42:19.534] <-- textDocument/inlayHint(30)
+I[10:42:19.534] --> reply:textDocument/documentLink(29) 0 ms
+I[10:42:19.534] --> reply:textDocument/inlayHint(30) 0 ms
+I[10:42:19.534] --> textDocument/clangd.fileStatus
+I[10:42:19.900] <-- textDocument/semanticTokens/full/delta(31)
+I[10:42:19.901] --> reply:textDocument/semanticTokens/full/delta(31) 0 ms
+I[10:42:19.901] --> textDocument/clangd.fileStatus
+I[10:42:30.290] <-- textDocument/codeAction(32)
+I[10:42:30.290] --> reply:textDocument/codeAction(32) 0 ms
+I[10:42:30.290] --> textDocument/clangd.fileStatus
+I[10:42:30.347] <-- textDocument/documentLink(33)
+I[10:42:30.347] --> reply:textDocument/documentLink(33) 0 ms
+I[10:42:30.348] --> textDocument/clangd.fileStatus
+I[10:42:30.353] <-- textDocument/inlayHint(34)
+I[10:42:30.353] --> reply:textDocument/inlayHint(34) 0 ms
+I[10:42:30.353] --> textDocument/clangd.fileStatus
+I[10:42:30.718] <-- textDocument/semanticTokens/full/delta(35)
+I[10:42:30.718] --> reply:textDocument/semanticTokens/full/delta(35) 0 ms
+I[10:42:30.718] --> textDocument/clangd.fileStatus
+I[10:42:32.687] <-- textDocument/documentLink(36)
+I[10:42:32.687] --> reply:textDocument/documentLink(36) 0 ms
+I[10:42:32.687] --> textDocument/clangd.fileStatus
+I[10:42:32.689] <-- textDocument/inlayHint(37)
+I[10:42:32.689] --> reply:textDocument/inlayHint(37) 0 ms
+I[10:42:32.689] --> textDocument/clangd.fileStatus
+I[10:42:33.049] <-- textDocument/semanticTokens/full/delta(38)
+I[10:42:33.049] --> reply:textDocument/semanticTokens/full/delta(38) 0 ms
+I[10:42:33.049] --> textDocument/clangd.fileStatus
+I[10:42:34.078] <-- textDocument/hover(39)
+I[10:42:34.078] --> reply:textDocument/hover(39) 0 ms
+I[10:42:34.078] --> textDocument/clangd.fileStatus
+I[10:42:36.194] <-- textDocument/codeAction(40)
+I[10:42:36.195] --> reply:textDocument/codeAction(40) 0 ms
+I[10:42:36.195] --> textDocument/clangd.fileStatus
+I[10:42:36.271] <-- textDocument/didChange
+I[10:42:36.272] --> textDocument/clangd.fileStatus
+I[10:42:36.332] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[10:42:36.333] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h version 2 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/my_math.h
+I[10:42:36.335] --> textDocument/clangd.fileStatus
+I[10:42:36.340] --> textDocument/clangd.fileStatus
+I[10:42:36.372] --> workspace/semanticTokens/refresh(3)
+I[10:42:36.372] --> textDocument/clangd.fileStatus
+I[10:42:36.373] --> textDocument/clangd.fileStatus
+I[10:42:36.378] <-- reply(3)
+I[10:42:36.385] <-- textDocument/semanticTokens/full/delta(41)
+I[10:42:36.387] --> textDocument/publishDiagnostics
+I[10:42:36.387] --> reply:textDocument/semanticTokens/full/delta(41) 2 ms
+I[10:42:36.387] --> textDocument/clangd.fileStatus
+I[10:42:36.541] <-- textDocument/codeAction(42)
+I[10:42:36.541] --> reply:textDocument/codeAction(42) 0 ms
+I[10:42:36.541] --> textDocument/clangd.fileStatus
+I[10:42:36.811] <-- textDocument/documentSymbol(43)
+I[10:42:36.811] --> reply:textDocument/documentSymbol(43) 0 ms
+I[10:42:36.811] --> textDocument/clangd.fileStatus
+I[10:42:37.539] <-- textDocument/inlayHint(44)
+I[10:42:37.540] --> reply:textDocument/inlayHint(44) 0 ms
+I[10:42:37.540] --> textDocument/clangd.fileStatus
+I[10:42:37.791] <-- textDocument/documentLink(45)
+I[10:42:37.791] --> reply:textDocument/documentLink(45) 0 ms
+I[10:42:37.791] --> textDocument/clangd.fileStatus
+I[10:47:17.718] <-- textDocument/didChange
+I[10:47:17.718] --> textDocument/clangd.fileStatus
+I[10:47:18.124] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:47:18.125] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c version 2 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:47:18.127] --> textDocument/clangd.fileStatus
+I[10:47:18.127] --> textDocument/clangd.fileStatus
+I[10:47:18.176] --> workspace/semanticTokens/refresh(4)
+I[10:47:18.176] --> textDocument/clangd.fileStatus
+I[10:47:18.176] --> textDocument/clangd.fileStatus
+I[10:47:18.178] <-- reply(4)
+I[10:47:18.181] <-- textDocument/semanticTokens/full/delta(46)
+I[10:47:18.181] --> reply:textDocument/semanticTokens/full/delta(46) 0 ms
+I[10:47:18.181] --> textDocument/clangd.fileStatus
+I[10:47:18.246] --> textDocument/publishDiagnostics
+I[10:47:18.246] --> textDocument/clangd.fileStatus
+I[10:48:00.451] <-- textDocument/didChange
+I[10:48:00.451] --> textDocument/clangd.fileStatus
+I[10:48:00.857] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:48:00.858] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c version 3 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:48:00.859] --> textDocument/clangd.fileStatus
+I[10:48:00.860] --> textDocument/clangd.fileStatus
+I[10:48:00.860] --> textDocument/clangd.fileStatus
+I[10:48:00.871] --> textDocument/publishDiagnostics
+I[10:48:00.871] --> textDocument/clangd.fileStatus
+I[10:50:16.774] <-- textDocument/didChange
+I[10:50:16.774] --> textDocument/clangd.fileStatus
+I[10:50:16.844] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:50:16.845] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c version 4 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:50:16.849] --> textDocument/clangd.fileStatus
+I[10:50:16.850] --> textDocument/clangd.fileStatus
+I[10:50:16.850] --> textDocument/clangd.fileStatus
+I[10:50:16.865] --> textDocument/publishDiagnostics
+I[10:50:16.865] --> textDocument/clangd.fileStatus
+I[10:50:44.631] <-- textDocument/didChange
+I[10:50:44.632] --> textDocument/clangd.fileStatus
+I[10:50:44.701] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:50:44.701] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c version 5 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:50:44.703] --> textDocument/clangd.fileStatus
+I[10:50:44.703] --> textDocument/clangd.fileStatus
+I[10:50:44.703] --> textDocument/clangd.fileStatus
+I[10:50:44.710] --> textDocument/publishDiagnostics
+I[10:50:44.710] --> textDocument/clangd.fileStatus
+I[10:51:14.649] <-- textDocument/didChange
+I[10:51:14.649] --> textDocument/clangd.fileStatus
+I[10:51:14.700] Failed to find compilation database for /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:51:14.700] ASTWorker building file /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c version 6 with command clangd fallback
+[/home/azimuth/docs/mmSolutions/2day/link_n_compile]
+/usr/bin/clang -resource-dir=/usr/lib/clang/15.0.7 -- /home/azimuth/docs/mmSolutions/2day/link_n_compile/main.c
+I[10:51:14.702] --> textDocument/clangd.fileStatus
+I[10:51:14.702] --> textDocument/clangd.fileStatus
+I[10:51:14.702] --> textDocument/clangd.fileStatus
+I[10:51:14.710] --> textDocument/publishDiagnostics
+I[10:51:14.710] --> textDocument/clangd.fileStatus
